@@ -200,13 +200,9 @@ pip install -r requirements.txt
 jupyter notebook tod-boston.ipynb
 ```
 
-**Colab** — open `tod-boston.ipynb` from GitHub, then clone the repo into the runtime
-so the relative paths in `data/` resolve:
-
-```python
-!git clone https://github.com/williamzqliu/tod-boston.git
-%cd tod-boston
-```
+**Colab** — open `tod-boston.ipynb` from GitHub and run all. Colab's runtime is a
+remote machine with no copy of this repository, so the first code cell clones it and
+moves into it; the same cell does nothing when the files are already there.
 
 ## Layout
 
