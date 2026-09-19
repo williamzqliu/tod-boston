@@ -1,0 +1,8 @@
+# Floors rather than pins: the notebook uses nothing version-sensitive, and a
+# hard pin would rot faster than the analysis does.
+pandas>=2.0
+matplotlib>=3.7
+plotly>=5.0
+folium>=0.14
+geopy>=2.3
+notebook>=7.0

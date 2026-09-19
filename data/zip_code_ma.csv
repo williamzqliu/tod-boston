@@ -1,0 +1,754 @@
+zip_code,postal_area_name,city,county,chia_region
+01001,Agawam,Agawam,Hampden,Western Massachusetts
+01002,Amherst,Amherst,Hampshire,Western Massachusetts
+01002,Amherst,Shutesbury,Franklin,Western Massachusetts
+01003,Amherst,Amherst,Hampshire,Western Massachusetts
+01004,Amherst,Amherst,Hampshire,Western Massachusetts
+01005,Barre,Barre,Worcester,Central Massachusetts
+01007,Belchertown,Belchertown,Hampshire,Western Massachusetts
+01008,Blandford,Blandford,Hampden,Western Massachusetts
+01008,Blandford,Otis,Berkshire,Western Massachusetts
+01009,Bondsville,Palmer,Hampden,Western Massachusetts
+01010,Brimfield,Warren,Worcester,Central Massachusetts
+01010,Brimfield,Brimfield,Hampden,Central Massachusetts
+01011,Chester,Middlefield,Hampshire,Western Massachusetts
+01011,Chester,Chester,Hampden,Western Massachusetts
+01012,Chesterfield,Chesterfield,Hampshire,Western Massachusetts
+01013,Chicopee,Chicopee,Hampden,Western Massachusetts
+01014,Chicopee,Chicopee,Hampden,Western Massachusetts
+01020,Chicopee,Chicopee,Hampden,Western Massachusetts
+01021,Chicopee,Chicopee,Hampden,Western Massachusetts
+01022,Chicopee,Chicopee,Hampden,Western Massachusetts
+01026,Cummington,Cummington,Hampshire,Western Massachusetts
+01026,Cummington,Windsor,Berkshire,Western Massachusetts
+01027,Easthampton,Westhampton,Hampshire,Western Massachusetts
+01028,East Longmeadow,East Longmeadow,Hampden,Western Massachusetts
+01029,East Otis,Otis,Berkshire,Western Massachusetts
+01030,Feeding Hills,Agawam,Hampden,Western Massachusetts
+01031,Gilbertville,Hardwick,Worcester,Western Massachusetts
+01032,Goshen,Goshen,Hampshire,Western Massachusetts
+01033,Granby,Granby,Hampshire,Western Massachusetts
+01034,Granville,Granville,Hampden,Western Massachusetts
+01035,Hadley,Hadley,Hampshire,Western Massachusetts
+01036,Hampden,Hampden,Hampden,Western Massachusetts
+01037,Hardwick,Hardwick,Worcester,Western Massachusetts
+01038,Hatfield,Hatfield,Hampshire,Western Massachusetts
+01039,Haydenville,Williamsburg,Hampshire,Western Massachusetts
+01039,Haydenville,Whately,Franklin,Western Massachusetts
+01040,Holyoke,Holyoke,Hampden,Western Massachusetts
+01041,Holyoke,Holyoke,Hampden,Western Massachusetts
+01050,Huntington,Chester,Hampden,Western Massachusetts
+01050,Huntington,Huntington,Hampshire,Western Massachusetts
+01053,Leeds,Northampton,Hampshire,Western Massachusetts
+01054,Leverett,Leverett,Franklin,Western Massachusetts
+01056,Ludlow,Ludlow,Hampden,Western Massachusetts
+01057,Monson,Monson,Hampden,Western Massachusetts
+01059,North Amherst,Amherst,Hampshire,Western Massachusetts
+01060,Northampton,Northampton,Hampshire,Western Massachusetts
+01061,Northampton,Northampton,Hampshire,Western Massachusetts
+01062,Florence,Northampton,Hampshire,Western Massachusetts
+01063,Northampton,Northampton,Hampshire,Western Massachusetts
+01066,North Hatfield,Hatfield,Hampshire,Western Massachusetts
+01068,Oakham,Oakham,Worcester,Central Massachusetts
+01069,Palmer,Palmer,Hampden,Western Massachusetts
+01070,Plainfield,Plainfield,Hampshire,Western Massachusetts
+01071,Russell,Russell,Hampden,Western Massachusetts
+01072,Shutesbury,Shutesbury,Franklin,Western Massachusetts
+01073,Southampton,Southampton,Hampshire,Western Massachusetts
+01074,South Barre,Barre,Worcester,Central Massachusetts
+01075,South Hadley,South Hadley,Hampshire,Western Massachusetts
+01077,Southwick,Southwick,Hampden,Western Massachusetts
+01079,Thorndike,Palmer,Hampden,Western Massachusetts
+01080,Three Rivers,Palmer,Hampden,Western Massachusetts
+01081,Wales,Wales,Hampden,Central Massachusetts
+01082,Ware,Hardwick,Worcester,Western Massachusetts
+01082,Ware,Ware,Hampshire,Western Massachusetts
+01083,Warren,Warren,Worcester,Western Massachusetts
+01084,West Chesterfield,Chesterfield,Hampshire,Western Massachusetts
+01085,Westfield,Westfield,Hampden,Western Massachusetts
+01086,Westfield,Westfield,Hampden,Western Massachusetts
+01088,West Hatfield,Hatfield,Hampshire,Western Massachusetts
+01089,West Springfield,West Springfield,Hampden,Western Massachusetts
+01090,West Springfield,West Springfield,Hampden,Western Massachusetts
+01092,West Warren,Warren,Worcester,Western Massachusetts
+01093,Whately,Whately,Franklin,Western Massachusetts
+01094,Wheelwright,Hardwick,Worcester,Western Massachusetts
+01095,Wilbraham,Wilbraham,Hampden,Western Massachusetts
+01096,Williamsburg,Ashfield,Franklin,Western Massachusetts
+01096,Williamsburg,Williamsburg,Hampshire,Western Massachusetts
+01097,Woronoco,Russell,Hampden,Western Massachusetts
+01098,Worthington,Worthington,Hampshire,Western Massachusetts
+01101,Springfield,Springfield,Hampden,Western Massachusetts
+01102,Springfield,Springfield,Hampden,Western Massachusetts
+01103,Springfield,Springfield,Hampden,Western Massachusetts
+01104,Springfield,Springfield,Hampden,Western Massachusetts
+01105,Springfield,Springfield,Hampden,Western Massachusetts
+01106,Longmeadow,Longmeadow,Hampden,Western Massachusetts
+01107,Springfield,Springfield,Hampden,Western Massachusetts
+01108,Springfield,Springfield,Hampden,Western Massachusetts
+01109,Springfield,Springfield,Hampden,Western Massachusetts
+01111,Springfield,Springfield,Hampden,Western Massachusetts
+01114,Springfield,Springfield,Hampden,Western Massachusetts
+01115,Springfield,Springfield,Hampden,Western Massachusetts
+01116,East Longmeadow,East Longmeadow,Hampden,Western Massachusetts
+01118,Springfield,Springfield,Hampden,Western Massachusetts
+01119,Springfield,Springfield,Hampden,Western Massachusetts
+01128,Springfield,Springfield,Hampden,Western Massachusetts
+01129,Springfield,Springfield,Hampden,Western Massachusetts
+01138,Springfield,Springfield,Hampden,Western Massachusetts
+01139,Springfield,Springfield,Hampden,Western Massachusetts
+01144,Springfield,Springfield,Hampden,Western Massachusetts
+01151,Indian Orchard,Springfield,Hampden,Western Massachusetts
+01152,Springfield,Springfield,Hampden,Western Massachusetts
+01189,West Springfield,West Springfield,Hampden,Western Massachusetts
+01199,Springfield,Springfield,Hampden,Western Massachusetts
+01201,Pittsfield,Pittsfield,Berkshire,Western Massachusetts
+01202,Pittsfield,Pittsfield,Berkshire,Western Massachusetts
+01203,Pittsfield,Pittsfield,Berkshire,Western Massachusetts
+01220,Adams,Adams,Berkshire,Western Massachusetts
+01222,Ashley Falls,Sheffield,Berkshire,Western Massachusetts
+01223,Becket,Becket,Berkshire,Western Massachusetts
+01224,Berkshire,Lanesborough,Berkshire,Western Massachusetts
+01225,Cheshire,Cheshire,Berkshire,Western Massachusetts
+01226,Dalton,Dalton,Berkshire,Western Massachusetts
+01227,Dalton,Dalton,Berkshire,Western Massachusetts
+01229,Stockbridge,Stockbridge,Berkshire,Western Massachusetts
+01230,Great Barrington,Great Barrington,Berkshire,Western Massachusetts
+01235,Hinsdale,Peru,Berkshire,Western Massachusetts
+01235,Hinsdale,Middlefield,Hampshire,Western Massachusetts
+01236,Housatonic,West Stockbridge,Berkshire,Western Massachusetts
+01237,Lanesboro,Lanesborough,Berkshire,Western Massachusetts
+01238,Lee,Lee,Berkshire,Western Massachusetts
+01240,Lenox,Lenox,Berkshire,Western Massachusetts
+01242,Lenox Dale,Lenox,Berkshire,Western Massachusetts
+01243,Middlefield,Middlefield,Hampshire,Western Massachusetts
+01244,Mill River,New Marlborough,Berkshire,Western Massachusetts
+01245,Monterey,Monterey,Berkshire,Western Massachusetts
+01247,North Adams,Monroe,Franklin,Western Massachusetts
+01247,North Adams,North Adams,Berkshire,Western Massachusetts
+01252,North Egremont,Egremont,Berkshire,Western Massachusetts
+01253,Otis,Otis,Berkshire,Western Massachusetts
+01254,Richmond,Richmond,Berkshire,Western Massachusetts
+01255,Sandisfield,Sandisfield,Berkshire,Western Massachusetts
+01256,Savoy,Savoy,Berkshire,Western Massachusetts
+01257,Sheffield,Sheffield,Berkshire,Western Massachusetts
+01258,South Egremont,Mt Washington,Berkshire,Western Massachusetts
+01259,Southfield,New Marlborough,Berkshire,Western Massachusetts
+01260,South Lee,Lee,Berkshire,Western Massachusetts
+01262,Stockbridge,Stockbridge,Berkshire,Western Massachusetts
+01263,Stockbridge,Stockbridge,Berkshire,Western Massachusetts
+01264,Tyringham,Tyringham,Berkshire,Western Massachusetts
+01266,West Stockbridge,West Stockbridge,Berkshire,Western Massachusetts
+01267,Williamstown,Williamstown,Berkshire,Western Massachusetts
+01270,Windsor,Windsor,Berkshire,Western Massachusetts
+01301,Greenfield,Greenfield,Franklin,Western Massachusetts
+01302,Greenfield,Greenfield,Franklin,Western Massachusetts
+01330,Ashfield,Ashfield,Franklin,Western Massachusetts
+01331,Athol,Athol,Worcester,Central Massachusetts
+01337,Bernardston,Bernardston,Franklin,Western Massachusetts
+01338,Buckland,Buckland,Franklin,Western Massachusetts
+01339,Charlemont,Hawley,Franklin,Western Massachusetts
+01340,Colrain,Colrain,Franklin,Western Massachusetts
+01341,Conway,Conway,Franklin,Western Massachusetts
+01342,Deerfield,Deerfield,Franklin,Western Massachusetts
+01343,Drury,Florida,Berkshire,Western Massachusetts
+01344,Erving,Erving,Franklin,Western Massachusetts
+01346,Heath,Heath,Franklin,Western Massachusetts
+01347,Lake Pleasant,Montague,Franklin,Western Massachusetts
+01349,Millers Falls,Montague,Franklin,Western Massachusetts
+01350,Monroe Bridge,Monroe,Franklin,Western Massachusetts
+01351,Montague,Montague,Franklin,Western Massachusetts
+01354,Gill,Gill,Franklin,Western Massachusetts
+01355,New Salem,New Salem,Franklin,Central Massachusetts
+01360,Northfield,Northfield,Franklin,Western Massachusetts
+01364,Orange,Orange,Franklin,Central Massachusetts
+01366,Petersham,Petersham,Worcester,Central Massachusetts
+01367,Rowe,Rowe,Franklin,Western Massachusetts
+01368,Royalston,Royalston,Worcester,Central Massachusetts
+01370,Shelburne Falls,Shelburne,Franklin,Western Massachusetts
+01373,South Deerfield,Whately,Franklin,Western Massachusetts
+01375,Sunderland,Sunderland,Franklin,Western Massachusetts
+01376,Turners Falls,Montague,Franklin,Western Massachusetts
+01378,Warwick,Warwick,Franklin,Central Massachusetts
+01379,Wendell,Wendell,Franklin,Western Massachusetts
+01380,Wendell,Wendell,Franklin,Western Massachusetts
+01420,Fitchburg,Fitchburg,Worcester,Central Massachusetts
+01430,Ashburnham,Ashburnham,Worcester,Central Massachusetts
+01431,Ashby,Ashby,Middlesex,Central Massachusetts
+01432,Ayer,Ayer,Middlesex,Northeastern Massachusetts
+01434,Devens,Harvard,Worcester,Northeastern Massachusetts
+01434,Devens,Ayer,Middlesex,Northeastern Massachusetts
+01436,Baldwinville,Templeton,Worcester,Central Massachusetts
+01438,East Templeton,Templeton,Worcester,Central Massachusetts
+01440,Gardner,Gardner,Worcester,Central Massachusetts
+01441,Westminster,Westminster,Worcester,Central Massachusetts
+01450,Groton,Groton,Middlesex,Northeastern Massachusetts
+01451,Harvard,Harvard,Worcester,Northeastern Massachusetts
+01452,Hubbardston,Hubbardston,Worcester,Central Massachusetts
+01453,Leominster,Leominster,Worcester,Central Massachusetts
+01460,Littleton,Littleton,Middlesex,Northeastern Massachusetts
+01462,Lunenburg,Lunenburg,Worcester,Central Massachusetts
+01463,Pepperell,Pepperell,Middlesex,Northeastern Massachusetts
+01464,Shirley,Shirley,Middlesex,Northeastern Massachusetts
+01467,Still River,Harvard,Worcester,Northeastern Massachusetts
+01468,Templeton,Templeton,Worcester,Central Massachusetts
+01469,Townsend,Townsend,Middlesex,Northeastern Massachusetts
+01470,Groton,Groton,Middlesex,Northeastern Massachusetts
+01471,Groton,Groton,Middlesex,Northeastern Massachusetts
+01472,West Groton ,Groton,Middlesex,Northeastern Massachusetts
+01473,Westminster,Westminster,Worcester,Central Massachusetts
+01474,West Townsend,Townsend,Middlesex,Central Massachusetts
+01475,Winchendon,Winchendon,Worcester,Central Massachusetts
+01477,Winchendon Springs,Winchendon,Worcester,Central Massachusetts
+01501,Auburn,Auburn,Worcester,Central Massachusetts
+01503,Berlin,Berlin,Worcester,Central Massachusetts
+01504,Blackstone,Blackstone,Worcester,Metro West
+01505,Boylston,Boylston,Worcester,Central Massachusetts
+01506,Brookfield,Brookfield,Worcester,Central Massachusetts
+01507,Charlton,Charlton,Worcester,Central Massachusetts
+01508,Charlton,Charlton,Worcester,Central Massachusetts
+01509,Charlton,Charlton,Worcester,Central Massachusetts
+01510,Clinton,Clinton,Worcester,Central Massachusetts
+01515,East Brookfield,East Brookfield,Worcester,Central Massachusetts
+01516,Douglas,Douglas,Worcester,Central Massachusetts
+01517,East Princeton,Princeton,Worcester,Central Massachusetts
+01518,Fiskdale,Sturbridge,Worcester,Central Massachusetts
+01519,Grafton,Grafton,Worcester,Central Massachusetts
+01520,Holden,Holden,Worcester,Central Massachusetts
+01521,Holland,Holland,Hampden,Central Massachusetts
+01522,Jefferson,Holden,Worcester,Central Massachusetts
+01523,Lancaster,Lancaster,Worcester,Central Massachusetts
+01524,Leicester,Leicester,Worcester,Central Massachusetts
+01525,Linwood,Northbridge,Worcester,Central Massachusetts
+01526,Manchaug,Sutton,Worcester,Central Massachusetts
+01527,Millbury,Millbury,Worcester,Central Massachusetts
+01529,Millville,Millville,Worcester,Metro West
+01531,New Braintree,New Braintree,Worcester,Central Massachusetts
+01532,Northborough,Northborough,Worcester,Central Massachusetts
+01534,Northbridge,Northbridge,Worcester,Central Massachusetts
+01535,North Brookfield,North Brookfield,Worcester,Central Massachusetts
+01536,North Grafton,Grafton,Worcester,Central Massachusetts
+01537,North Oxford,Oxford,Worcester,Central Massachusetts
+01538,North Uxbridge,Uxbridge,Worcester,Central Massachusetts
+01540,Oxford,Oxford,Worcester,Central Massachusetts
+01541,Princeton,Princeton,Worcester,Central Massachusetts
+01542,Rochdale,Leicester,Worcester,Central Massachusetts
+01543,Rutland,Rutland,Worcester,Central Massachusetts
+01545,Shrewsbury,Shrewsbury,Worcester,Central Massachusetts
+01546,Shrewsbury,Shrewsbury,Worcester,Central Massachusetts
+01550,Southbridge,Southbridge,Worcester,Central Massachusetts
+01560,South Grafton,Grafton,Worcester,Central Massachusetts
+01561,South Lancaster,Lancaster,Worcester,Central Massachusetts
+01562,Spencer,Spencer,Worcester,Central Massachusetts
+01564,Sterling,Sterling,Worcester,Central Massachusetts
+01566,Sturbridge,Sturbridge,Worcester,Central Massachusetts
+01568,Upton,Upton,Worcester,Central Massachusetts
+01569,Uxbridge,Uxbridge,Worcester,Central Massachusetts
+01570,Webster,Webster,Worcester,Central Massachusetts
+01571,Dudley,Dudley,Worcester,Central Massachusetts
+01580,Westborough,Westborough,Worcester,Central Massachusetts
+01581,Westborough,Westborough,Worcester,Central Massachusetts
+01582,Westborough,Westborough,Worcester,Central Massachusetts
+01583,West Boylston,West Boylston,Worcester,Central Massachusetts
+01585,West Brookfield,West Brookfield,Worcester,Western Massachusetts
+01586,West Millbury,Millbury,Worcester,Central Massachusetts
+01587,West Upton,Upton,Worcester,Central Massachusetts
+01588,Whitinsville,Northbridge,Worcester,Central Massachusetts
+01590,Sutton,Sutton,Worcester,Central Massachusetts
+01601,Worcester,Worcester,Worcester,Central Massachusetts
+01602,Worcester,Worcester,Worcester,Central Massachusetts
+01603,Worcester,Worcester,Worcester,Central Massachusetts
+01604,Worcester,Worcester,Worcester,Central Massachusetts
+01605,Worcester,Worcester,Worcester,Central Massachusetts
+01606,Worcester,Worcester,Worcester,Central Massachusetts
+01607,Worcester,Worcester,Worcester,Central Massachusetts
+01608,Worcester,Worcester,Worcester,Central Massachusetts
+01609,Worcester,Worcester,Worcester,Central Massachusetts
+01610,Worcester,Worcester,Worcester,Central Massachusetts
+01611,Cherry Valley,Leicester,Worcester,Central Massachusetts
+01612,Paxton,Paxton,Worcester,Central Massachusetts
+01613,Worcester,Worcester,Worcester,Central Massachusetts
+01614,Worcester,Worcester,Worcester,Central Massachusetts
+01615,Worcester,Worcester,Worcester,Central Massachusetts
+01616,Worcester,Worcester,Worcester,Central Massachusetts
+01653,Worcester,Worcester,Worcester,Central Massachusetts
+01654,Worcester,Worcester,Worcester,Central Massachusetts
+01655,Worcester,Worcester,Worcester,Central Massachusetts
+01701,Framingham,Framingham,Middlesex,Metro West
+01702,Framingham,Framingham,Middlesex,Metro West
+01703,Framingham,Framingham,Middlesex,Metro West
+01704,Framingham,Framingham,Middlesex,Metro West
+01705,Framingham,Framingham,Middlesex,Metro West
+01718,Village Of Nagog Woods,Acton,Middlesex,Northeastern Massachusetts
+01719,Boxborough,Boxborough,Middlesex,Northeastern Massachusetts
+01720,Acton,Acton,Middlesex,Northeastern Massachusetts
+01721,Ashland,Ashland,Middlesex,Metro West
+01730,Bedford,Bedford,Middlesex,Northeastern Massachusetts
+01731,Hanscom Afb,Lincoln,Middlesex,Northeastern Massachusetts
+01740,Bolton,Bolton,Worcester,Metro West
+01741,Carlisle,Carlisle,Middlesex,Northeastern Massachusetts
+01742,Concord,Concord,Middlesex,Northeastern Massachusetts
+01745,Fayville,Southborough,Worcester,Metro West
+01746,Holliston,Holliston,Middlesex,Metro West
+01747,Hopedale,Hopedale,Worcester,Central Massachusetts
+01748,Hopkinton,Hopkinton,Middlesex,Metro West
+01749,Hudson,Hudson,Middlesex,Metro West
+01752,Marlborough,Marlborough,Middlesex,Metro West
+01754,Maynard,Maynard,Middlesex,Northeastern Massachusetts
+01756,Mendon,Mendon,Worcester,Central Massachusetts
+01757,Milford,Milford,Worcester,Metro West
+01760,Natick,Natick,Middlesex,Metro West
+01770,Sherborn,Sherborn,Middlesex,Metro West
+01772,Southborough,Southborough,Worcester,Metro West
+01773,Lincoln,Lincoln,Middlesex,Northeastern Massachusetts
+01775,Stow,Stow,Middlesex,Northeastern Massachusetts
+01776,Sudbury,Sudbury,Middlesex,Northeastern Massachusetts
+01778,Wayland,Wayland,Middlesex,Metro West
+01784,Woodville,Hopkinton,Middlesex,Metro West
+01801,Woburn,Woburn,Middlesex,Northeastern Massachusetts
+01803,Burlington,Burlington,Middlesex,Northeastern Massachusetts
+01805,Burlington,Burlington,Middlesex,Northeastern Massachusetts
+01807,Woburn,Woburn,Middlesex,Northeastern Massachusetts
+01808,Woburn,Woburn,Middlesex,Northeastern Massachusetts
+01810,Andover,Andover,Essex,Northeastern Massachusetts
+1812,Andover,Andover,Essex,Northeastern Massachusetts
+01813,Woburn,Woburn,Middlesex,Northeastern Massachusetts
+01815,Woburn,Woburn,Middlesex,Northeastern Massachusetts
+01821,Billerica,Billerica,Middlesex,Northeastern Massachusetts
+01822,Billerica,Billerica,Middlesex,Northeastern Massachusetts
+01823,Haverhill,Haverhill,Essex,Northeastern Massachusetts
+01824,Chelmsford,Chelmsford,Middlesex,Northeastern Massachusetts
+01826,Dracut,Dracut,Middlesex,Northeastern Massachusetts
+01827,Dunstable,Dunstable,Middlesex,Northeastern Massachusetts
+01830,Haverhill,Haverhill,Essex,Northeastern Massachusetts
+01831,Haverhill,Haverhill,Essex,Northeastern Massachusetts
+01832,Haverhill,Haverhill,Essex,Northeastern Massachusetts
+01833,Georgetown,Georgetown,Essex,Northeastern Massachusetts
+01834,Groveland,Groveland,Essex,Northeastern Massachusetts
+01835,Haverhill,Haverhill,Essex,Northeastern Massachusetts
+01840,Lawrence,Lawrence,Essex,Northeastern Massachusetts
+01841,Lawrence,Lawrence,Essex,Northeastern Massachusetts
+01842,Lawrence,Lawrence,Essex,Northeastern Massachusetts
+01843,Lawrence,Lawrence,Essex,Northeastern Massachusetts
+01844,Methuen,Methuen,Essex,Northeastern Massachusetts
+01845,North Andover,North Andover,Essex,Northeastern Massachusetts
+01850,Lowell,Lowell,Middlesex,Northeastern Massachusetts
+01851,Lowell,Lowell,Middlesex,Northeastern Massachusetts
+01852,Lowell,Lowell,Middlesex,Northeastern Massachusetts
+01853,Lowell,Lowell,Middlesex,Northeastern Massachusetts
+01854,Lowell,Lowell,Middlesex,Northeastern Massachusetts
+01856,Lowell,Lowell,Middlesex,Northeastern Massachusetts
+01860,Merrimac,Merrimac,Essex,Northeastern Massachusetts
+01862,North Billerica,Billerica,Middlesex,Northeastern Massachusetts
+01863,North Chelmsford,Chelmsford,Middlesex,Northeastern Massachusetts
+01864,North Reading,North Reading,Middlesex,Northeastern Massachusetts
+01865,Billerica,Billerica,Middlesex,Northeastern Massachusetts
+01866,Billerica,Billerica,Middlesex,Northeastern Massachusetts
+01867,Reading,Reading,Middlesex,Northeastern Massachusetts
+01876,Tewksbury,Tewksbury,Middlesex,Northeastern Massachusetts
+01878,Tyngsborough,Tyngsborough,Middlesex,Northeastern Massachusetts
+01879,Tyngsboro,Tyngsborough,Middlesex,Northeastern Massachusetts
+01880,Wakefield,Wakefield,Middlesex,Metro Boston
+01885,West Boxford,Boxford,Essex,Northeastern Massachusetts
+01886,Westford,Westford,Middlesex,Northeastern Massachusetts
+01887,Wilmington,Wilmington,Middlesex,Northeastern Massachusetts
+01888,Woburn,Woburn,Middlesex,Northeastern Massachusetts
+01889,North Reading,North Reading,Middlesex,Northeastern Massachusetts
+01890,Winchester,Winchester,Middlesex,Northeastern Massachusetts
+01899,Andover,Andover,Essex,Northeastern Massachusetts
+01901,Lynn,Lynn,Essex,Northeastern Massachusetts
+01902,Lynn,Lynn,Essex,Northeastern Massachusetts
+01903,Lynn,Lynn,Essex,Northeastern Massachusetts
+01904,Lynn,Lynn,Essex,Northeastern Massachusetts
+01905,Lynn,Lynn,Essex,Northeastern Massachusetts
+01906,Saugus,Saugus,Essex,Metro Boston
+01907,Swampscott,Swampscott,Essex,Northeastern Massachusetts
+01908,Nahant,Nahant,Essex,Northeastern Massachusetts
+01910,Lynn,Lynn,Essex,Northeastern Massachusetts
+01913,Amesbury,Amesbury,Essex,Northeastern Massachusetts
+01915,Beverly,Beverly,Essex,Northeastern Massachusetts
+01921,Boxford,Boxford,Essex,Northeastern Massachusetts
+01922,Byfield,Newbury,Essex,Northeastern Massachusetts
+01923,Danvers,Danvers,Essex,Northeastern Massachusetts
+01929,Essex,Essex,Essex,Northeastern Massachusetts
+01930,Gloucester,Gloucester,Essex,Northeastern Massachusetts
+01931,Gloucester,Gloucester,Essex,Northeastern Massachusetts
+01936,Hamilton,Hamilton,Essex,Northeastern Massachusetts
+01937,Hathorne,Danvers,Essex,Northeastern Massachusetts
+01938,Ipswich,Ipswich,Essex,Northeastern Massachusetts
+01940,Lynnfield,Lynnfield,Essex,Northeastern Massachusetts
+01944,Manchester,Manchester By The Sea,Essex,Northeastern Massachusetts
+01945,Marblehead,Marblehead,Essex,Northeastern Massachusetts
+01947,Salem,Salem,Essex,Northeastern Massachusetts
+01949,Middleton,Middleton,Essex,Northeastern Massachusetts
+01950,Newburyport,Newburyport,Essex,Northeastern Massachusetts
+01951,Newbury,Newbury,Essex,Northeastern Massachusetts
+01952,Salisbury,Salisbury,Essex,Northeastern Massachusetts
+01960,Peabody,Peabody,Essex,Northeastern Massachusetts
+01961,Peabody,Peabody,Essex,Northeastern Massachusetts
+01965,Prides Crossing,Beverly,Essex,Northeastern Massachusetts
+01966,Rockport,Rockport,Essex,Northeastern Massachusetts
+01969,Rowley,Rowley,Essex,Northeastern Massachusetts
+01970,Salem,Salem,Essex,Northeastern Massachusetts
+01971,Salem,Salem,Essex,Northeastern Massachusetts
+01982,South Hamilton,Hamilton,Essex,Northeastern Massachusetts
+01983,Topsfield,Topsfield,Essex,Northeastern Massachusetts
+01984,Wenham,Wenham,Essex,Northeastern Massachusetts
+01985,West Newbury,West Newbury,Essex,Northeastern Massachusetts
+02018,Accord,Hingham,Plymouth,Metro South
+02019,Bellingham,Bellingham,Norfolk,Metro West
+02020,Ocean Bluff-Brant Rock,Marshfield,Plymouth,Metro South
+02021,Canton,Canton,Norfolk,Metro West
+02025,Cohasset,Cohasset,Norfolk,Metro South
+02026,Dedham,Dedham,Norfolk,Metro Boston
+02027,Dedham,Dedham,Norfolk,Metro Boston
+02030,Dover,Dover,Norfolk,Metro West
+02031,East Mansfield,Mansfield,Bristol,Metro West
+02032,East Walpole,Walpole,Norfolk,Metro West
+02035,Foxboro,Foxborough,Norfolk,Metro West
+02038,Franklin,Franklin,Norfolk,Metro West
+02040,North Scituate,Scituate,Plymouth,Metro South
+02041,Green Harbor,Marshfield,Plymouth,Metro South
+02043,Hingham,Hingham,Plymouth,Metro South
+02044,Hingham,Hingham,Plymouth,Metro South
+02045,Hull,Hull,Plymouth,Metro South
+02047,Humarock,Scituate,Plymouth,Metro South
+02048,Mansfield,Mansfield,Bristol,Metro West
+02050,Marshfield,Marshfield,Plymouth,Metro South
+02051,Marshfield Hills,Marshfield,Plymouth,Metro South
+02052,Medfield,Medfield,Norfolk,Metro West
+02053,Medway,Medway,Norfolk,Metro West
+02054,Millis,Millis,Norfolk,Metro West
+02055,Minot,Scituate,Plymouth,Metro South
+02056,Norfolk,Norfolk,Norfolk,Metro West
+02059,North Marshfield,Marshfield,Plymouth,Metro South
+02060,North Scituate,Scituate,Plymouth,Metro South
+02061,Norwell,Norwell,Plymouth,Metro South
+02062,Norwood,Norwood,Norfolk,Metro West
+02065,Ocean Bluff-Brant Rock,Marshfield,Plymouth,Metro South
+02066,Scituate,Scituate,Plymouth,Metro South
+02067,Sharon,Sharon,Norfolk,Metro West
+02070,Sheldonville,Wrentham,Norfolk,Metro West
+02071,South Walpole,Walpole,Norfolk,Metro West
+02072,Stoughton,Stoughton,Norfolk,Metro South
+02081,Walpole,Walpole,Norfolk,Metro West
+02090,Westwood,Westwood,Norfolk,Metro West
+02091,Bellingham,Bellingham,Norfolk,Metro West
+02093,Wrentham,Wrentham,Norfolk,Metro West
+02101,Boston,Boston,Suffolk,Metro Boston
+02102,Boston,Boston,Suffolk,Metro Boston
+02103,Boston,Boston,Suffolk,Metro Boston
+02104,Boston,Boston,Suffolk,Metro Boston
+02105,Boston,Boston,Suffolk,Metro Boston
+02106,Boston,Boston,Suffolk,Metro Boston
+02107,Boston,Boston,Suffolk,Metro Boston
+02108,Boston,Boston,Suffolk,Metro Boston
+02109,Boston,Boston,Suffolk,Metro Boston
+02110,Boston,Boston,Suffolk,Metro Boston
+02111,Boston,Boston,Suffolk,Metro Boston
+02112,Boston,Boston,Suffolk,Metro Boston
+02113,Boston,Boston,Suffolk,Metro Boston
+02114,Boston,Boston,Suffolk,Metro Boston
+02115,Boston,Boston,Suffolk,Metro Boston
+02116,Boston,Boston,Suffolk,Metro Boston
+02117,Boston,Boston,Suffolk,Metro Boston
+02118,Boston,Boston,Suffolk,Metro Boston
+02119,Roxbury,Boston,Suffolk,Metro Boston
+02120,Roxbury Crossing,Boston,Suffolk,Metro Boston
+02121,Dorchester,Boston,Suffolk,Metro Boston
+02122,Dorchester,Boston,Suffolk,Metro Boston
+02123,Boston,Boston,Suffolk,Metro Boston
+02124,Dorchester Center,Boston,Suffolk,Metro Boston
+02125,Dorchester,Boston,Suffolk,Metro Boston
+02126,Mattapan,Boston,Suffolk,Metro Boston
+02127,Boston,Boston,Suffolk,Metro Boston
+02128,Boston,Boston,Suffolk,Metro Boston
+02129,Charlestown,Boston,Suffolk,Metro Boston
+02130,Jamaica Plain,Boston,Suffolk,Metro Boston
+02131,Roslindale,Boston,Suffolk,Metro Boston
+02132,West Roxbury,Boston,Suffolk,Metro Boston
+02133,Boston,Boston,Suffolk,Metro Boston
+02134,Allston,Boston,Suffolk,Metro Boston
+02135,Brighton,Boston,Suffolk,Metro Boston
+02136,Hyde Park,Boston,Suffolk,Metro Boston
+02137,Readville,Boston,Suffolk,Metro Boston
+02138,Cambridge,Cambridge,Middlesex,Metro Boston
+02139,Cambridge,Cambridge,Middlesex,Metro Boston
+02140,Cambridge,Cambridge,Middlesex,Metro Boston
+02141,Cambridge,Cambridge,Middlesex,Metro Boston
+02142,Cambridge,Cambridge,Middlesex,Metro Boston
+02143,Somerville,Somerville,Middlesex,Metro Boston
+02144,Somerville,Somerville,Middlesex,Metro Boston
+02145,Somerville,Somerville,Middlesex,Metro Boston
+02146,Brookline,Brookline,Norfolk,Metro Boston
+02148,Malden,Malden,Middlesex,Metro Boston
+02149,Everett,Everett,Middlesex,Metro Boston
+02150,Chelsea,Chelsea,Suffolk,Metro Boston
+02151,Revere,Revere,Suffolk,Metro Boston
+02152,Winthrop,Winthrop,Suffolk,Metro Boston
+02153,Medford,Medford,Middlesex,Metro Boston
+02154,Waltham,Waltham,Middlesex,Metro Boston
+02155,Medford,Medford,Middlesex,Metro Boston
+02156,West Medford,Medford,Middlesex,Metro Boston
+02158,Newton,Newton,Middlesex,Metro Boston
+02160,Newton,Newton,Middlesex,Metro Boston
+02161,Newton Highlands,Newton,Middlesex,Metro Boston
+02162,Newton,Newton,Middlesex,Metro Boston
+02163,Boston,Boston,Suffolk,Metro Boston
+02164,Newton,Newton,Middlesex,Metro Boston
+02167,Chestnut Hill,Newton,Middlesex,Metro Boston
+02168,Waban,Newton,Middlesex,Metro Boston 
+02169,Quincy,Quincy,Norfolk,Metro South
+02170,Quincy,Quincy,Norfolk,Metro South
+02171,Quincy,Quincy,Norfolk,Metro Boston
+02172,Watertown,Watertown,Middlesex,Metro Boston
+02174,Arlington,Arlington,Middlesex,Northeastern Massachusetts
+02176,Melrose,Melrose,Middlesex,Metro Boston
+02178,Belmont,Belmont,Middlesex,Metro Boston 
+02180,Stoneham,Stoneham,Middlesex,Northeastern Massachusetts
+02181,Wellesley,Wellesley,Norfolk,Metro Boston 
+02184,Braintree,Braintree,Norfolk,Metro South
+02185,Braintree,Braintree,Norfolk,Metro Boston 
+02186,Milton,Milton,Norfolk,Metro Boston
+02187,Milton Village ,Milton,Norfolk,Metro Boston 
+02188,Weymouth,Weymouth,Norfolk,Metro South
+02189,East Weymouth,Weymouth,Norfolk,Metro South
+02190,South Weymouth,Weymouth,Norfolk,Metro South
+02191,North Weymouth,Weymouth,Norfolk,Metro South
+02192,Needham,Needham,Norfolk,Metro Boston 
+02193,Weston ,Weston,Middlesex,Metro Boston 
+02194,Needham,Needham,Norfolk,Metro Boston
+02196,Boston,Boston,Suffolk,Metro Boston
+02199,Boston,Boston,Suffolk,Metro Boston
+02201,Boston,Boston,Suffolk,Metro Boston
+02203,Boston,Boston,Suffolk,Metro Boston
+02204,Boston,Boston,Suffolk,Metro Boston
+02205,Boston,Boston,Suffolk,Metro Boston
+02206,Boston,Boston,Suffolk,Metro Boston
+02210,Boston,Boston,Suffolk,Metro Boston
+02211,Boston,Boston,Suffolk,Metro Boston
+02212,Boston,Boston,Suffolk,Metro Boston
+02215,Boston,Boston,Suffolk,Metro Boston
+02216,Boston,Boston,Suffolk,Metro Boston
+02217,Boston,Boston,Suffolk,Metro Boston
+02218,Boston,Boston,Suffolk,Metro Boston
+02222,Boston,Boston,Suffolk,Metro Boston
+02228,East Boston,Boston,Suffolk,Metro Boston
+02238,Cambridge,Cambridge,Middlesex,Metro Boston 
+02241,Boston,Boston,Suffolk,Metro Boston 
+02246,Brookline,Brookline,Norfolk,Metro Boston 
+02254,Nantucket ,Nantucket,Nantucket,Cape and Islands
+02266,Boston,Boston,Suffolk,Metro Boston 
+02269,Quincy,Quincy,Norfolk,Metro South
+02295,Boston,Boston,Suffolk,Metro Boston 
+02297,Boston,Boston,Suffolk,Metro Boston 
+02298,Boston,Boston,Suffolk,Metro Boston 
+02301,Brockton,Brockton,Plymouth,Metro South
+02302,Brockton,Brockton,Plymouth,Metro South
+02303,Brockton,Brockton ,Plymouth,Metro South
+02304,Brockton,Brockton ,Plymouth,Metro South
+02305,Brockton,Brockton ,Plymouth,Metro South
+02315,Brighton,Boston,Suffolk,Metro Boston
+02322,Avon,Avon,Norfolk,Metro South
+02324,Bridgewater,Bridgewater,Plymouth,Metro South
+02325,Bridgewater ,Bridgewater,Plymouth,Metro South 
+02327,Pembroke,Pembroke,Plymouth,Metro South 
+02330,Carver,Carver,Plymouth,Metro South
+02331,Duxbury,Duxbury,Plymouth,Metro South 
+02332,Duxbury,Duxbury,Plymouth,Metro South
+02333,East Bridgewater,East Bridgewater,Plymouth,Metro South
+02334,Easton,Easton,Bristol,Metro South 
+02337,Elmwood,East Bridgewater,Plymouth,Metro South 
+02338,Halifax,Halifax,Plymouth,Metro South
+02339,Hanover,Hanover,Plymouth,Metro South
+02340,Hanover ,Hanover,Plymouth,Metro South 
+02341,Hanson,Hanson,Plymouth,Metro South
+02343,Holbrook,Holbrook,Norfolk,Metro South
+02344,Easton,Easton,Bristol,Metro South 
+02345,Manomet,Plymouth,Plymouth,Metro South 
+02346,Middleboro,Middleborough,Plymouth,Metro South
+02347,Lakeville,Lakeville,Plymouth,Metro South
+02348,Lakeville,Lakeville,Plymouth,Metro South 
+02349,Middleborough,Middleborough,Plymouth,Metro South 
+02350,Monposett,Hanson,Plymouth,Metro South 
+02351,Abington,Abington,Plymouth,Metro South
+02355,North Carver,Carver,Plymouth,Metro South 
+02356,North Easton,Easton,Bristol,Metro South
+02357,North Easton,Easton,Bristol,Metro South 
+02358,North Pembroke,Pembroke,Plymouth,Metro South 
+02359,Pembroke,Pembroke,Plymouth,Metro South
+02360,Plymouth,Plymouth,Plymouth,Metro South
+02361,Plymouth,Plymouth,Plymouth,Metro South 
+02362,Plymouth,Plymouth,Plymouth,Metro South 
+02364,Kingston,Kingston,Plymouth,Metro South
+02366,North Carver,Carver,Plymouth,Metro South 
+02367,Plympton,Plympton,Plymouth,Metro South
+02368,Randolph,Randolph,Norfolk,Metro South
+02370,Rockland,Rockland,Plymouth,Metro South
+02375,South Easton,Easton,Bristol,Metro South
+02379,West Bridgewater,West Bridgewater,Plymouth,Metro South
+02381,Plymouth,Plymouth,Plymouth,Metro South 
+02382,Whitman,Whitman,Plymouth,Metro South
+02383,Whitman,Whitman,Plymouth,Metro South 
+02401,Brockton,Brockton ,Plymouth,Metro South
+02402,Brockton,Brockton ,Plymouth,Metro South
+02408,Boston,Boston,Suffolk,Metro Boston 
+02415,Waltham,Waltham,Middlesex,Metro Boston 
+02420,Lexington,Lexington,Middlesex,Northeastern Massachusetts
+02421,Lexington,Lexington,Middlesex,Northeastern Massachusetts
+02445,Brookline,Brookline,Norfolk,Metro Boston
+02446,Brookline,Brookline,Norfolk,Metro Boston
+02447,Brookline,Brookline,Norfolk,Metro Boston 
+02451,Waltham,Waltham,Middlesex,Metro Boston
+02452,Waltham,Waltham,Middlesex,Metro Boston
+02453,Waltham,Waltham,Middlesex,Metro Boston
+02454,Waltham,Waltham,Middlesex,Metro Boston 
+02455,Waltham,Waltham,Middlesex,Metro Boston 
+02456,Newton,Newton,Middlesex,Metro Boston 
+02457,Wellesley,Wellesley,Norfolk,Metro Boston 
+02458,Newton,Newton,Middlesex,Metro Boston
+02459,Newton Center,Newton,Middlesex,Metro Boston
+02460,Newtonville,Newton,Middlesex,Metro Boston
+02461,Newton Highlands,Newton,Middlesex,Metro Boston
+02462,Newton Lower Falls,Newton,Middlesex,Metro Boston
+02464,Newton Upper Falls,Newton,Middlesex,Metro Boston
+02465,West Newton,Newton,Middlesex,Metro Boston
+02466,Auburndale,Newton,Middlesex,Metro Boston
+02467,Chestnut Hill,Brookline,Norfolk,Metro Boston
+02467,Chestnut Hill,Boston,Suffolk,Metro Boston
+02467,Chestnut Hill,Newton,Middlesex,Metro Boston
+02468,Waban,Newton,Middlesex,Metro Boston
+02471,Watertown,Watertown,Middlesex,Metro Boston
+02472,Watertown,Watertown,Middlesex,Metro Boston
+02474,Arlington,Arlington,Middlesex,Northeastern Massachusetts
+02475,Arligton Heights,Arlington,Middlesex,Northeastern Massachusetts
+02476,Arlington,Arlington,Middlesex,Northeastern Massachusetts
+02477,Watertown,Watertown,Middlesex,Metro Boston
+02478,Belmont,Belmont,Middlesex,Metro Boston
+02479,Waverley,Belmont,Middlesex,Metro Boston
+02481,Wellesley Hills,Wellesley,Norfolk,Metro Boston
+02482,Wellesley,Wellesley,Norfolk,Metro Boston
+02492,Needham,Needham,Norfolk,Metro Boston
+02493,Weston,Weston,Middlesex,Metro Boston
+02494,Needham Heights,Needham,Norfolk,Metro Boston
+02495,Newton,Newton,Middlesex,Metro Boston 
+02532,Buzzards Bay,Wareham,Plymouth,Cape and Islands
+02532,Buzzards Bay,Bourne,Barnstable,Cape and Islands
+02534,Cataumet,Bourne,Barnstable,Cape and Islands
+02535,Chilmark,Chilmark,Dukes,Cape and Islands
+02536,East Falmouth,Falmouth,Barnstable,Cape and Islands
+02537,East Sandwich,Sandwich,Barnstable,Cape and Islands
+02538,East Wareham,Wareham,Plymouth,Southcoast
+02539,Edgartown,Edgartown,Dukes,Cape and Islands
+02540,Falmouth,Falmouth,Barnstable,Cape and Islands
+02541,Falmouth,Falmouth,Barnstable,Cape and Islands
+02542,Buzzards Bay,Sandwich,Barnstable,Cape and Islands
+02543,Woods Hole,Falmouth,Barnstable,Southcoast
+02552,Chilmark,Chilmark,Dukes,Cape and Islands
+02553,Monument Beach,Bourne,Barnstable,Cape and Islands
+02554,Nantucket,Nantucket,Nantucket,Cape and Islands
+02556,North Falmouth,Falmouth,Barnstable,Cape and Islands
+02557,Oak Bluffs,Oak Bluffs,Dukes,Cape and Islands
+02558,Onset,Wareham,Plymouth,Southcoast
+02559,Pocasset,Bourne,Barnstable,Cape and Islands
+02561,Sagamore,Bourne,Barnstable,Cape and Islands
+02562,Sagamore Beach,Bourne,Barnstable,Cape and Islands
+02563,Sandwich,Sandwich,Barnstable,Cape and Islands
+02564,Siasconset,Nantucket,Nantucket,Cape and Islands
+02565,Falmouth,Falmouth,Barnstable,Cape and Islands
+02568,Vineyard Haven,West Tisbury,Dukes,Cape and Islands
+02571,Wareham,Wareham,Plymouth,Southcoast
+02573,Tisbury,Tisbury,Dukes,Cape and Islands
+02574,West Falmouth,Falmouth,Barnstable,Cape and Islands
+02575,West Tisbury,West Tisbury,Dukes,Cape and Islands
+02576,West Wareham,Wareham,Plymouth,Southcoast
+02584,Nantucket,Nantucket,Nantucket,Cape and Islands
+02601,Hyannis,Barnstable,Barnstable,Cape and Islands
+02630,Barnstable,Barnstable,Barnstable,Cape and Islands
+02631,Brewster,Brewster,Barnstable,Cape and Islands
+02632,Centerville,Barnstable,Barnstable,Cape and Islands
+02633,Chatham,Chatham,Barnstable,Cape and Islands
+02634,Barnstable,Barnstable,Barnstable,Cape and Islands
+02635,Cotuit,Barnstable,Barnstable,Cape and Islands
+02636,Centerville,Barnstable,Barnstable,Cape and Islands
+02637,Cummaquid,Barnstable,Barnstable,Cape and Islands
+02638,Dennis,Dennis,Barnstable,Cape and Islands
+02639,Dennis Port,Dennis,Barnstable,Cape and Islands
+02641,East Dennis,Dennis,Barnstable,Cape and Islands
+02642,Eastham,Eastham,Barnstable,Cape and Islands
+02643,Orleans,Orleans,Barnstable,Cape and Islands
+02644,Forestdale,Sandwich,Barnstable,Cape and Islands
+02645,Harwich,Harwich,Barnstable,Cape and Islands
+02646,Harwich Port,Harwich,Barnstable,Cape and Islands
+02647,Hyannis Port,Barnstable,Barnstable,Cape and Islands
+02648,Marstons Mills,Barnstable,Barnstable,Cape and Islands
+02649,Mashpee,Mashpee,Barnstable,Cape and Islands
+02650,North Chatham,Chatham,Barnstable,Cape and Islands
+02651,North Eastham,Eastham,Barnstable,Cape and Islands
+02652,North Truro,Truro,Barnstable,Cape and Islands
+02653,Orleans,Orleans,Barnstable,Cape and Islands
+02655,Osterville,Barnstable,Barnstable,Cape and Islands
+02657,Provincetown,Provincetown,Barnstable,Cape and Islands
+02659,South Chatham,Chatham,Barnstable,Cape and Islands
+02660,South Dennis,Dennis,Barnstable,Cape and Islands
+02661,Harwich,Harwich,Barnstable,Cape and Islands
+02662,Brewster,Brewster,Barnstable,Cape and Islands
+02663,South Wellfleet,Wellfleet,Barnstable,Cape and Islands
+02664,South Yarmouth,Yarmouth,Barnstable,Cape and Islands
+02666,Truro,Truro,Barnstable,Cape and Islands
+02667,Wellfleet,Wellfleet,Barnstable,Cape and Islands
+02668,West Barnstable,Barnstable,Barnstable,Cape and Islands
+02669,Chatham,Chatham,Barnstable,Cape and Islands
+02670,West Dennis,Dennis,Barnstable,Cape and Islands
+02671,West Harwich,Harwich,Barnstable,Cape and Islands
+02672,West Hyannisport,Barnstable,Barnstable,Cape and Islands
+02673,West Yarmouth,Yarmouth,Barnstable,Cape and Islands
+02675,Yarmouth Port,Yarmouth,Barnstable,Cape and Islands
+02702,Assonet,Freetown,Bristol,Southcoast
+02703,Attleboro,Attleboro,Bristol,Metro West
+02712,Chartley,Norton,Bristol,Metro West 
+02713,Cuttyhunk,Gosnold,Dukes,Southcoast
+02714,Dartmouth,Dartmouth,Bristol,Southcoast 
+02715,Dighton,Dighton,Bristol,Metro South
+02717,East Freetown,Freetown,Bristol,Southcoast
+02718,East Taunton,Taunton,Bristol,Metro South
+02719,Fairhaven,Fairhaven,Bristol,Southcoast
+02720,Fall River,Fall River,Bristol,Southcoast
+02721,Fall River,Fall River,Bristol,Southcoast
+02722,Fall River,Fall River,Bristol,Southcoast 
+02723,Fall River,Fall River,Bristol,Southcoast
+02724,Fall River,Fall River,Bristol,Southcoast
+02725,Somerset,Somerset,Bristol,Southcoast
+02726,Somerset,Somerset,Bristol,Southcoast
+02738,Marion,Marion,Plymouth,Southcoast
+02739,Mattapoisett,Mattapoisett,Plymouth,Southcoast
+02740,New Bedford,New Bedford,Bristol,Southcoast
+02741,New Bedford ,New Bedford ,Bristol,Southcoast 
+02742,New Bedford ,New Bedford ,Bristol,Southcoast 
+02743,Acushnet,Acushnet,Bristol,Southcoast
+02744,New Bedford,New Bedford,Bristol,Southcoast
+02745,New Bedford,New Bedford,Bristol,Southcoast
+02746,New Bedford,New Bedford,Bristol,Southcoast
+02747,North Dartmouth,Dartmouth,Bristol,Southcoast
+02748,South Dartmouth,Dartmouth,Bristol,Southcoast
+02751,Wareham,Wareham,Plymouth,Southcoast 
+02756,Wareham,Wareham,Plymouth,Southcoast 
+02760,North Attleboro,North Attleborough,Bristol,Metro West
+02761,North Attleborough,North Attleborough,Bristol,Metro West 
+02762,Plainville,Plainville,Norfolk,Metro West
+02763,Attleboro Falls,North Attleborough,Bristol,Metro West
+02764,North Dighton,Dighton,Bristol,Metro South
+02766,Norton,Norton,Bristol,Metro West
+02767,Raynham,Raynham,Bristol,Metro South
+02768,Raynham,Raynham,Bristol,Metro South 
+02769,Rehoboth,Rehoboth,Bristol,Metro West
+02770,Rochester,Rochester,Plymouth,Southcoast
+02771,Seekonk,Seekonk,Bristol,Metro West
+02777,Swansea,Swansea,Bristol,Southcoast
+02779,Berkley,Berkley,Bristol,Metro South
+02780,Taunton,Taunton,Bristol,Metro South
+02783,Taunton,Taunton ,Bristol,Metro South 
+02790,Westport,Westport,Bristol,Southcoast
+02791,Westport Point,Westport,Bristol,Southcoast
+5501,Andover,Andover,Essex,Northeastern Massachusetts
+5544,Andover,Andover,Essex,Northeastern Massachusetts

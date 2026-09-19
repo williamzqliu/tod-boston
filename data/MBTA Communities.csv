@@ -1,0 +1,178 @@
+community,community_category,2020_Housing_Units,minimum_multi_family_unit capacity,unit_cpacity_of_total_housing_units,minimum_land_area,developable_station_area,percent_of_district_to_be_located_in_station_area
+Abington,Commuter Rail,"6,811","1,022",15%,50,307,40%
+Acton,Commuter Rail,"9,219","1,383",15%,50,246,20%
+Amesbury,Adjacent community,"7,889",789,10%,50, -   ,0%
+Andover,Commuter Rail,"13,541","2,031",15%,50,587,50%
+Arlington,Adjacent community,"20,461","2,046",10%,32,58,0%
+Ashburnham,Adjacent small town,"2,730",137,5%, -   , -   ,0%
+Ashby,Adjacent small town,"1,243",62,5%, -   , -   ,0%
+Ashland,Commuter Rail,"7,495","1,124",15%,50,272,40%
+Attleboro,Commuter Rail,"19,097","2,865",15%,50,467,50%
+Auburn,Adjacent community,"6,999",750,11%,50, -   ,0%
+Ayer,Commuter Rail,"3,807",750,20%,50,284,40%
+Bedford,Adjacent community,"5,444",750,14%,50, -   ,0%
+Bellingham,Adjacent community,"6,749",750,11%,50, -   ,0%
+Belmont,Commuter Rail,"10,882","1,632",15%,27,502,50%
+Berkley,Adjacent small town,"2,360",118,5%, -   ,79,0%
+Beverly,Commuter Rail,"17,887","2,683",15%,50,"1,435",90%
+Billerica,Commuter Rail,"15,485","2,323",15%,50,308,40%
+Bourne,Adjacent small town,"11,140",557,5%, -   , -   ,0%
+Boxborough,Adjacent small town,"2,362",118,5%, -   , -   ,0%
+Boxford,Adjacent small town,"2,818",141,5%, -   , -   ,0%
+Braintree,Rapid Transit,"15,077","3,769",25%,50,485,50%
+Bridgewater,Commuter Rail,"9,342","1,401",15%,50,181,20%
+Brockton,Commuter Rail,"37,304","5,596",15%,50,995,90%
+Brookline,Rapid Transit,"27,961","6,990",25%,41,"1,349",90%
+Burlington,Adjacent community,"10,431","1,043",10%,50, -   ,0%
+Cambridge,Rapid Transit,"53,907","13,477",25%,32,"1,392",90%
+Canton,Commuter Rail,"9,930","1,490",15%,50,451,50%
+Carlisle,Adjacent small town,"1,897",95,5%, -   , -   ,0%
+Carver,Adjacent small town,"4,701",235,5%, -   , -   ,0%
+Chelmsford,Adjacent community,"14,769","1,477",10%,50, -   ,0%
+Chelsea,Rapid Transit,"14,554","3,639",25%,14,608,75%
+Cohasset,Commuter Rail,"3,341",638,19%,43,241,20%
+Concord,Commuter Rail,"7,295","1,094",15%,50,519,50%
+Danvers,Adjacent community,"11,763","1,176",10%,50, -   ,0%
+Dedham,Commuter Rail,"10,459","1,569",15%,49,507,50%
+Dover,Adjacent small town,"2,046",102,5%, -   , -   ,0%
+Dracut,Adjacent community,"12,325","1,233",10%,50, -   ,0%
+Duxbury,Adjacent community,"6,274",750,12%,50, -   ,0%
+East Bridgewater,Adjacent community,"5,211",750,14%,50, -   ,0%
+Easton,Adjacent community,"9,132",913,10%,50, -   ,0%
+Essex,Adjacent small town,"1,662",83,5%, -   , -   ,0%
+Everett,Rapid Transit,"18,208","4,552",25%,22,200,20%
+Fall River,Commuter Rail,"44,346","6,652",15%,50,324,40%
+Fitchburg,Commuter Rail,"17,452","2,618",15%,50,601,75%
+Foxborough,Commuter Rail,"7,682","1,152",15%,50,352,40%
+Framingham,Commuter Rail,"29,033","4,355",15%,50,270,40%
+Franklin,Commuter Rail,"12,551","1,883",15%,50,643,75%
+Freetown,Commuter Rail,"3,485",750,22%,50,346,40%
+Georgetown,Adjacent community,"3,159",750,24%,50, -   ,0%
+Gloucester,Commuter Rail,"15,133","2,270",15%,50,430,50%
+Grafton,Adjacent community,"7,760",776,10%,50,82,0%
+Groton,Adjacent small town,"4,153",208,5%, -   , -   ,0%
+Groveland,Adjacent small town,"2,596",130,5%, -   , -   ,0%
+Halifax,Commuter Rail,"3,107",750,24%,50,300,40%
+Hamilton,Commuter Rail,"2,925",731,25%,49,184,20%
+Hanover,Adjacent community,"5,268",750,14%,50, -   ,0%
+Hanson,Commuter Rail,"3,960",750,19%,50,218,20%
+Harvard,Adjacent small town,"2,251",113,5%, -   , -   ,0%
+Haverhill,Commuter Rail,"27,927","4,189",15%,50,415,50%
+Hingham,Commuter Rail,"9,930","1,490",15%,50,757,75%
+Holbrook,Commuter Rail,"4,414",662,15%,41,170,20%
+Holden,Adjacent community,"7,439",750,10%,50, -   ,0%
+Holliston,Adjacent community,"5,562",750,13%,50, -   ,0%
+Hopkinton,Adjacent community,"6,645",750,11%,50,79,0%
+Hull,Adjacent community,"5,856",586,10%,7,34,0%
+Ipswich,Commuter Rail,"6,476",971,15%,50,327,40%
+Kingston,Commuter Rail,"5,364",805,15%,50,345,40%
+Lakeville,Adjacent small town,"4,624",231,5%, -   ,30,0%
+Lancaster,Adjacent small town,"2,788",139,5%, -   , -   ,0%
+Lawrence,Commuter Rail,"30,008","4,501",15%,39,271,40%
+Leicester,Adjacent small town,"4,371",219,5%, -   , -   ,0%
+Leominster,Commuter Rail,"18,732","2,810",15%,50,340,40%
+Lexington,Adjacent community,"12,310","1,231",10%,50, -   ,0%
+Lincoln,Commuter Rail,"2,771",635,23%,42,130,20%
+Littleton,Commuter Rail,"3,889",750,19%,50,244,20%
+Lowell,Commuter Rail,"43,482","6,522",15%,50,274,40%
+Lunenburg,Adjacent small town,"4,805",240,5%, -   , -   ,0%
+Lynn,Commuter Rail,"36,782","5,517",15%,50,637,75%
+Lynnfield,Adjacent community,"4,773",607,13%,40, -   ,0%
+Malden,Rapid Transit,"27,721","6,930",25%,31,484,50%
+Manchester,Commuter Rail,"2,433",559,23%,37,305,40%
+Mansfield,Commuter Rail,"9,282","1,392",15%,50,327,40%
+Marblehead,Adjacent community,"8,965",897,10%,27, -   ,0%
+Marlborough,Adjacent community,"17,547","1,755",10%,50, -   ,0%
+Marshfield,Adjacent community,"11,575","1,158",10%,50, -   ,0%
+Maynard,Adjacent community,"4,741",474,10%,21, -   ,0%
+Medfield,Adjacent community,"4,450",750,17%,50, -   ,0%
+Medford,Rapid Transit,"25,770","6,443",25%,35,714,75%
+Medway,Adjacent community,"4,826",750,16%,50, -   ,0%
+Melrose,Commuter Rail,"12,614","1,892",15%,25,774,75%
+Merrimac,Adjacent small town,"2,761",138,5%, -   , -   ,0%
+Methuen,Adjacent community,"20,194","2,019",10%,50, -   ,0%
+Middleborough,Commuter Rail,"9,808","1,471",15%,50,260,40%
+Middleton,Adjacent community,"3,359",750,22%,50, -   ,0%
+Millbury,Adjacent community,"5,987",750,13%,50, -   ,0%
+Millis,Adjacent community,"3,412",750,22%,50, -   ,0%
+Milton,Rapid Transit,"9,844","2,461",25%,50,404,50%
+Nahant,Adjacent small town,"1,680",84,5%, -   , -   ,0%
+Natick,Commuter Rail,"15,680","2,352",15%,50,680,75%
+Needham,Commuter Rail,"11,891","1,784",15%,50,"1,223",90%
+New Bedford,Commuter Rail,"44,588","6,688",15%,50,744,75%
+Newbury,Adjacent small town,"3,072",154,5%, -   ,69,0%
+Newburyport,Commuter Rail,"8,615","1,292",15%,35,213,20%
+Newton,Rapid Transit,"33,320","8,330",25%,50,"2,833",90%
+Norfolk,Commuter Rail,"3,601",750,21%,50,333,40%
+North Andover,Adjacent community,"11,914","1,191",10%,50,5,0%
+North Attleborough,Adjacent community,"12,551","1,255",10%,50, -   ,0%
+North Reading,Adjacent community,"5,875",750,13%,50, -   ,0%
+Northborough,Adjacent community,"5,897",750,13%,50, -   ,0%
+Northbridge,Adjacent community,"6,691",750,11%,50, -   ,0%
+Norton,Adjacent community,"6,971",750,11%,50, -   ,0%
+Norwell,Adjacent community,"3,805",750,20%,50, -   ,0%
+Norwood,Commuter Rail,"13,634","2,045",15%,50,861,90%
+Paxton,Adjacent small town,"1,689",84,5%, -   , -   ,0%
+Peabody,Adjacent community,"23,191","2,319",10%,50, -   ,0%
+Pembroke,Adjacent community,"7,007",750,11%,50, -   ,0%
+Plymouth,Adjacent community,"28,074","2,807",10%,50, -   ,0%
+Plympton,Adjacent small town,"1,068",53,5%, -   , -   ,0%
+Princeton,Adjacent small town,"1,383",69,5%, -   , -   ,0%
+Quincy,Rapid Transit,"47,009","11,752",25%,50,"1,222",90%
+Randolph,Commuter Rail,"12,901","1,935",15%,48,182,20%
+Raynham,Adjacent community,"5,749",750,13%,50, -   ,0%
+Reading,Commuter Rail,"9,952","1,493",15%,43,343,40%
+Rehoboth,Adjacent small town,"4,611",231,5%, -   , -   ,0%
+Revere,Rapid Transit,"24,539","6,135",25%,27,457,50%
+Rochester,Adjacent small town,"2,105",105,5%, -   , -   ,0%
+Rockland,Adjacent community,"7,263",726,10%,47, -   ,0%
+Rockport,Commuter Rail,"4,380",657,15%,32,252,40%
+Rowley,Commuter Rail,"2,405",601,25%,40,149,20%
+Salem,Commuter Rail,"20,349","3,052",15%,41,266,40%
+Salisbury,Adjacent community,"5,305",750,14%,50, -   ,0%
+Saugus,Adjacent community,"11,303","1,130",10%,50,11,0%
+Scituate,Commuter Rail,"8,260","1,239",15%,50,373,40%
+Seekonk,Adjacent community,"6,057",750,12%,50, -   ,0%
+Sharon,Commuter Rail,"6,581",987,15%,50,261,40%
+Sherborn,Adjacent small town,"1,562",78,5%, -   , -   ,0%
+Shirley,Commuter Rail,"2,599",650,25%,43,338,40%
+Shrewsbury,Adjacent community,"14,966","1,497",10%,50,52,0%
+Somerville,Rapid Transit,"36,269","9,067",25%,24,"1,314",90%
+Southborough,Commuter Rail,"3,763",750,20%,50,167,20%
+Sterling,Adjacent small town,"3,117",156,5%, -   , -   ,0%
+Stoneham,Adjacent community,"10,159","1,016",10%,27,12,0%
+Stoughton,Commuter Rail,"11,739","1,761",15%,50,317,40%
+Stow,Adjacent small town,"2,770",139,5%, -   , -   ,0%
+Sudbury,Adjacent community,"6,556",750,11%,50, -   ,0%
+Sutton,Adjacent small town,"3,612",181,5%, -   , -   ,0%
+Swampscott,Commuter Rail,"6,362",954,15%,20,236,20%
+Taunton,Commuter Rail,"24,965","3,745",15%,50,269,40%
+Tewksbury,Adjacent community,"12,139","1,214",10%,50, -   ,0%
+Topsfield,Adjacent small town,"2,358",118,5%, -   , -   ,0%
+Townsend,Adjacent small town,"3,566",178,5%, -   , -   ,0%
+Tyngsborough,Adjacent community,"4,669",750,16%,50, -   ,0%
+Upton,Adjacent small town,"2,995",150,5%, -   , -   ,0%
+Wakefield,Commuter Rail,"11,305","1,696",15%,36,630,75%
+Walpole,Commuter Rail,"10,042","1,506",15%,50,638,75%
+Waltham,Commuter Rail,"26,545","3,982",15%,50,470,50%
+Wareham,Adjacent community,"12,967","1,297",10%,50, -   ,0%
+Watertown,Adjacent community,"17,010","1,701",10%,24,27,0%
+Wayland,Adjacent community,"5,296",750,14%,50, -   ,0%
+Wellesley,Commuter Rail,"9,282","1,392",15%,50,921,90%
+Wenham,Commuter Rail,"1,460",365,25%,24,111,20%
+West Boylston,Adjacent community,"3,052",587,19%,39, -   ,0%
+West Bridgewater,Adjacent small town,"2,898",145,5%, -   , -   ,0%
+West Newbury,Adjacent small town,"1,740",87,5%, -   , -   ,0%
+Westborough,Commuter Rail,"8,334","1,250",15%,50,194,20%
+Westford,Adjacent community,"9,237",924,10%,50, -   ,0%
+Westminster,Adjacent small town,"3,301",165,5%, -   ,30,0%
+Weston,Commuter Rail,"4,043",750,19%,50,702,75%
+Westwood,Commuter Rail,"5,801",870,15%,50,470,50%
+Weymouth,Commuter Rail,"25,419","3,813",15%,50,713,75%
+Whitman,Commuter Rail,"5,984",898,15%,37,242,20%
+Wilmington,Commuter Rail,"8,320","1,248",15%,50,538,50%
+Winchester,Commuter Rail,"8,135","1,220",15%,37,446,50%
+Winthrop,Adjacent community,"8,821",882,10%,12,14,0%
+Woburn,Commuter Rail,"17,540","2,631",15%,50,702,75%
+Worcester,Commuter Rail,"84,281","12,642",15%,50,290,40%
+Wrentham,Adjacent community,"4,620",750,16%,50, -   ,0%

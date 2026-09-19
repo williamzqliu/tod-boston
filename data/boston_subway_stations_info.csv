@@ -1,0 +1,125 @@
+stop_name,parent_station,route_id,position_x,position_y
+Airport,place-aport,Blue,-71.030243,42.374374
+Alewife,place-alfcl,Red,-71.142000,42.396400
+Allston Street,place-alsgr,Green,-71.138010,42.348690
+Amory Street,place-amory,Green,-71.114700,42.351000
+Andrew,place-andrw,Red,-71.057120,42.330190
+Aquarium,place-aqucl,Blue,-71.053100,42.359300
+Arlington,place-armnl,Green,-71.070728,42.351860
+Ashmont,place-asmnl,Red,-71.063800,42.284300
+Assembly,place-astao,Orange,-71.077333,42.392356
+Babcock Street,place-babck,Green,-71.119900,42.351600
+Back Bay,place-bbsta,Orange,-71.075500,42.347300
+Back of the Hill,place-bckhl,Green,-71.110961,42.329386
+Ball Square,place-balsq,Green,-71.111103,42.399983
+Beachmont,place-bmmnl,Blue,-70.992200,42.397500
+Beaconsfield,place-bcnfd,Green,-71.140556,42.335833
+Blandford Street,place-bland,Green,-71.100235,42.349126
+Boston College,place-lake,Green,-71.167000,42.340083
+Boston University Central,place-bucen,Green,-71.106800,42.349890
+Boston University East,place-buest,Green,-71.103866,42.349569
+Bowdoin,place-bomnl,Blue,-71.062200,42.361400
+Boylston,place-boyls,Green,-71.064722,42.352500
+Braintree,place-brntn,Red,-71.001400,42.207400
+Brandon Hall,place-bndhl,Green,-71.128664,42.340071
+Brigham Circle,place-brmnl,Green,-71.103708,42.334592
+Broadway,place-brdwy,Red,-71.057200,42.342900
+Brookline Hills,place-brkhl,Green,-71.126667,42.331389
+Brookline Village,place-bvmnl,Green,-71.116944,42.332500
+Central,place-cntsq,Red,-71.103400,42.365000
+Charles/MGH,place-chmnl,Red,-71.071400,42.361300
+Chestnut Hill,place-chhil,Green,-71.164722,42.326944
+Chestnut Hill Avenue,place-chill,Green,-71.153100,42.338170
+Chinatown,place-chncl,Orange,-71.062700,42.352200
+Chiswick Road,place-chswk,Green,-71.150460,42.340840
+Cleveland Circle,place-clmnl,Green,-71.149000,42.336222
+Community College,place-ccmnl,Orange,-71.070200,42.373700
+Coolidge Corner,place-cool,Green,-71.120890,42.342230
+Copley,place-coecl,Green,-71.077500,42.350278
+Davis,place-davis,Red,-71.122500,42.396900
+Dean Road,place-denrd,Green,-71.141547,42.337844
+Downtown Crossing,place-dwnxg,Orange,-71.060680,42.355360
+Downtown Crossing,place-dwnxg,Red,-71.060680,42.355360
+East Somerville,place-esomr,Green,-71.086944,42.379722
+Eliot,place-eliot,Green,-71.216389,42.318889
+Englewood Avenue,place-engav,Green,-71.145357,42.337049
+Fairbanks Street,place-fbkst,Green,-71.131303,42.339472
+Fenway,place-fenwy,Green,-71.104825,42.345042
+Fenwood Road,place-fenwd,Green,-71.105700,42.333680
+Fields Corner,place-fldcr,Red,-71.061700,42.300000
+Forest Hills,place-forhl,Orange,-71.114060,42.300730
+Gilman Square,place-gilmn,Green,-71.096770,42.387920
+Government Center,place-gover,Blue,-71.059444,42.359444
+Government Center,place-gover,Green,-71.059444,42.359444
+Green Street,place-grnst,Orange,-71.107800,42.310200
+Griggs Street,place-grigg,Green,-71.134551,42.348542
+Harvard,place-harsq,Red,-71.119300,42.373400
+Harvard Avenue,place-harvd,Green,-71.131200,42.350120
+Hawes Street,place-hwsst,Green,-71.111129,42.344870
+Haymarket,place-haecl,Orange,-71.058200,42.363300
+Haymarket,place-haecl,Green,-71.058200,42.363300
+Heath Street,place-hsmnl,Green,-71.110680,42.328680
+Hynes Convention Center,place-hymnl,Green,-71.087800,42.347800
+Jackson Square,place-jaksn,Orange,-71.100000,42.322900
+JFK/UMass,place-jfk,Red,-71.052390,42.320580
+Kendall/MIT,place-knncl,Red,-71.086200,42.362300
+Kenmore,place-kencl,Green,-71.095608,42.348925
+Kent Street,place-kntst,Green,-71.113885,42.344125
+Lechmere,place-lech,Green,-71.076100,42.371250
+Longwood,place-longw,Green,-71.110000,42.341667
+Longwood Medical Area,place-lngmd,Green,-71.100020,42.335950
+Magoun Square,place-mgngl,Green,-71.106592,42.393722
+Malden Center,place-mlmnl,Orange,-71.074349,42.426715
+Massachusetts Avenue,place-masta,Orange,-71.083300,42.341600
+Maverick,place-mvbcl,Blue,-71.039500,42.369100
+Medford/Tufts,place-mdftf,Green,-71.117325,42.408153
+Mission Park,place-mispk,Green,-71.110100,42.333440
+Museum of Fine Arts,place-mfa,Green,-71.095533,42.337674
+Newton Centre,place-newto,Green,-71.192500,42.329444
+Newton Highlands,place-newtn,Green,-71.205556,42.322500
+North Quincy,place-nqncy,Red,-71.030200,42.275800
+North Station,place-north,Orange,-71.060120,42.365230
+North Station,place-north,Green,-71.060120,42.365230
+Northeastern University,place-nuniv,Green,-71.090300,42.339700
+Oak Grove,place-ogmnl,Orange,-71.070889,42.436942
+Orient Heights,place-orhte,Blue,-71.004200,42.387100
+Packard's Corner,place-brico,Green,-71.124722,42.352086
+Park Street,place-pktrm,Red,-71.062500,42.356300
+Park Street,place-pktrm,Green,-71.062500,42.356300
+Porter,place-portr,Red,-71.119028,42.388333
+Prudential,place-prmnl,Green,-71.081667,42.345556
+Quincy Adams,place-qamnl,Red,-71.008083,42.232894
+Quincy Center,place-qnctr,Red,-71.005556,42.251944
+Reservoir,place-rsmnl,Green,-71.148056,42.335278
+Revere Beach,place-rbmnl,Blue,-70.992600,42.407800
+Riverside,place-river,Green,-71.252100,42.337200
+Riverway,place-rvrwy,Green,-71.112000,42.331694
+Roxbury Crossing,place-rcmnl,Orange,-71.095600,42.331300
+Ruggles,place-rugg,Orange,-71.089500,42.336200
+Saint Mary's Street,place-smary,Green,-71.107383,42.345944
+Saint Paul Street,place-stpul,Green,-71.116759,42.343366
+Savin Hill,place-shmnl,Red,-71.053500,42.310900
+Science Park/West End,place-spmnl,Green,-71.067639,42.366667
+Shawmut,place-smmnl,Red,-71.065910,42.293710
+South Station,place-sstat,Red,-71.055360,42.352610
+South Street,place-sougr,Green,-71.157489,42.339531
+State,place-state,Blue,-71.057800,42.358700
+State,place-state,Orange,-71.057800,42.358700
+Stony Brook,place-sbmnl,Orange,-71.104300,42.317200
+Suffolk Downs,place-sdmnl,Blue,-70.997000,42.390400
+Sullivan Square,place-sull,Orange,-71.076970,42.384031
+Summit Avenue,place-sumav,Green,-71.125182,42.340946
+Sutherland Road,place-sthld,Green,-71.146160,42.341480
+Symphony,place-symcl,Green,-71.085000,42.342778
+Tappan Street,place-tapst,Green,-71.138705,42.338469
+Tufts Medical Center,place-tumnl,Orange,-71.064500,42.348600
+Union Square,place-unsqu,Green,-71.094292,42.377144
+Waban,place-waban,Green,-71.230556,42.325833
+Warren Street,place-wrnst,Green,-71.140220,42.348370
+Washington Square,place-bcnwa,Green,-71.135386,42.339256
+Washington Street,place-wascm,Green,-71.142590,42.343890
+Wellington,place-welln,Orange,-71.077096,42.401907
+Wollaston,place-wlsta,Red,-71.019530,42.265638
+Wonderland,place-wondl,Blue,-70.991800,42.413500
+Wood Island,place-wimnl,Blue,-71.023000,42.379700
+Woodland,place-woodl,Green,-71.243611,42.333056
