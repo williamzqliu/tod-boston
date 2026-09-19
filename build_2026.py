@@ -878,7 +878,10 @@ for nm in dict.fromkeys(winners.site):
 # and the picture has no border of its own. `bbox_inches='tight'` would trim
 # back to the marks and undo that.
 fig.subplots_adjust(left=0, right=1, top=1, bottom=0)
-plt.savefig(f'{FIG}00-cover.png', dpi=300)
+# bbox_inches=None explicitly. rcParams carries savefig.bbox='tight' for every
+# other figure on the page, and leaving the argument off inherits it, which
+# trims straight back to the marks and undoes the full-bleed axes above.
+plt.savefig(f'{FIG}00-cover.png', dpi=300, bbox_inches=None, pad_inches=0)
 plt.show()
 
 # %% [markdown]
