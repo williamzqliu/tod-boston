@@ -1,8 +1,12 @@
-# Floors rather than pins: the notebook uses nothing version-sensitive, and a
-# hard pin would rot faster than the analysis does.
+# Floors rather than pins: nothing here is version-sensitive, and a hard pin
+# would rot faster than the analysis does.
 pandas>=2.0
+numpy>=1.24
 matplotlib>=3.7
-plotly>=5.0
-folium>=0.14
-geopy>=2.3
+scikit-learn>=1.3
+pyarrow>=14.0          # the on-time-performance file is parquet
+folium>=0.14           # 2024 notebook only
+geopy>=2.3             # 2024 notebook only, for the Nominatim screening
+plotly>=5.0            # 2024 notebook only
 notebook>=7.0
+nbconvert>=7.0         # to regenerate 2026-rebuild.ipynb from build_2026.py

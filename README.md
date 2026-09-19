@@ -1,213 +1,189 @@
 # Transit-Oriented Development in Greater Boston
 
-A two-stage weighted model that picks one of the MBTA's 124 rapid transit stations as
-the best candidate for a mixed-use transit-oriented development, and then tests how
-far the answer depends on the weights I chose.
+Massachusetts requires the 177 communities the MBTA serves to zone for multi-family
+housing near a station. The law says where housing must be *allowed*. It does not say
+where anyone should *build*.
 
-**Answer: Quincy Center.** The more useful output is the range around it, which is in
-[Sensitivity](#sensitivity) below.
+This repository holds two answers to that question, two years apart.
 
-Written for a course at Northeastern University, Oct to Dec 2024.
+| | [`2024-original.ipynb`](2024-original.ipynb) | [`2026-rebuild.ipynb`](2026-rebuild.ipynb) |
+| --- | --- | --- |
+| Unit of analysis | community, then station | **site** |
+| Stages | two, the first discarding seven of eight communities | one |
+| Candidates | 8 communities → 4 stations | **249 sites across 12 communities** |
+| Scale | min-max inside the sample | percentile against 3,028 regional sites |
+| Shortlist | none | **27-site Pareto frontier, reached with no weights** |
+| Weights | one set, defended in prose | **six named positions** |
+| Demand measured | Fall 2023 | Fall 2025, with a 2017–2025 panel behind it |
+| Answer | Quincy Center | three different sites, depending on who is asking |
+
+The 2024 notebook is the original coursework for *Statistics for Design* at
+Northeastern University (Nabeel Gillani), Oct–Dec 2024, committed byte for byte as it
+was submitted. It is there to be read, not re-run. The 2026 notebook is a second pass
+over the same question and mostly the same data.
 
 ---
 
-## The question
+## What the rebuild found
 
-In January 2021 Massachusetts introduced a multi-family zoning requirement for the 177
-communities the MBTA serves. Each has to zone a district where multi-family housing is
-permitted by right, near a transit station.
+**The weights were on the smallest lever.** The 2024 model gave land price the
+heaviest weight of its five, 30%. Running the same cost model over each of the 2026
+winners: the total cost of an identical 500,000 sqft building varies by **0.31%** from
+the cheapest site to the dearest. What those sites can *hold* at a floor area ratio of
+3 varies by **2.7×**. Choosing a site barely changes what it costs. It changes how much
+you get.
 
-The policy says where housing must be *allowed*. It does not say where anyone should
-*build*. This project treats that gap as a site-selection problem: given the whole
-rapid transit network, which single station is the best place to put a TOD, and what
-would it cost?
+**A two-stage funnel cannot see past its first stage.** The 2024 model ranked Malden
+sixth of eight communities and stopped looking. Malden Center holds the site that wins
+four of six scenarios here. Newton ranked third and holds none of the frontier.
+Medford was lost in a postcode join and never entered the 2024 model at all.
 
-Three conditions pull against each other. Ridership has to justify the density, land
-has to be cheap enough for the numbers to work, and the area has to have room to grow.
-No single measure carries all three, so the answer comes from a weighted model, which
-means the weights are the argument.
+**Two of the 2024 indicators were one indicator.** Average daily and average weekend
+ridership correlate at 0.98 across these sites; buildable area and estimated capacity
+at 0.96. Sixty per cent of that model's station-level weight sat on a single quantity
+entered twice under two names.
 
-## Screening
+**The Green Line's problem is not its service.** Half the candidate sites sit on Green
+Line branches. Those branches have the shortest times between stops, the most frequent
+service and the best regional job access in the candidate set, and roughly a tenth of
+the ridership. Three independent measurements, one conclusion, and it is not the one
+the reputation suggests.
 
-| Step | Count |
-| --- | --- |
-| MBTA communities | 177 |
-| Rapid Transit Communities | 12 |
-| Rapid transit and light rail stops | 124 |
-| Stops inside a Rapid Transit Community | 45 |
-| Communities holding those stops | 8 |
+**Fall 2023 was a trough.** Weekday flow at the candidate stations is a median 12%
+higher in Fall 2025 than in Fall 2023, which is the season the 2024 model measured.
+Six seasons of new data changed *which year the model reads*, not how many indicators
+it carries: percentage recovery is an artefact of the base (Riverside "recovered" to
+236% of 2019 while shedding 1,251 riders a day since 2023), and absolute growth
+correlates 0.76 with ridership itself.
 
-Stations carry coordinates and communities carry names, so the two were joined by
-reverse geocoding all 124 stops through Nominatim to get a postcode, then intersecting
-those postcodes with the communities'. One station, Harvard, came back with the wrong
-postcode and was corrected by hand. The Silver Line is excluded: it is bus rapid
-transit, not rail.
+**No single site is the answer.** Six positions, three winners:
 
-## Stage one, eight communities
-
-| Indicator | Weight | Direction | Range across the eight |
-| --- | --- | --- | --- |
-| Land price per acre | 30% | lower is better | Braintree $429K to Brookline $4.34M |
-| Coverage of the district by station areas | 25% | higher | three at 50%, five at 90% |
-| Inbound rate, boardings per resident | 20% | higher | Newton 0.15% to Revere 5.68% |
-| Developable land within half a mile | 15% | higher | Revere 457 to Newton 2,833 acres |
-| Existing commercial zoning districts | 10% | lower is better | Cambridge 0 to Revere 6 |
-
-Every indicator is min-max normalised across the eight, with a smoothing term of 1e-5
-on both sides of the fraction so neither end lands on exactly 0 or 1.
-
-**Quincy 71.14**, Cambridge 65.54, Newton 62.57, Somerville 48.46, Revere 48.17,
-Malden 48.12, Braintree 41.50, Brookline 39.62.
-
-Quincy does not win on ridership; it is sixth of eight. Against Cambridge it loses
-three indicators and ties a fourth, and wins on land price by enough to cover all of
-them:
-
-| Indicator | Quincy over Cambridge |
-| --- | --- |
-| Inbound rate | −6.36 |
-| Coverage | 0.00 |
-| Developable area | −1.07 |
-| Commercial zoning | −1.67 |
-| Land price | **+14.70** |
-| **Net** | **+5.60** |
-
-## Stage two, four stations
-
-Inside Quincy the question changes: not whether a development is feasible, but whether
-enough people pass through, across enough of the week, to keep mixed use alive.
-
-| Indicator | Weight | Direction |
+| Position | The claim it makes | First place |
 | --- | --- | --- |
-| Average daily ridership | 40% | higher is better |
-| Average weekend ridership | 20% | higher |
-| Peak share of weekday flow | 20% | lower is better |
-| Weekday to weekend ratio | 20% | lower is better |
+| Developer, cost first | Land is paid before anything earns | Braintree |
+| City, housing first | The law exists to produce homes | **Malden Center** |
+| Transit agency | Put density where the trains already run | **Malden Center** |
+| All-day place | Shops need customers at noon | Revere Beach |
+| Regional access | Maximise jobs reachable without a car | **Malden Center** |
+| No prior, equal | I cannot tell these four apart | **Malden Center** |
 
-**Quincy Center 100.00**, Wollaston 53.21, North Quincy 40.23, Quincy Adams 0.33.
+Across 200,000 random weightings over the frontier, Malden Center takes first place in
+31% and Braintree in 26%. Every scenario winner is on the frontier, which is the check
+that the no-weights shortlist was doing real work.
 
-Quincy Center leads on all four: 3,366 average daily riders, 1,660 at the weekend,
-36.5% of its weekday flow in the two peak periods (the lowest of the four), and a
-weekday-to-weekend ratio of 2.46 (the smallest gap). On four stations a min-max scale
-puts the best of them at 100 by construction, so the score means *best of these four*
-rather than a percentage of anything.
+---
 
-Quincy Adams is the contrast: a park-and-ride, worst on both spread measures on top of
-the lowest ridership.
+## Method
 
-### A note on the peak measure
+```
+eligibility        12 Rapid Transit Communities          a filter, not a score
+      ↓
+candidates         3,028 regional sites
+                     581  in an eligible community
+                     285  beside a rapid transit station
+                     261  joined to Fall 2025 ridership
+                     255  land value and buildable area above zero
+                     249  under half excluded land or flood zone
+      ↓
+indicators         land price per acre      ·  lower is better
+                   buildable acres          ·  higher
+                   average daily riders     ·  higher
+                   peak share of weekday    ·  lower
+      ↓
+redundancy         drop anything correlating above 0.95 with a sibling
+      ↓
+Pareto frontier    27 sites, no weights involved
+      ↓
+typology           three kinds of site
+      ↓
+scenarios          six positions, each stated
+      ↓
+robustness         200,000 random weightings
+      ↓
+checks             against single-indicator baselines, and against MAPC's own score
+```
 
-The ridership data cuts a weekday into nine time periods, two of which are peaks. Peak
-flow divided by off-peak flow therefore compares two buckets with seven and has no
-natural reference value. The **share** of the weekday arriving inside the peaks is the
-quantity the indicator is about: bounded, comparable between stations, and lower is
-better. Weekday-to-weekend runs the same way. Both are min-max scaled and inverted, so
-every column stays inside 0 to 1 and the weighted sum is already on a 0 to 100 scale
-with no offset needed.
+Scores are percentiles against all 3,028 regional sites rather than min-max inside the
+shortlist, so a site's score does not move when the shortlist does — which was the
+reason the 2024 scores could not be compared to anything.
 
-## A first cost check
+### Three kinds of site
 
-A 500,000 sqft mixed-use project, sized against local precedent rather than ambition
-(119 Parkingway, seven storeys and 300 units; 1469 Hancock Street, fifteen storeys and
-204). At a floor area ratio of 3 it needs about 3.8 acres.
+| Type | Sites | Median land | Median buildable | Median riders | On the frontier |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| Big and cheap | 9 | $0.60M/ac | 11.5 ac | 5,211 | **7 (78%)** |
+| Small, dear, busy | 141 | $1.46M/ac | 0.5 ac | 8,269 | 20 (14%) |
+| Small, dear, quiet | 99 | $2.84M/ac | 0.5 ac | 745 | **0** |
 
-| Line | Basis | Cost |
-| --- | --- | --- |
-| Construction | 500,000 sqft at $700 | $350,000,000 |
-| Land | 3.8 acres at $555,520 | $2,110,977 |
-| Soft costs | | $129,500,000 |
-| **Total** | | **$481,610,977** |
-
-Land is 0.44% of the total, which sits oddly beside the 30% weight the community model
-gives land price. Land is a small share of the budget and a large share of the risk,
-because it is paid up front.
-
-## Sensitivity
-
-The weights are my judgement. Nothing in the data set them, so the question worth
-answering is not whether they are right but how far they can be wrong.
-
-Sweeping one weight at a time from nothing to half the total, and sharing the
-remainder among the other four in their existing proportions:
-
-| Weight | Given | Quincy wins while | Margin |
-| --- | --- | --- | --- |
-| Land price | 30% | above 21.0% | 9.0 |
-| Developable area | 15% | below 24.5% | 9.5 |
-| Inbound rate | 20% | below 32.0% | 12.0 |
-| Coverage | 25% | above 2.6% | 22.4 |
-| Commercial zoning | 10% | below 32.6% | 22.6 |
-
-Moving all five at once, over 200,000 draws: shifting each weight by up to half its
-own value, Quincy wins **84.9%**. Drawing all five at random with no starting point,
-it wins **27.0%**, behind Cambridge at 39.7%.
-
-Both are true and they say different things. The recommendation holds if you accept
-that land cost is the binding constraint, and that is a belief rather than a result.
-
-## What the model cannot do
-
-Min-max is taken inside the sample, so every score is relative to the eight
-communities and four stations that were in the frame. Nothing here transfers to a
-different candidate set. The station model has had no sensitivity analysis of its own.
-And nobody who works in Quincy has seen any of it.
+Forty per cent of the candidate pool is in a group that reaches the frontier zero
+times, and it is mostly the Green Line branches in Brookline, Newton and Somerville.
+What is scarce is not ridership. It is a large, cheap, contiguous parcel.
 
 ---
 
 ## Data
 
-Everything the notebook reads is in `data/`, so it runs with no network except for one
-step (see below). Each file is a snapshot: the analysis is about Fall 2023 ridership
-and MAPC data as of January 2022, and re-downloading today would give different
-numbers and different results.
+Everything is in `data/` and the notebook runs offline. Each file is a snapshot: the
+analysis is about particular autumns, and re-downloading today would give different
+numbers.
 
 | File | What it is | Source |
 | --- | --- | --- |
-| `MBTA Communities.csv` | Multi-family zoning compliance data for all 177 MBTA communities, with service category, developable station area and required coverage | Commonwealth of Massachusetts. Vintage not recorded |
-| `Fall_2023_MBTA_Rail_Ridership_Data.csv` | Heavy and light rail ridership by stop, direction, day type and time period | MBTA. Fall 2023 rating, 27 Aug to 16 Dec, 112 days |
-| `rtc_2020_census.csv` | 2020 population for the twelve Rapid Transit Communities | US Census Bureau, 2020 |
-| `zoning_atlas.csv` | Zoning districts and their use descriptions | [MAPC Zoning Atlas](https://datacommon.mapc.org/browser/datasets/421), DataCommon dataset 421 |
-| `mapc.rethinking_retail_sites.csv` | Retail strip sites with assessed land value and site area in acres, used to derive land price per acre | [MAPC Rethinking the Retail Strip Sites](https://datacommon.mapc.org/browser/datasets/442), DataCommon dataset 442. Last updated Jan 2022 |
+| `mapc.rethinking_retail_sites.csv` | 3,028 redevelopment sites with land value, buildable area, capacity, walk score, job access and the station each sits beside | [MAPC DataCommon 442](https://datacommon.mapc.org/browser/datasets/442), Jan 2022 |
 | `Rethinking the Retail Strip Sites-metadata.csv` | Field dictionary for the above | MAPC |
-| `zip_code_ma.csv` | Massachusetts ZIP to city, county and CHIA region crosswalk | Assembled for this project |
-| `boston_subway_stations_info.csv` | The 124 rapid transit and light rail stops with line and coordinates | Assembled for this project |
-| `assess_community.csv` | The eight-community indicator table. An output of the notebook rather than an input | Derived here |
+| `Fall_2025_..._by_Hour_RouteLine_and_Stop.csv` | Rail ridership by stop, day type and hour | MBTA, Fall 2025 |
+| `Fall_2024_..._by_SDP_Time_Period_....csv` | Same, by service-planning period | MBTA, Fall 2024 |
+| `Fall_2023_MBTA_Rail_Ridership_Data.csv` | Same. The season the 2024 model used | MBTA, Fall 2023 |
+| `Rail_Ridership_by_Season_..._and_Stop.csv` | Same, for Fall 2017, 2018 and 2019 | MBTA. Fall 2018 carries a publisher warning about track circuits |
+| `2024-02-03-subway-on-time-performance-v1.parquet` | Stop-to-stop travel time, dwell and headway for one Saturday | MBTA, 3 Feb 2024 |
+| `MBTA Communities.csv` | Zoning compliance data for all 177 communities | Commonwealth of Massachusetts. Vintage not recorded |
+| `zoning_atlas.csv` | Zoning districts and use descriptions. Used by the 2024 notebook | [MAPC DataCommon 421](https://datacommon.mapc.org/browser/datasets/421) |
+| `rtc_2020_census.csv` | 2020 population for the Rapid Transit Communities | US Census Bureau |
+| `zip_code_ma.csv`, `boston_subway_stations_info.csv` | ZIP crosswalk and station coordinates, used by the 2024 screening | Assembled for this project |
+| `assess_community.csv` | The 2024 model's eight-community indicator table. An output, not an input | Derived |
 
-The two MAPC files come from DataCommon, MAPC's open data portal for the 101
-municipalities of Greater Boston. The two regional maps in `images/` are Boston Region
-MPO figures, included for reference.
+---
 
 ## Running it
 
-The notebook is saved without outputs. Run all cells to regenerate them.
-
-One step needs the network: the screening reverse-geocodes 124 stations through
-Nominatim with a rate limiter, which takes a few minutes. Everything after that reads
-from `data/`.
-
-**GitHub Codespaces** — open the repo, Code → Codespaces → create, then
+`build_2026.py` is the source. `2026-rebuild.ipynb` is generated from it and committed
+with its outputs, so the notebook renders on GitHub without being run.
 
 ```bash
 pip install -r requirements.txt
+python build_2026.py            # writes figures/ and outputs/
 ```
 
-and run the notebook in the editor.
-
-**Locally**
+To regenerate the notebook from the script:
 
 ```bash
-pip install -r requirements.txt
-jupyter notebook tod-boston.ipynb
+python -m nbconvert --to notebook --execute --inplace 2026-rebuild.ipynb
 ```
 
-**Colab** — open `tod-boston.ipynb` from GitHub and run all. Colab's runtime is a
-remote machine with no copy of this repository, so the first code cell clones it and
-moves into it; the same cell does nothing when the files are already there.
+**Colab** — open either notebook from GitHub and run all. The first code cell clones
+the repository so the paths into `data/` resolve, and does nothing when the files are
+already present.
+
+---
 
 ## Layout
 
 ```
-tod-boston.ipynb    the analysis, top to bottom
-data/               every input, plus the derived indicator table
-images/             reference figures used in the notebook's markdown
+2024-original.ipynb   the coursework, untouched
+2026-rebuild.ipynb    the second pass, with outputs
+build_2026.py         the source the rebuild is generated from
+data/                 every input
+figures/              charts, written at 200 dpi (not tracked)
+outputs/              scored sites, scenario table, ridership panel (not tracked)
+images/               reference figures used by the 2024 notebook
 ```
+
+## What neither version can do
+
+Nothing here describes who lives near these sites — income, tenure, household size —
+which is what anyone financing housing underwrites on first. Land values are assessed
+rather than transacted. The MAPC inventory is retail strip sites, which is a good frame
+for redevelopment and is not every parcel near a station. Station ridership is
+attributed to every site beside it, which is right for a half-mile catchment and wrong
+at the corner. And nobody who works in any of these municipalities has seen any of it:
+all six positions in the scenario table are ones I wrote on their behalf.
