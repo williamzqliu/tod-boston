@@ -46,7 +46,20 @@ ACCENT, ACCENT2 = '#D03B00', '#3E7C8A'
 LINE_COLOR = {'Red': '#DA291C', 'Orange': '#ED8B00', 'Blue': '#003DA5',
               'Green': '#00843D', 'Mattapan': '#DA291C'}
 
+# The case study that shows these charts is set in Instrument Sans, so the
+# charts are too. The files travel with the repository (SIL Open Font License),
+# which also means the notebook renders the same on a machine that has neither
+# installed. Missing folder falls back to whatever matplotlib has.
+import glob
+for _f in glob.glob('fonts/*.ttf'):
+    mpl.font_manager.fontManager.addfont(_f)
+INSTALLED = {f.name for f in mpl.font_manager.fontManager.ttflist}
+SANS = 'Instrument Sans' if 'Instrument Sans' in INSTALLED else 'DejaVu Sans'
+MONO = 'IBM Plex Mono' if 'IBM Plex Mono' in INSTALLED else 'DejaVu Sans Mono'
+print('charts set in:', SANS)
+
 mpl.rcParams.update({
+    'font.family': SANS, 'font.sans-serif': [SANS], 'font.monospace': [MONO],
     'figure.facecolor': 'white', 'axes.facecolor': 'white',
     'axes.edgecolor': MUTE, 'axes.labelcolor': INK, 'text.color': INK,
     'xtick.color': MUTE, 'ytick.color': MUTE,
@@ -58,8 +71,11 @@ mpl.rcParams.update({
 })
 
 
-def save(name):
-    plt.savefig(f'{FIG}{name}.png', dpi=200)
+def save(name, dpi=300):
+    # A square-ish figure renders narrower than a wide one at the same dpi, and
+    # the viewer asks every picture for the same 3200 pixels. Those get their
+    # own number rather than a bigger figsize, which would change the layout.
+    plt.savefig(f'{FIG}{name}.png', dpi=dpi)
     plt.show()
 
 
@@ -258,7 +274,7 @@ for i in range(len(CAND)):
 ax.set_title('Redundancy check: 0.98 and 0.96 are the same variable twice')
 ax.grid(False)
 plt.colorbar(im, ax=ax, shrink=0.75, label='Pearson r')
-save('04-correlation')
+save('04-correlation', dpi=460)
 
 print('dropped as redundant: weekend (r=%.2f with daily), estcapmix (r=%.2f with buildar_ac)'
       % (corr.loc['daily', 'weekend'], corr.loc['buildar_ac', 'estcapmix']))
@@ -815,17 +831,17 @@ save('14-then-and-now')
 # answer, produced by a method that could not have found the alternatives.
 
 # %% [markdown]
-# ### The candidate set, without the furniture
+# ### The candidate set, as the top of the page
 #
-# The same four measurements with every label, axis and legend taken away. Two
-# hundred and forty-nine sites, positioned by what land costs and how busy the
-# station beside them is, sized by how much can be built. The twenty-seven that
-# nothing beats outright are the ones with colour in them.
-#
-# This one is for the top of the case study, where the page's own title does the
-# talking and a chart that repeats it in smaller type just crowds the corner.
+# The same four measurements with the chart furniture stripped back to what a
+# cover can carry: the decade rules, a word at each axis, and the three sites
+# that come first under some position. The page's own title says what the
+# project is, so this does not have to.
 
 # %%
+BOLD = mpl.font_manager.FontProperties(fname='fonts/InstrumentSans-SemiBold.ttf') \
+    if os.path.exists('fonts/InstrumentSans-SemiBold.ttf') else None
+
 fig, ax = plt.subplots(figsize=(13.2, 6.28))
 d, f = site[~site.pareto], site[site.pareto]
 ax.scatter(d.ppa, d.daily, s=np.clip(d.buildar_ac * 42, 26, 1800),
@@ -836,21 +852,34 @@ for t, g in f.groupby('type'):
 
 ax.set_xscale('log')
 ax.set_yscale('log')
-# Nothing but the marks. The alt text and the caption carry the encoding, and
-# the page supplies the title.
-ax.set_xlabel(''); ax.set_ylabel('')
-ax.set_xticks([]); ax.set_yticks([])
-# A log axis keeps its minor ticks after set_xticks([]), and they read as dirt
-# along the edges of a picture with nothing else in it.
-ax.tick_params(which='both', length=0)
-ax.xaxis.set_minor_locator(mpl.ticker.NullLocator())
-ax.yaxis.set_minor_locator(mpl.ticker.NullLocator())
-ax.grid(False)
+ax.tick_params(which='both', length=0, labelbottom=False, labelleft=False)
+ax.grid(True, which='major', color=FAINT, lw=1.1)
+ax.grid(True, which='minor', color=FAINT, lw=0.5, alpha=0.55)
 for side in ax.spines.values():
     side.set_visible(False)
-ax.margins(0.07)
-fig.subplots_adjust(left=0.01, right=0.99, top=0.99, bottom=0.01)
-plt.savefig(f'{FIG}00-cover.png', dpi=200, bbox_inches='tight', pad_inches=0.16)
+ax.margins(0.09)
+
+# Two words instead of two axis labels. Enough to know which way the space
+# runs, short enough that a listing card can crop the picture without cutting
+# a sentence in half.
+ax.text(0.995, -0.035, 'land price per acre  →', transform=ax.transAxes,
+        ha='right', va='top', fontsize=12, color=MUTE)
+ax.text(-0.022, 0.995, 'riders per day  →', transform=ax.transAxes, rotation=90,
+        ha='right', va='top', fontsize=12, color=MUTE)
+
+# The three that come first somewhere, and nothing else.
+OFFSET = {'Malden': (20, 34), 'Braintree': (28, -54), 'Revere': (36, -30)}
+for nm in dict.fromkeys(winners.site):
+    i = label[label == nm].index[0]
+    ax.annotate(nm.split(' (')[0], (site.ppa[i], site.daily[i]),
+                textcoords='offset points', xytext=OFFSET[nm.split(' / ')[0]],
+                fontsize=13, color=INK, zorder=5, ha='left',
+                fontproperties=BOLD,
+                arrowprops=dict(arrowstyle='-', color=MUTE, lw=1.0,
+                                shrinkA=0, shrinkB=8))
+
+fig.subplots_adjust(left=0.035, right=0.995, top=0.995, bottom=0.05)
+plt.savefig(f'{FIG}00-cover.png', dpi=300, bbox_inches='tight', pad_inches=0.18)
 plt.show()
 
 # %% [markdown]
