@@ -853,19 +853,15 @@ for t, g in f.groupby('type'):
 ax.set_xscale('log')
 ax.set_yscale('log')
 ax.tick_params(which='both', length=0, labelbottom=False, labelleft=False)
-ax.grid(True, which='major', color=FAINT, lw=1.1)
-ax.grid(True, which='minor', color=FAINT, lw=0.5, alpha=0.55)
+# Decade lines only. The minor grid gave the picture a texture it did not need
+# at the top of a page, and no axis text at all: the head crops this image to a
+# banner and the listing card crops it again, so anything sitting near an edge
+# gets cut in half. The caption carries what the axes mean.
+ax.grid(True, which='major', color=FAINT, lw=1.4)
+ax.grid(False, which='minor')
 for side in ax.spines.values():
     side.set_visible(False)
-ax.margins(0.09)
-
-# Two words instead of two axis labels. Enough to know which way the space
-# runs, short enough that a listing card can crop the picture without cutting
-# a sentence in half.
-ax.text(0.995, -0.035, 'land price per acre  →', transform=ax.transAxes,
-        ha='right', va='top', fontsize=12, color=MUTE)
-ax.text(-0.022, 0.995, 'riders per day  →', transform=ax.transAxes, rotation=90,
-        ha='right', va='top', fontsize=12, color=MUTE)
+ax.margins(0.1)
 
 # The three that come first somewhere, and nothing else.
 OFFSET = {'Malden': (20, 34), 'Braintree': (28, -54), 'Revere': (36, -30)}
@@ -878,8 +874,11 @@ for nm in dict.fromkeys(winners.site):
                 arrowprops=dict(arrowstyle='-', color=MUTE, lw=1.0,
                                 shrinkA=0, shrinkB=8))
 
-fig.subplots_adjust(left=0.035, right=0.995, top=0.995, bottom=0.05)
-plt.savefig(f'{FIG}00-cover.png', dpi=300, bbox_inches='tight', pad_inches=0.18)
+# The axes fill the figure exactly, so the decade lines run to all four edges
+# and the picture has no border of its own. `bbox_inches='tight'` would trim
+# back to the marks and undo that.
+fig.subplots_adjust(left=0, right=1, top=1, bottom=0)
+plt.savefig(f'{FIG}00-cover.png', dpi=300)
 plt.show()
 
 # %% [markdown]
