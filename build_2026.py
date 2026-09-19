@@ -815,6 +815,45 @@ save('14-then-and-now')
 # answer, produced by a method that could not have found the alternatives.
 
 # %% [markdown]
+# ### The candidate set, without the furniture
+#
+# The same four measurements with every label, axis and legend taken away. Two
+# hundred and forty-nine sites, positioned by what land costs and how busy the
+# station beside them is, sized by how much can be built. The twenty-seven that
+# nothing beats outright are the ones with colour in them.
+#
+# This one is for the top of the case study, where the page's own title does the
+# talking and a chart that repeats it in smaller type just crowds the corner.
+
+# %%
+fig, ax = plt.subplots(figsize=(13.2, 6.28))
+d, f = site[~site.pareto], site[site.pareto]
+ax.scatter(d.ppa, d.daily, s=np.clip(d.buildar_ac * 42, 26, 1800),
+           color=FAINT, edgecolor='none', alpha=0.85, zorder=1)
+for t, g in f.groupby('type'):
+    ax.scatter(g.ppa, g.daily, s=np.clip(g.buildar_ac * 42, 55, 1800),
+               color=TYPE_COLOR[t], edgecolor='white', lw=1.4, zorder=3)
+
+ax.set_xscale('log')
+ax.set_yscale('log')
+# Nothing but the marks. The alt text and the caption carry the encoding, and
+# the page supplies the title.
+ax.set_xlabel(''); ax.set_ylabel('')
+ax.set_xticks([]); ax.set_yticks([])
+# A log axis keeps its minor ticks after set_xticks([]), and they read as dirt
+# along the edges of a picture with nothing else in it.
+ax.tick_params(which='both', length=0)
+ax.xaxis.set_minor_locator(mpl.ticker.NullLocator())
+ax.yaxis.set_minor_locator(mpl.ticker.NullLocator())
+ax.grid(False)
+for side in ax.spines.values():
+    side.set_visible(False)
+ax.margins(0.07)
+fig.subplots_adjust(left=0.01, right=0.99, top=0.99, bottom=0.01)
+plt.savefig(f'{FIG}00-cover.png', dpi=200, bbox_inches='tight', pad_inches=0.16)
+plt.show()
+
+# %% [markdown]
 # ## 15. What this version still cannot do
 #
 # - **No demand-side demographics.** Nothing here describes who lives near these
