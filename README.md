@@ -10,10 +10,10 @@ This repository holds two answers to that question, two years apart.
 | --- | --- | --- |
 | Unit of analysis | community, then station | **site** |
 | Stages | two, the first discarding seven of eight communities | one |
-| Candidates | 8 communities → 4 stations | **249 sites across 12 communities** |
+| Candidates | 8 communities → 4 stations | **251 sites across 9 communities** |
 | Scale | min-max inside the sample | percentile against 3,028 regional sites |
-| Shortlist | none | **27-site Pareto frontier, reached with no weights** |
-| Weights | one set, defended in prose | **six named positions** |
+| Shortlist | none | **22 sites nothing else beats outright, reached with no weights** |
+| Weights | one set, defended in prose | **five named positions** |
 | Demand measured | Fall 2023 | Fall 2025, with a 2017–2025 panel behind it |
 | Answer | Quincy Center | three different sites, depending on who is asking |
 
@@ -35,12 +35,29 @@ you get.
 
 **A two-stage funnel cannot see past its first stage.** The 2024 model ranked Malden
 sixth of eight communities and stopped looking. Malden Center holds the site that wins
-four of six scenarios here. Newton ranked third and holds none of the frontier.
-Medford was lost in a postcode join and never entered the 2024 model at all.
+three of five scenarios here. Brookline ranked eighth, was discarded first, and holds
+none of the shortlist either way. Medford was lost in a postcode join and never entered
+the 2024 model at all.
+
+**MAPC's own score is not pricing the project.** Their overall site score tracks walk
+score at 0.57, buildable area at 0.55 and job access at 0.51, and land value per acre
+at 0.44, positively. Ridership registers at 0.09 and peak share at zero, so two of the
+four indicators here are invisible to it. The 67 parcels it puts more than sixty places
+above this model cost a median $3.40M an acre and carry 770 riders a day, and 29 are in
+Brookline; the 68 this model puts above theirs cost $929K and carry 7,065, and 30 are
+in Quincy. Theirs answers whether redevelopment would be good for the place; this one
+answers whether a building would pay for itself there.
+
+**A station name is not a station.** MAPC's inventory labels seven Somerville parcels
+`Washington Street`, which in the current MBTA feed is a Green Line B stop six
+kilometres away in Brighton, so joining on the name handed those parcels Brighton's
+ridership. Every parcel now goes to the nearest station with a Fall 2025 rating, which
+disagrees with the MAPC label at 39 of 285 sites, and anything beyond a half-mile walk
+leaves the candidate set.
 
 **Two of the 2024 indicators were one indicator.** Average daily and average weekend
 ridership correlate at 0.98 across these sites; buildable area and estimated capacity
-at 0.96. Sixty per cent of that model's station-level weight sat on a single quantity
+at 0.94. Sixty per cent of that model's station-level weight sat on a single quantity
 entered twice under two names.
 
 **The Green Line's problem is not its service.** Half the candidate sites sit on Green
@@ -54,22 +71,27 @@ higher in Fall 2025 than in Fall 2023, which is the season the 2024 model measur
 Six seasons of new data changed *which year the model reads*, not how many indicators
 it carries: percentage recovery is an artefact of the base (Riverside "recovered" to
 236% of 2019 while shedding 1,251 riders a day since 2023), and absolute growth
-correlates 0.76 with ridership itself.
+correlates 0.87 with ridership itself.
 
-**No single site is the answer.** Six positions, three winners:
+**No single site is the answer.** Five positions, three winners:
 
 | Position | The claim it makes | First place |
 | --- | --- | --- |
-| Developer, cost first | Land is paid before anything earns | Braintree |
-| City, housing first | The law exists to produce homes | **Malden Center** |
-| Transit agency | Put density where the trains already run | **Malden Center** |
-| All-day place | Shops need customers at noon | Revere Beach |
-| Regional access | Maximise jobs reachable without a car | **Malden Center** |
-| No prior, equal | I cannot tell these four apart | **Malden Center** |
+| Developer, cost first | Land is paid before anything earns | Braintree #1 |
+| City, housing first | The law exists to produce homes | **Malden Center #1** |
+| Transit agency | Put density where the trains already run | **Malden Center #1** |
+| All-day place | Shops need customers at noon | Revere Beach #1 |
+| No prior, equal | I cannot tell these four apart | **Malden Center #1** |
 
-Across 200,000 random weightings over the frontier, Malden Center takes first place in
-31% and Braintree in 26%. Every scenario winner is on the frontier, which is the check
-that the no-weights shortlist was doing real work.
+Each parcel is named for its station and numbered within it, largest first. Several
+stations have more than one candidate beside them and two of the parcels at Assembly
+are the same size to the acre, so neither the station name nor the acreage identifies
+one on its own. The case study's map uses a short form of the same thing, three letters
+and the number, because a marker has no room for `Malden Center #1`.
+
+Across 200,000 random weightings over the shortlist, Braintree #1 takes first place in
+33% and Malden Center #1 in 31%. Every scenario winner is on the shortlist, which is
+the check that the no-weights step was doing real work.
 
 ---
 
@@ -81,22 +103,27 @@ eligibility        12 Rapid Transit Communities          a filter, not a score
 candidates         3,028 regional sites
                      581  in an eligible community
                      285  beside a rapid transit station
-                     261  joined to Fall 2025 ridership
-                     255  land value and buildable area above zero
-                     249  under half excluded land or flood zone
+                     265  within a half-mile walk of a rated station
+                     257  land value and buildable area above zero
+                     251  under half excluded land or flood zone
       ↓
 indicators         land price per acre      ·  lower is better
                    buildable acres          ·  higher
                    average daily riders     ·  higher
                    peak share of weekday    ·  lower
       ↓
-redundancy         drop anything correlating above 0.95 with a sibling
+redundancy         drop anything correlating above 0.9 with a sibling
       ↓
-Pareto frontier    27 sites, no weights involved
+                   regional access, measured as jobs reachable in 45 minutes,
+                   stays out: as a fifth dominance criterion it takes the
+                   shortlist from 22 to 54, and as a sixth scenario it returns
+                   the parcel the equal-weight composite already picks
+      ↓
+shortlist          22 sites nothing else beats outright, no weights involved
       ↓
 typology           three kinds of site
       ↓
-scenarios          six positions, each stated
+scenarios          five positions, each stated
       ↓
 robustness         200,000 random weightings
       ↓
@@ -109,13 +136,13 @@ reason the 2024 scores could not be compared to anything.
 
 ### Three kinds of site
 
-| Type | Sites | Median land | Median buildable | Median riders | On the frontier |
+| Type | Sites | Median land | Median buildable | Median riders | On the shortlist |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| Big and cheap | 9 | $0.60M/ac | 11.5 ac | 5,211 | **7 (78%)** |
-| Small, dear, busy | 141 | $1.46M/ac | 0.5 ac | 8,269 | 20 (14%) |
-| Small, dear, quiet | 99 | $2.84M/ac | 0.5 ac | 745 | **0** |
+| Big and cheap | 8 | $0.78M/ac | 10.8 ac | 5,211 | **5 (62%)** |
+| Small, expensive, busy | 130 | $1.59M/ac | 0.5 ac | 8,269 | 17 (13%) |
+| Small, expensive, quiet | 113 | $2.92M/ac | 0.5 ac | 745 | **0** |
 
-Forty per cent of the candidate pool is in a group that reaches the frontier zero
+Forty-five per cent of the candidate pool is in a group that reaches the shortlist zero
 times, and it is mostly the Green Line branches in Brookline, Newton and Somerville.
 What is scarce is not ridership. It is a large, cheap, contiguous parcel.
 
@@ -139,7 +166,8 @@ numbers.
 | `MBTA Communities.csv` | Zoning compliance data for all 177 communities | Commonwealth of Massachusetts. Vintage not recorded |
 | `zoning_atlas.csv` | Zoning districts and use descriptions. Used by the 2024 notebook | [MAPC DataCommon 421](https://datacommon.mapc.org/browser/datasets/421) |
 | `rtc_2020_census.csv` | 2020 population for the Rapid Transit Communities | US Census Bureau |
-| `zip_code_ma.csv`, `boston_subway_stations_info.csv` | ZIP crosswalk and station coordinates, used by the 2024 screening | Assembled for this project |
+| `mbta_rapid_transit_shapes.csv` | The drawn geometry of the four rapid transit lines and their nine branches, simplified to 381 points | Extracted from the [MBTA GTFS feed](https://cdn.mbta.com/MBTA_GTFS.zip) |
+| `zip_code_ma.csv`, `boston_subway_stations_info.csv` | ZIP crosswalk and station coordinates. The 2024 screening used the crosswalk; the 2026 rebuild uses the coordinates to attach each parcel to its nearest station | Assembled for this project |
 | `assess_community.csv` | The 2024 model's eight-community indicator table. An output, not an input | Derived |
 
 ---
@@ -152,6 +180,8 @@ with its outputs, so the notebook renders on GitHub without being run.
 ```bash
 pip install -r requirements.txt
 python build_2026.py            # writes figures/ and outputs/
+                                # outputs/map.json feeds the case study's
+                                # interactive map
 ```
 
 To regenerate the notebook from the script:
@@ -186,4 +216,4 @@ rather than transacted. The MAPC inventory is retail strip sites, which is a goo
 for redevelopment and is not every parcel near a station. Station ridership is
 attributed to every site beside it, which is right for a half-mile catchment and wrong
 at the corner. And nobody who works in any of these municipalities has seen any of it:
-all six positions in the scenario table are ones I wrote on their behalf.
+all five positions in the scenario table are ones I wrote on their behalf.

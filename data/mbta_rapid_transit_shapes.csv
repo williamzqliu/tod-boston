@@ -1,0 +1,382 @@
+line,branch,seq,long,lat
+Blue,Blue|Bowdoin,0,-70.991535,42.413638
+Blue,Blue|Bowdoin,1,-70.992408,42.411689
+Blue,Blue|Bowdoin,2,-70.992685,42.409661
+Blue,Blue|Bowdoin,3,-70.991407,42.400694
+Blue,Blue|Bowdoin,4,-70.99154,42.399105
+Blue,Blue|Bowdoin,5,-70.991993,42.39804
+Blue,Blue|Bowdoin,6,-70.996355,42.391453
+Blue,Blue|Bowdoin,7,-70.997324,42.390282
+Blue,Blue|Bowdoin,8,-70.998328,42.389453
+Blue,Blue|Bowdoin,9,-71.000489,42.388233
+Blue,Blue|Bowdoin,10,-71.01071,42.384796
+Blue,Blue|Bowdoin,11,-71.015914,42.380954
+Blue,Blue|Bowdoin,12,-71.016808,42.380506
+Blue,Blue|Bowdoin,13,-71.018186,42.380196
+Blue,Blue|Bowdoin,14,-71.021458,42.380111
+Blue,Blue|Bowdoin,15,-71.024418,42.379051
+Blue,Blue|Bowdoin,16,-71.028216,42.37637
+Blue,Blue|Bowdoin,17,-71.029676,42.374762
+Blue,Blue|Bowdoin,18,-71.032145,42.372659
+Blue,Blue|Bowdoin,19,-71.033144,42.372315
+Blue,Blue|Bowdoin,20,-71.036022,42.372227
+Blue,Blue|Bowdoin,21,-71.038809,42.369957
+Blue,Blue|Bowdoin,22,-71.047883,42.360115
+Blue,Blue|Bowdoin,23,-71.050439,42.359876
+Blue,Blue|Bowdoin,24,-71.051689,42.359543
+Blue,Blue|Bowdoin,25,-71.056119,42.358952
+Blue,Blue|Bowdoin,26,-71.057709,42.358891
+Blue,Blue|Bowdoin,27,-71.059308,42.359166
+Blue,Blue|Bowdoin,28,-71.060531,42.360588
+Blue,Blue|Bowdoin,29,-71.062395,42.36118
+Green,Green-B|Boston College,0,-71.116794,42.407691
+Green,Green-B|Boston College,1,-71.106007,42.39325
+Green,Green-B|Boston College,2,-71.104594,42.391837
+Green,Green-B|Boston College,3,-71.10303,42.390863
+Green,Green-B|Boston College,4,-71.094581,42.386996
+Green,Green-B|Boston College,5,-71.093407,42.386305
+Green,Green-B|Boston College,6,-71.091464,42.384551
+Green,Green-B|Boston College,7,-71.089925,42.382746
+Green,Green-B|Boston College,8,-71.08337,42.376292
+Green,Green-B|Boston College,9,-71.081425,42.375031
+Green,Green-B|Boston College,10,-71.080999,42.374127
+Green,Green-B|Boston College,11,-71.080345,42.373447
+Green,Green-B|Boston College,12,-71.076762,42.371858
+Green,Green-B|Boston College,13,-71.075403,42.370578
+Green,Green-B|Boston College,14,-71.066764,42.366303
+Green,Green-B|Boston College,15,-71.064332,42.365627
+Green,Green-B|Boston College,16,-71.062022,42.366505
+Green,Green-B|Boston College,17,-71.061417,42.366493
+Green,Green-B|Boston College,18,-71.058147,42.362973
+Green,Green-B|Boston College,19,-71.058034,42.360846
+Green,Green-B|Boston College,20,-71.060584,42.357811
+Green,Green-B|Boston College,21,-71.063349,42.355287
+Green,Green-B|Boston College,22,-71.064808,42.352502
+Green,Green-B|Boston College,23,-71.067135,42.352589
+Green,Green-B|Boston College,24,-71.068292,42.352427
+Green,Green-B|Boston College,25,-71.085472,42.347838
+Green,Green-B|Boston College,26,-71.088178,42.348076
+Green,Green-B|Boston College,27,-71.091707,42.347988
+Green,Green-B|Boston College,28,-71.092174,42.348133
+Green,Green-B|Boston College,29,-71.093277,42.348962
+Green,Green-B|Boston College,30,-71.098394,42.348996
+Green,Green-B|Boston College,31,-71.124649,42.352131
+Green,Green-B|Boston College,32,-71.127075,42.350715
+Green,Green-B|Boston College,33,-71.128132,42.350526
+Green,Green-B|Boston College,34,-71.130592,42.35057
+Green,Green-B|Boston College,35,-71.135719,42.348255
+Green,Green-B|Boston College,36,-71.136642,42.348252
+Green,Green-B|Boston College,37,-71.138915,42.34894
+Green,Green-B|Boston College,38,-71.139939,42.348806
+Green,Green-B|Boston College,39,-71.140364,42.348445
+Green,Green-B|Boston College,40,-71.141088,42.346274
+Green,Green-B|Boston College,41,-71.142965,42.343473
+Green,Green-B|Boston College,42,-71.14389,42.342486
+Green,Green-B|Boston College,43,-71.145714,42.341642
+Green,Green-B|Boston College,44,-71.148888,42.341446
+Green,Green-B|Boston College,45,-71.150242,42.341014
+Green,Green-B|Boston College,46,-71.151635,42.34004
+Green,Green-B|Boston College,47,-71.152638,42.33856
+Green,Green-B|Boston College,48,-71.153216,42.338049
+Green,Green-B|Boston College,49,-71.15427,42.338167
+Green,Green-B|Boston College,50,-71.156802,42.339306
+Green,Green-B|Boston College,51,-71.159123,42.33989
+Green,Green-B|Boston College,52,-71.163529,42.340099
+Green,Green-B|Boston College,53,-71.166556,42.34002
+Green,Green-C|Cleveland Circle,0,-71.116794,42.407691
+Green,Green-C|Cleveland Circle,1,-71.106007,42.39325
+Green,Green-C|Cleveland Circle,2,-71.104594,42.391837
+Green,Green-C|Cleveland Circle,3,-71.10303,42.390863
+Green,Green-C|Cleveland Circle,4,-71.094581,42.386996
+Green,Green-C|Cleveland Circle,5,-71.093407,42.386305
+Green,Green-C|Cleveland Circle,6,-71.091464,42.384551
+Green,Green-C|Cleveland Circle,7,-71.089925,42.382746
+Green,Green-C|Cleveland Circle,8,-71.08337,42.376292
+Green,Green-C|Cleveland Circle,9,-71.081425,42.375031
+Green,Green-C|Cleveland Circle,10,-71.080999,42.374127
+Green,Green-C|Cleveland Circle,11,-71.080345,42.373447
+Green,Green-C|Cleveland Circle,12,-71.076762,42.371858
+Green,Green-C|Cleveland Circle,13,-71.075403,42.370578
+Green,Green-C|Cleveland Circle,14,-71.066764,42.366303
+Green,Green-C|Cleveland Circle,15,-71.064332,42.365627
+Green,Green-C|Cleveland Circle,16,-71.062022,42.366505
+Green,Green-C|Cleveland Circle,17,-71.061417,42.366493
+Green,Green-C|Cleveland Circle,18,-71.058281,42.363191
+Green,Green-C|Cleveland Circle,19,-71.058051,42.362562
+Green,Green-C|Cleveland Circle,20,-71.057951,42.36096
+Green,Green-C|Cleveland Circle,21,-71.060584,42.357811
+Green,Green-C|Cleveland Circle,22,-71.063349,42.355287
+Green,Green-C|Cleveland Circle,23,-71.06488,42.352481
+Green,Green-C|Cleveland Circle,24,-71.067135,42.352589
+Green,Green-C|Cleveland Circle,25,-71.068292,42.352427
+Green,Green-C|Cleveland Circle,26,-71.085472,42.347838
+Green,Green-C|Cleveland Circle,27,-71.088178,42.348076
+Green,Green-C|Cleveland Circle,28,-71.091797,42.347998
+Green,Green-C|Cleveland Circle,29,-71.093277,42.348962
+Green,Green-C|Cleveland Circle,30,-71.096973,42.348799
+Green,Green-C|Cleveland Circle,31,-71.120112,42.342365
+Green,Green-C|Cleveland Circle,32,-71.125874,42.340989
+Green,Green-C|Cleveland Circle,33,-71.129266,42.339887
+Green,Green-C|Cleveland Circle,34,-71.131299,42.339624
+Green,Green-C|Cleveland Circle,35,-71.134618,42.339514
+Green,Green-C|Cleveland Circle,36,-71.140278,42.338055
+Green,Green-C|Cleveland Circle,37,-71.149188,42.336152
+Green,Green-D|Riverside,0,-71.094326,42.377119
+Green,Green-D|Riverside,1,-71.092464,42.376414
+Green,Green-D|Riverside,2,-71.090937,42.376095
+Green,Green-D|Riverside,3,-71.081748,42.374927
+Green,Green-D|Riverside,4,-71.081192,42.374552
+Green,Green-D|Riverside,5,-71.080345,42.373447
+Green,Green-D|Riverside,6,-71.076762,42.371858
+Green,Green-D|Riverside,7,-71.075403,42.370578
+Green,Green-D|Riverside,8,-71.066485,42.366204
+Green,Green-D|Riverside,9,-71.064332,42.365627
+Green,Green-D|Riverside,10,-71.062022,42.366505
+Green,Green-D|Riverside,11,-71.061417,42.366493
+Green,Green-D|Riverside,12,-71.058281,42.363191
+Green,Green-D|Riverside,13,-71.058051,42.362562
+Green,Green-D|Riverside,14,-71.057951,42.36096
+Green,Green-D|Riverside,15,-71.060584,42.357811
+Green,Green-D|Riverside,16,-71.063349,42.355287
+Green,Green-D|Riverside,17,-71.064808,42.352502
+Green,Green-D|Riverside,18,-71.067135,42.352589
+Green,Green-D|Riverside,19,-71.068292,42.352427
+Green,Green-D|Riverside,20,-71.085472,42.347838
+Green,Green-D|Riverside,21,-71.088178,42.348076
+Green,Green-D|Riverside,22,-71.091797,42.347998
+Green,Green-D|Riverside,23,-71.093214,42.348948
+Green,Green-D|Riverside,24,-71.094102,42.348969
+Green,Green-D|Riverside,25,-71.096973,42.348799
+Green,Green-D|Riverside,26,-71.101425,42.347639
+Green,Green-D|Riverside,27,-71.101917,42.346617
+Green,Green-D|Riverside,28,-71.106194,42.344184
+Green,Green-D|Riverside,29,-71.109172,42.342287
+Green,Green-D|Riverside,30,-71.110169,42.341432
+Green,Green-D|Riverside,31,-71.110822,42.340489
+Green,Green-D|Riverside,32,-71.111635,42.338175
+Green,Green-D|Riverside,33,-71.112537,42.336464
+Green,Green-D|Riverside,34,-71.113393,42.335065
+Green,Green-D|Riverside,35,-71.114548,42.333882
+Green,Green-D|Riverside,36,-71.116561,42.332695
+Green,Green-D|Riverside,37,-71.119143,42.331668
+Green,Green-D|Riverside,38,-71.125502,42.331166
+Green,Green-D|Riverside,39,-71.132571,42.331891
+Green,Green-D|Riverside,40,-71.13443,42.332525
+Green,Green-D|Riverside,41,-71.139666,42.335467
+Green,Green-D|Riverside,42,-71.14113,42.335879
+Green,Green-D|Riverside,43,-71.142667,42.335944
+Green,Green-D|Riverside,44,-71.148375,42.335101
+Green,Green-D|Riverside,45,-71.150069,42.33462
+Green,Green-D|Riverside,46,-71.161483,42.327767
+Green,Green-D|Riverside,47,-71.162845,42.327146
+Green,Green-D|Riverside,48,-71.164646,42.326709
+Green,Green-D|Riverside,49,-71.16767,42.326815
+Green,Green-D|Riverside,50,-71.185371,42.330268
+Green,Green-D|Riverside,51,-71.188851,42.330301
+Green,Green-D|Riverside,52,-71.19098,42.329879
+Green,Green-D|Riverside,53,-71.193243,42.329009
+Green,Green-D|Riverside,54,-71.203867,42.323645
+Green,Green-D|Riverside,55,-71.205163,42.322677
+Green,Green-D|Riverside,56,-71.209464,42.318539
+Green,Green-D|Riverside,57,-71.210896,42.31789
+Green,Green-D|Riverside,58,-71.212538,42.317671
+Green,Green-D|Riverside,59,-71.214727,42.318075
+Green,Green-D|Riverside,60,-71.22911,42.324883
+Green,Green-D|Riverside,61,-71.234233,42.328292
+Green,Green-D|Riverside,62,-71.25237,42.337302
+Green,Green-E|Heath Street,0,-71.116794,42.407691
+Green,Green-E|Heath Street,1,-71.106007,42.39325
+Green,Green-E|Heath Street,2,-71.104594,42.391837
+Green,Green-E|Heath Street,3,-71.10303,42.390863
+Green,Green-E|Heath Street,4,-71.094581,42.386996
+Green,Green-E|Heath Street,5,-71.093407,42.386305
+Green,Green-E|Heath Street,6,-71.091464,42.384551
+Green,Green-E|Heath Street,7,-71.089925,42.382746
+Green,Green-E|Heath Street,8,-71.08337,42.376292
+Green,Green-E|Heath Street,9,-71.081425,42.375031
+Green,Green-E|Heath Street,10,-71.080999,42.374127
+Green,Green-E|Heath Street,11,-71.080345,42.373447
+Green,Green-E|Heath Street,12,-71.076762,42.371858
+Green,Green-E|Heath Street,13,-71.075403,42.370578
+Green,Green-E|Heath Street,14,-71.066764,42.366303
+Green,Green-E|Heath Street,15,-71.064332,42.365627
+Green,Green-E|Heath Street,16,-71.062022,42.366505
+Green,Green-E|Heath Street,17,-71.061417,42.366493
+Green,Green-E|Heath Street,18,-71.058509,42.363465
+Green,Green-E|Heath Street,19,-71.058051,42.362562
+Green,Green-E|Heath Street,20,-71.057951,42.36096
+Green,Green-E|Heath Street,21,-71.060584,42.357811
+Green,Green-E|Heath Street,22,-71.063349,42.355287
+Green,Green-E|Heath Street,23,-71.064751,42.352532
+Green,Green-E|Heath Street,24,-71.067135,42.352589
+Green,Green-E|Heath Street,25,-71.068292,42.352427
+Green,Green-E|Heath Street,26,-71.079188,42.349486
+Green,Green-E|Heath Street,27,-71.079329,42.349354
+Green,Green-E|Heath Street,28,-71.079145,42.348719
+Green,Green-E|Heath Street,29,-71.079788,42.346792
+Green,Green-E|Heath Street,30,-71.087026,42.341081
+Green,Green-E|Heath Street,31,-71.104357,42.334303
+Green,Green-E|Heath Street,32,-71.106456,42.333332
+Green,Green-E|Heath Street,33,-71.109587,42.333176
+Green,Green-E|Heath Street,34,-71.110745,42.33276
+Green,Green-E|Heath Street,35,-71.111978,42.331939
+Green,Green-E|Heath Street,36,-71.110846,42.329172
+Green,Green-E|Heath Street,37,-71.110095,42.328341
+Mattapan,Mattapan|Mattapan,0,-71.063302,42.284095
+Mattapan,Mattapan|Mattapan,1,-71.059932,42.278894
+Mattapan,Mattapan|Mattapan,2,-71.058807,42.275726
+Mattapan,Mattapan|Mattapan,3,-71.058974,42.275047
+Mattapan,Mattapan|Mattapan,4,-71.059356,42.274513
+Mattapan,Mattapan|Mattapan,5,-71.064159,42.271285
+Mattapan,Mattapan|Mattapan,6,-71.066867,42.270346
+Mattapan,Mattapan|Mattapan,7,-71.071418,42.270222
+Mattapan,Mattapan|Mattapan,8,-71.075921,42.269674
+Mattapan,Mattapan|Mattapan,9,-71.08526,42.267409
+Mattapan,Mattapan|Mattapan,10,-71.086512,42.267403
+Mattapan,Mattapan|Mattapan,11,-71.089215,42.267906
+Mattapan,Mattapan|Mattapan,12,-71.090768,42.267812
+Mattapan,Mattapan|Mattapan,13,-71.09204,42.267504
+Orange,Orange|Forest Hills,0,-71.070867,42.436967
+Orange,Orange|Forest Hills,1,-71.071536,42.433538
+Orange,Orange|Forest Hills,2,-71.076139,42.422051
+Orange,Orange|Forest Hills,3,-71.076807,42.418976
+Orange,Orange|Forest Hills,4,-71.077294,42.394309
+Orange,Orange|Forest Hills,5,-71.076947,42.387402
+Orange,Orange|Forest Hills,6,-71.076932,42.380307
+Orange,Orange|Forest Hills,7,-71.076313,42.378895
+Orange,Orange|Forest Hills,8,-71.073634,42.375918
+Orange,Orange|Forest Hills,9,-71.071477,42.374488
+Orange,Orange|Forest Hills,10,-71.067739,42.372677
+Orange,Orange|Forest Hills,11,-71.065725,42.371298
+Orange,Orange|Forest Hills,12,-71.058165,42.363321
+Orange,Orange|Forest Hills,13,-71.057892,42.362708
+Orange,Orange|Forest Hills,14,-71.057691,42.360395
+Orange,Orange|Forest Hills,15,-71.057719,42.358026
+Orange,Orange|Forest Hills,16,-71.058665,42.356942
+Orange,Orange|Forest Hills,17,-71.062304,42.353618
+Orange,Orange|Forest Hills,18,-71.062858,42.350966
+Orange,Orange|Forest Hills,19,-71.063918,42.349826
+Orange,Orange|Forest Hills,20,-71.064201,42.348989
+Orange,Orange|Forest Hills,21,-71.067527,42.347481
+Orange,Orange|Forest Hills,22,-71.073569,42.347593
+Orange,Orange|Forest Hills,23,-71.076049,42.347309
+Orange,Orange|Forest Hills,24,-71.094924,42.331856
+Orange,Orange|Forest Hills,25,-71.097242,42.328915
+Orange,Orange|Forest Hills,26,-71.100028,42.322875
+Orange,Orange|Forest Hills,27,-71.10396,42.317776
+Orange,Orange|Forest Hills,28,-71.106832,42.311567
+Orange,Orange|Forest Hills,29,-71.111329,42.304624
+Orange,Orange|Forest Hills,30,-71.114102,42.300731
+Red,Red|Braintree,0,-71.142079,42.396152
+Red,Red|Braintree,1,-71.138293,42.396356
+Red,Red|Braintree,2,-71.137712,42.396676
+Red,Red|Braintree,3,-71.137178,42.397613
+Red,Red|Braintree,4,-71.135204,42.397974
+Red,Red|Braintree,5,-71.124169,42.397205
+Red,Red|Braintree,6,-71.121567,42.39659
+Red,Red|Braintree,7,-71.119693,42.395609
+Red,Red|Braintree,8,-71.119236,42.394959
+Red,Red|Braintree,9,-71.118828,42.390618
+Red,Red|Braintree,10,-71.118944,42.388185
+Red,Red|Braintree,11,-71.120084,42.378027
+Red,Red|Braintree,12,-71.119685,42.3767
+Red,Red|Braintree,13,-71.118479,42.375717
+Red,Red|Braintree,14,-71.118821,42.373459
+Red,Red|Braintree,15,-71.115943,42.372506
+Red,Red|Braintree,16,-71.113001,42.37004
+Red,Red|Braintree,17,-71.107808,42.367895
+Red,Red|Braintree,18,-71.100988,42.363774
+Red,Red|Braintree,19,-71.100109,42.363487
+Red,Red|Braintree,20,-71.070265,42.361104
+Red,Red|Braintree,21,-71.069339,42.360738
+Red,Red|Braintree,22,-71.065157,42.357718
+Red,Red|Braintree,23,-71.060286,42.355319
+Red,Red|Braintree,24,-71.056975,42.353336
+Red,Red|Braintree,25,-71.052468,42.351393
+Red,Red|Braintree,26,-71.052226,42.350575
+Red,Red|Braintree,27,-71.052406,42.349774
+Red,Red|Braintree,28,-71.057116,42.34335
+Red,Red|Braintree,29,-71.056873,42.329961
+Red,Red|Braintree,30,-71.057963,42.327573
+Red,Red|Braintree,31,-71.05749,42.326813
+Red,Red|Braintree,32,-71.053622,42.323974
+Red,Red|Braintree,33,-71.052753,42.322832
+Red,Red|Braintree,34,-71.052191,42.32064
+Red,Red|Braintree,35,-71.051873,42.3152
+Red,Red|Braintree,36,-71.052116,42.313706
+Red,Red|Braintree,37,-71.054254,42.308261
+Red,Red|Braintree,38,-71.055451,42.303619
+Red,Red|Braintree,39,-71.055585,42.302751
+Red,Red|Braintree,40,-71.055345,42.301309
+Red,Red|Braintree,41,-71.054341,42.299815
+Red,Red|Braintree,42,-71.052635,42.29823
+Red,Red|Braintree,43,-71.033967,42.281619
+Red,Red|Braintree,44,-71.032816,42.280117
+Red,Red|Braintree,45,-71.031938,42.277891
+Red,Red|Braintree,46,-71.03119,42.276856
+Red,Red|Braintree,47,-71.006487,42.253484
+Red,Red|Braintree,48,-71.003916,42.249475
+Red,Red|Braintree,49,-71.003493,42.248356
+Red,Red|Braintree,50,-71.003456,42.247463
+Red,Red|Braintree,51,-71.00632,42.235814
+Red,Red|Braintree,52,-71.007053,42.231472
+Red,Red|Braintree,53,-71.006279,42.22902
+Red,Red|Braintree,54,-71.005169,42.227106
+Red,Red|Braintree,55,-71.000974,42.220923
+Red,Red|Braintree,56,-71.000256,42.219134
+Red,Red|Braintree,57,-71.000101,42.217759
+Red,Red|Braintree,58,-71.001679,42.207262
+Red,Red|Ashmont,0,-71.142079,42.396152
+Red,Red|Ashmont,1,-71.138293,42.396356
+Red,Red|Ashmont,2,-71.137712,42.396676
+Red,Red|Ashmont,3,-71.137178,42.397613
+Red,Red|Ashmont,4,-71.135204,42.397974
+Red,Red|Ashmont,5,-71.124169,42.397205
+Red,Red|Ashmont,6,-71.121567,42.39659
+Red,Red|Ashmont,7,-71.119693,42.395609
+Red,Red|Ashmont,8,-71.119236,42.394959
+Red,Red|Ashmont,9,-71.118828,42.390618
+Red,Red|Ashmont,10,-71.118944,42.388185
+Red,Red|Ashmont,11,-71.120084,42.378027
+Red,Red|Ashmont,12,-71.119685,42.3767
+Red,Red|Ashmont,13,-71.118479,42.375717
+Red,Red|Ashmont,14,-71.118821,42.373459
+Red,Red|Ashmont,15,-71.115943,42.372506
+Red,Red|Ashmont,16,-71.113001,42.37004
+Red,Red|Ashmont,17,-71.107808,42.367895
+Red,Red|Ashmont,18,-71.100988,42.363774
+Red,Red|Ashmont,19,-71.100109,42.363487
+Red,Red|Ashmont,20,-71.070265,42.361104
+Red,Red|Ashmont,21,-71.069339,42.360738
+Red,Red|Ashmont,22,-71.065157,42.357718
+Red,Red|Ashmont,23,-71.060286,42.355319
+Red,Red|Ashmont,24,-71.056975,42.353336
+Red,Red|Ashmont,25,-71.052468,42.351393
+Red,Red|Ashmont,26,-71.052226,42.350575
+Red,Red|Ashmont,27,-71.052406,42.349774
+Red,Red|Ashmont,28,-71.057116,42.34335
+Red,Red|Ashmont,29,-71.056873,42.329961
+Red,Red|Ashmont,30,-71.057967,42.327699
+Red,Red|Ashmont,31,-71.05749,42.326813
+Red,Red|Ashmont,32,-71.053684,42.323884
+Red,Red|Ashmont,33,-71.052904,42.32266
+Red,Red|Ashmont,34,-71.052561,42.321452
+Red,Red|Ashmont,35,-71.052258,42.318697
+Red,Red|Ashmont,36,-71.052121,42.314492
+Red,Red|Ashmont,37,-71.052484,42.31315
+Red,Red|Ashmont,38,-71.054486,42.308262
+Red,Red|Ashmont,39,-71.055679,42.303455
+Red,Red|Ashmont,40,-71.05575,42.301612
+Red,Red|Ashmont,41,-71.056059,42.301099
+Red,Red|Ashmont,42,-71.057386,42.300393
+Red,Red|Ashmont,43,-71.060602,42.300232
+Red,Red|Ashmont,44,-71.063449,42.299544
+Red,Red|Ashmont,45,-71.065043,42.298667
+Red,Red|Ashmont,46,-71.066255,42.297112
+Red,Red|Ashmont,47,-71.066433,42.29638
+Red,Red|Ashmont,48,-71.066376,42.295398
+Red,Red|Ashmont,49,-71.065739,42.293112
+Red,Red|Ashmont,50,-71.064483,42.286978
+Red,Red|Ashmont,51,-71.064016,42.285749
+Red,Red|Ashmont,52,-71.064082,42.285288
+Red,Red|Ashmont,53,-71.063557,42.284251
