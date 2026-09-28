@@ -1,0 +1,1005 @@
+setting,indicators,alpha,seed,n_draws,site_oid,sid,municipal,station,on_frontier,first_share,first_share_unique_max,first_share_argmax,top5_share,mc_se
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9475,East Somerville #1,Somerville,East Somerville,False,0.0,0.0,0.0,0.00021,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9577,Union Square #1,Somerville,Union Square,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9967,Assembly #1,Somerville,Assembly,True,0.0,0.0,0.0,0.039185,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9695,Union Square #2,Somerville,Union Square,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9766,Porter #2,Somerville,Porter,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9986,Gilman Square #1,Somerville,Gilman Square,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9949,Assembly #3,Somerville,Assembly,False,0.0,0.0,0.0,0.00086,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9457,Lechmere #1,Somerville,Lechmere,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9588,East Somerville #3,Somerville,East Somerville,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10038,Davis #1,Somerville,Davis,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9679,Union Square #3,Somerville,Union Square,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9971,Assembly #2,Somerville,Assembly,True,0.0,0.0,0.0,0.039185,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9653,East Somerville #2,Somerville,East Somerville,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9620,Union Square #4,Somerville,Union Square,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9660,Union Square #9,Somerville,Union Square,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9525,Union Square #6,Somerville,Union Square,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9471,Union Square #7,Somerville,Union Square,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10018,Davis #2,Somerville,Davis,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10040,Davis #5,Somerville,Davis,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9608,Union Square #10,Somerville,Union Square,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10034,Davis #3,Somerville,Davis,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9548,East Somerville #5,Somerville,East Somerville,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9591,Union Square #8,Somerville,Union Square,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10021,Davis #8,Somerville,Davis,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9817,Porter #4,Somerville,Porter,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9640,Union Square #11,Somerville,Union Square,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10054,Davis #10,Somerville,Davis,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9818,Sullivan Square #3,Somerville,Sullivan Square,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9863,Sullivan Square #1,Somerville,Sullivan Square,True,0.0,0.0,0.0,0.003275,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9643,Union Square #14,Somerville,Union Square,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9667,East Somerville #4,Somerville,East Somerville,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10006,Gilman Square #2,Somerville,Gilman Square,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9905,Gilman Square #7,Somerville,Gilman Square,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10043,Davis #6,Somerville,Davis,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9810,Sullivan Square #2,Somerville,Sullivan Square,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9463,Union Square #15,Somerville,Union Square,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10118,Davis #12,Somerville,Davis,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9700,Union Square #19,Somerville,Union Square,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9696,Union Square #18,Somerville,Union Square,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10042,Davis #15,Somerville,Davis,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10046,Davis #9,Somerville,Davis,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9877,Gilman Square #4,Somerville,Gilman Square,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9639,Union Square #12,Somerville,Union Square,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10059,Magoun Square #1,Somerville,Magoun Square,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9850,Gilman Square #11,Somerville,Gilman Square,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10064,Magoun Square #2,Somerville,Magoun Square,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10065,Davis #14,Somerville,Davis,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9842,Sullivan Square #4,Somerville,Sullivan Square,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10126,Ball Square #1,Somerville,Ball Square,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9890,Gilman Square #9,Somerville,Gilman Square,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9989,Gilman Square #3,Somerville,Gilman Square,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10123,Ball Square #3,Somerville,Ball Square,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9628,East Somerville #6,Somerville,East Somerville,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9867,Gilman Square #10,Somerville,Gilman Square,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9872,Gilman Square #6,Somerville,Gilman Square,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10143,Ball Square #4,Somerville,Ball Square,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9976,Gilman Square #5,Somerville,Gilman Square,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9845,Sullivan Square #5,Somerville,Sullivan Square,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10031,Magoun Square #3,Somerville,Magoun Square,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10140,Ball Square #6,Somerville,Ball Square,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9887,Gilman Square #8,Somerville,Gilman Square,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10012,Assembly #4,Somerville,Assembly,True,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9995,Assembly #5,Somerville,Assembly,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9921,Porter #1,Cambridge,Porter,False,0.0,0.0,0.0,0.003685,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9427,Union Square #5,Cambridge,Union Square,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9397,Harvard #1,Cambridge,Harvard,True,0.0592,0.0592,0.0592,0.136575,0.0005277090107246606
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9441,Harvard #2,Cambridge,Harvard,True,0.0,0.0,0.0,0.104285,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9965,Alewife #1,Cambridge,Alewife,True,0.00175,0.00175,0.00175,0.062605,9.345955007381536e-05
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9206,Central #2,Cambridge,Central,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9289,Central #1,Cambridge,Central,True,0.0,0.0,0.0,0.00565,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9325,Harvard #3,Cambridge,Harvard,True,0.0,0.0,0.0,0.0946,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9179,Central #3,Cambridge,Central,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9382,Union Square #20,Cambridge,Union Square,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9928,Alewife #2,Cambridge,Alewife,False,0.0,0.0,0.0,0.01303,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9768,Porter #3,Cambridge,Porter,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9208,Central #6,Cambridge,Central,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9168,Central #4,Cambridge,Central,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9975,Davis #4,Cambridge,Davis,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9278,Lechmere #3,Cambridge,Lechmere,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9239,Central #7,Cambridge,Central,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9449,Union Square #17,Cambridge,Union Square,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9298,Lechmere #2,Cambridge,Lechmere,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9895,Porter #6,Cambridge,Porter,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9237,Central #5,Cambridge,Central,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9706,Porter #8,Cambridge,Porter,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9447,Harvard #4,Cambridge,Harvard,True,0.013795,0.013795,0.013795,0.0651,0.0002608131320984432
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9862,Porter #9,Cambridge,Porter,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9406,Union Square #13,Cambridge,Union Square,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10017,Davis #13,Cambridge,Davis,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10015,Davis #11,Cambridge,Davis,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10116,Davis #7,Cambridge,Davis,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9808,Porter #5,Cambridge,Porter,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9438,Union Square #16,Cambridge,Union Square,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9919,Porter #7,Cambridge,Porter,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9957,Porter #10,Cambridge,Porter,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9704,Porter #11,Cambridge,Porter,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9784,Porter #12,Cambridge,Porter,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10060,Davis #16,Cambridge,Davis,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8547,Coolidge Corner #1,Brookline,Coolidge Corner,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8787,Harvard Avenue #1,Brookline,Harvard Avenue,False,0.0,0.0,0.0,0.03446,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8527,Brookline Village #2,Brookline,Brookline Village,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8650,Coolidge Corner #4,Brookline,Coolidge Corner,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8640,Coolidge Corner #3,Brookline,Coolidge Corner,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8568,Washington Square #1,Brookline,Washington Square,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8539,Tappan Street #1,Brookline,Tappan Street,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8466,Brookline Village #3,Brookline,Brookline Village,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8865,Amory Street #1,Brookline,Amory Street,False,0.0,0.0,0.0,0.010045,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8704,Saint Mary's Street #1,Brookline,Saint Mary's Street,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8452,Brookline Village #1,Brookline,Brookline Village,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8617,Coolidge Corner #2,Brookline,Coolidge Corner,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8624,Coolidge Corner #12,Brookline,Coolidge Corner,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8728,Harvard Avenue #2,Brookline,Harvard Avenue,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8902,Babcock Street #1,Brookline,Babcock Street,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8708,Saint Mary's Street #2,Brookline,Saint Mary's Street,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8553,Washington Square #2,Brookline,Washington Square,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8487,Brookline Hills #4,Brookline,Brookline Hills,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8647,Coolidge Corner #8,Brookline,Coolidge Corner,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8593,Coolidge Corner #9,Brookline,Coolidge Corner,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8672,Summit Avenue #1,Brookline,Summit Avenue,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8399,Brookline Hills #2,Brookline,Brookline Hills,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8281,Chestnut Hill #2,Brookline,Chestnut Hill,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8476,Brookline Hills #1,Brookline,Brookline Hills,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8626,Coolidge Corner #5,Brookline,Coolidge Corner,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8685,Saint Mary's Street #3,Brookline,Saint Mary's Street,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8596,Summit Avenue #2,Brookline,Summit Avenue,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8657,Coolidge Corner #7,Brookline,Coolidge Corner,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8575,Washington Square #4,Brookline,Washington Square,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8383,Brookline Hills #3,Brookline,Brookline Hills,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8680,Summit Avenue #3,Brookline,Summit Avenue,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8649,Coolidge Corner #6,Brookline,Coolidge Corner,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8600,Coolidge Corner #11,Brookline,Coolidge Corner,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8486,Brookline Village #4,Brookline,Brookline Village,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8558,Washington Square #3,Brookline,Washington Square,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8419,Brookline Village #5,Brookline,Brookline Village,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8598,Summit Avenue #4,Brookline,Summit Avenue,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8611,Coolidge Corner #10,Brookline,Coolidge Corner,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8555,Tappan Street #2,Brookline,Tappan Street,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8878,Amory Street #2,Brookline,Amory Street,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8411,Brookline Hills #5,Brookline,Brookline Hills,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8255,Chestnut Hill #3,Brookline,Chestnut Hill,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8274,Chestnut Hill #4,Brookline,Chestnut Hill,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10667,Malden Center #1,Malden,Malden Center,True,0.31075,0.31075,0.31075,0.65266,0.0010348537034286537
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10682,Malden Center #5,Malden,Malden Center,False,0.0,0.0,0.0,0.066595,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10616,Malden Center #2,Malden,Malden Center,True,0.026495,0.026495,0.026495,0.54302,0.00035911707683567486
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10664,Malden Center #3,Malden,Malden Center,False,0.0,0.0,0.0,0.116315,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10665,Malden Center #4,Malden,Malden Center,True,0.004285,0.004285,0.004285,0.245965,0.00014605887126429535
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10691,Malden Center #9,Malden,Malden Center,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10648,Malden Center #6,Malden,Malden Center,False,0.0,0.0,0.0,0.02114,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10687,Malden Center #7,Malden,Malden Center,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10779,Oak Grove #1,Malden,Oak Grove,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10771,Oak Grove #2,Malden,Oak Grove,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10710,Malden Center #10,Malden,Malden Center,False,0.0,0.0,0.0,0.007185,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10657,Malden Center #14,Malden,Malden Center,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10670,Malden Center #13,Malden,Malden Center,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10701,Malden Center #11,Malden,Malden Center,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10696,Malden Center #12,Malden,Malden Center,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10692,Malden Center #8,Malden,Malden Center,False,0.0,0.0,0.0,0.038015,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10676,Malden Center #15,Malden,Malden Center,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10618,Malden Center #16,Malden,Malden Center,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8128,Eliot #2,Newton,Eliot,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8427,Newton Centre #1,Newton,Newton Centre,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8298,Chestnut Hill #1,Newton,Chestnut Hill,True,0.0,0.0,0.0,9.5e-05,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8165,Eliot #1,Newton,Eliot,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8140,Eliot #5,Newton,Eliot,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8116,Eliot #6,Newton,Eliot,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8205,Newton Highlands #2,Newton,Newton Highlands,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8136,Eliot #3,Newton,Eliot,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8385,Newton Centre #2,Newton,Newton Centre,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8159,Newton Highlands #1,Newton,Newton Highlands,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8229,Newton Highlands #3,Newton,Newton Highlands,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8175,Eliot #8,Newton,Eliot,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8379,Newton Centre #4,Newton,Newton Centre,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8341,Waban #1,Newton,Waban,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8407,Newton Centre #5,Newton,Newton Centre,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8388,Newton Centre #7,Newton,Newton Centre,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8500,Newton Centre #10,Newton,Newton Centre,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8143,Newton Highlands #5,Newton,Newton Highlands,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8408,Newton Centre #9,Newton,Newton Centre,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8410,Newton Centre #6,Newton,Newton Centre,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8102,Eliot #4,Newton,Eliot,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8115,Eliot #7,Newton,Eliot,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8418,Newton Centre #8,Newton,Newton Centre,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8169,Eliot #9,Newton,Eliot,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8214,Newton Highlands #4,Newton,Newton Highlands,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8400,Newton Centre #3,Newton,Newton Centre,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8213,Newton Highlands #6,Newton,Newton Highlands,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8217,Newton Highlands #7,Newton,Newton Highlands,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8394,Newton Centre #11,Newton,Newton Centre,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10236,Wellington #1,Medford,Wellington,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10364,Medford/Tufts #1,Medford,Medford/Tufts,False,0.0,0.0,0.0,0.00213,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10200,Wellington #2,Medford,Wellington,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10366,Medford/Tufts #2,Medford,Medford/Tufts,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10230,Ball Square #5,Medford,Ball Square,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10211,Ball Square #2,Medford,Ball Square,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10231,Ball Square #7,Medford,Ball Square,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10316,Medford/Tufts #3,Medford,Medford/Tufts,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10369,Revere Beach #1,Revere,Revere Beach,True,0.14403,0.14403,0.14403,0.293005,0.000785128521644705
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10358,Revere Beach #2,Revere,Revere Beach,False,0.0,0.0,0.0,0.051275,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10381,Wonderland #1,Revere,Wonderland,True,0.10183,0.10183,0.10183,0.297795,0.0006762420095646233
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10326,Revere Beach #4,Revere,Revere Beach,False,0.0,0.0,0.0,0.009455,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10520,Wonderland #2,Revere,Wonderland,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10273,Revere Beach #3,Revere,Revere Beach,False,0.0,0.0,0.0,0.024415,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10281,Revere Beach #5,Revere,Revere Beach,False,0.0,0.0,0.0,0.014445,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10262,Revere Beach #6,Revere,Revere Beach,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10285,Revere Beach #7,Revere,Revere Beach,False,0.0,0.0,0.0,0.0021,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,6730,Quincy Center #2,Quincy,Quincy Center,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,6771,Quincy Center #4,Quincy,Quincy Center,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,6760,Quincy Center #1,Quincy,Quincy Center,True,0.0,0.0,0.0,0.167905,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,6766,Quincy Center #8,Quincy,Quincy Center,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,6886,Quincy Center #12,Quincy,Quincy Center,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,6782,Quincy Center #3,Quincy,Quincy Center,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,7340,North Quincy #5,Quincy,North Quincy,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,7424,North Quincy #3,Quincy,North Quincy,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,7487,North Quincy #1,Quincy,North Quincy,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,7173,Wollaston #2,Quincy,Wollaston,True,0.0,0.0,0.0,0.26056,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,7176,Wollaston #5,Quincy,Wollaston,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,7529,North Quincy #2,Quincy,North Quincy,True,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,6755,Quincy Center #9,Quincy,Quincy Center,False,0.0,0.0,0.0,1.5e-05,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,7196,Wollaston #3,Quincy,Wollaston,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,6710,Quincy Center #10,Quincy,Quincy Center,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,6758,Quincy Center #6,Quincy,Quincy Center,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,6729,Quincy Center #7,Quincy,Quincy Center,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,7300,Wollaston #1,Quincy,Wollaston,True,0.0,0.0,0.0,0.397815,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,6736,Quincy Center #5,Quincy,Quincy Center,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,7180,Wollaston #4,Quincy,Wollaston,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,7310,North Quincy #7,Quincy,North Quincy,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,7346,North Quincy #6,Quincy,North Quincy,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,6857,Quincy Center #11,Quincy,Quincy Center,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,6472,Quincy Adams #2,Quincy,Quincy Adams,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,7329,North Quincy #8,Quincy,North Quincy,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,7338,North Quincy #4,Quincy,North Quincy,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,6762,Quincy Center #13,Quincy,Quincy Center,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,7241,North Quincy #9,Quincy,North Quincy,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,6781,Quincy Center #14,Quincy,Quincy Center,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,7183,Wollaston #8,Quincy,Wollaston,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,7360,North Quincy #10,Quincy,North Quincy,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,7163,Wollaston #6,Quincy,Wollaston,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,6474,Quincy Adams #1,Quincy,Quincy Adams,True,0.00372,0.00372,0.00372,0.08183,0.0001361279104372061
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,7088,Wollaston #10,Quincy,Wollaston,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,6465,Quincy Adams #3,Quincy,Quincy Adams,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,7190,Wollaston #7,Quincy,Wollaston,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,7194,Wollaston #9,Quincy,Wollaston,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,5973,Braintree #1,Braintree,Braintree,True,0.334145,0.334145,0.334145,0.64256,0.0010547324755003043
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,6019,Braintree #2,Braintree,Braintree,False,0.0,0.0,0.0,0.470055,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,5982,Braintree #5,Braintree,Braintree,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,5965,Braintree #4,Braintree,Braintree,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,5966,Braintree #3,Braintree,Braintree,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,5992,Braintree #7,Braintree,Braintree,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,5999,Braintree #6,Braintree,Braintree,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,5967,Braintree #8,Braintree,Braintree,False,0.0,0.0,0.0,0.0,0.0
+4ind_mixed,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,5991,Braintree #9,Braintree,Braintree,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9475,East Somerville #1,Somerville,East Somerville,False,0.0,0.0,0.0,1e-05,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9577,Union Square #1,Somerville,Union Square,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9967,Assembly #1,Somerville,Assembly,True,2.5e-05,0.0,5e-05,0.039505,1.118020013237688e-05
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9695,Union Square #2,Somerville,Union Square,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9766,Porter #2,Somerville,Porter,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9986,Gilman Square #1,Somerville,Gilman Square,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9949,Assembly #3,Somerville,Assembly,False,0.0,0.0,0.0,0.00556,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9457,Lechmere #1,Somerville,Lechmere,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9588,East Somerville #3,Somerville,East Somerville,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10038,Davis #1,Somerville,Davis,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9679,Union Square #3,Somerville,Union Square,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9971,Assembly #2,Somerville,Assembly,True,2.5e-05,0.0,0.0,0.039505,1.118020013237688e-05
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9653,East Somerville #2,Somerville,East Somerville,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9620,Union Square #4,Somerville,Union Square,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9660,Union Square #9,Somerville,Union Square,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9525,Union Square #6,Somerville,Union Square,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9471,Union Square #7,Somerville,Union Square,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10018,Davis #2,Somerville,Davis,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10040,Davis #5,Somerville,Davis,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9608,Union Square #10,Somerville,Union Square,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10034,Davis #3,Somerville,Davis,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9548,East Somerville #5,Somerville,East Somerville,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9591,Union Square #8,Somerville,Union Square,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10021,Davis #8,Somerville,Davis,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9817,Porter #4,Somerville,Porter,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9640,Union Square #11,Somerville,Union Square,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10054,Davis #10,Somerville,Davis,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9818,Sullivan Square #3,Somerville,Sullivan Square,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9863,Sullivan Square #1,Somerville,Sullivan Square,True,0.0,0.0,0.0,0.04299,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9643,Union Square #14,Somerville,Union Square,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9667,East Somerville #4,Somerville,East Somerville,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10006,Gilman Square #2,Somerville,Gilman Square,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9905,Gilman Square #7,Somerville,Gilman Square,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10043,Davis #6,Somerville,Davis,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9810,Sullivan Square #2,Somerville,Sullivan Square,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9463,Union Square #15,Somerville,Union Square,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10118,Davis #12,Somerville,Davis,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9700,Union Square #19,Somerville,Union Square,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9696,Union Square #18,Somerville,Union Square,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10042,Davis #15,Somerville,Davis,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10046,Davis #9,Somerville,Davis,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9877,Gilman Square #4,Somerville,Gilman Square,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9639,Union Square #12,Somerville,Union Square,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10059,Magoun Square #1,Somerville,Magoun Square,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9850,Gilman Square #11,Somerville,Gilman Square,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10064,Magoun Square #2,Somerville,Magoun Square,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10065,Davis #14,Somerville,Davis,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9842,Sullivan Square #4,Somerville,Sullivan Square,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10126,Ball Square #1,Somerville,Ball Square,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9890,Gilman Square #9,Somerville,Gilman Square,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9989,Gilman Square #3,Somerville,Gilman Square,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10123,Ball Square #3,Somerville,Ball Square,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9628,East Somerville #6,Somerville,East Somerville,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9867,Gilman Square #10,Somerville,Gilman Square,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9872,Gilman Square #6,Somerville,Gilman Square,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10143,Ball Square #4,Somerville,Ball Square,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9976,Gilman Square #5,Somerville,Gilman Square,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9845,Sullivan Square #5,Somerville,Sullivan Square,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10031,Magoun Square #3,Somerville,Magoun Square,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10140,Ball Square #6,Somerville,Ball Square,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9887,Gilman Square #8,Somerville,Gilman Square,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10012,Assembly #4,Somerville,Assembly,True,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9995,Assembly #5,Somerville,Assembly,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9921,Porter #1,Cambridge,Porter,False,0.0,0.0,0.0,0.000655,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9427,Union Square #5,Cambridge,Union Square,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9397,Harvard #1,Cambridge,Harvard,True,0.036985,0.036985,0.036985,0.084665,0.0004220018351559623
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9441,Harvard #2,Cambridge,Harvard,True,0.0,0.0,0.0,0.060495,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9965,Alewife #1,Cambridge,Alewife,True,0.001325,0.001325,0.001325,0.03732,8.134016151324018e-05
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9206,Central #2,Cambridge,Central,False,0.0,0.0,0.0,1e-05,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9289,Central #1,Cambridge,Central,True,0.000295,0.000295,0.000295,0.010085,3.840006347651004e-05
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9325,Harvard #3,Cambridge,Harvard,True,0.003495,0.003495,0.003495,0.06953,0.00013196183112930797
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9179,Central #3,Cambridge,Central,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9382,Union Square #20,Cambridge,Union Square,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9928,Alewife #2,Cambridge,Alewife,False,0.0,0.0,0.0,0.00371,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9768,Porter #3,Cambridge,Porter,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9208,Central #6,Cambridge,Central,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9168,Central #4,Cambridge,Central,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9975,Davis #4,Cambridge,Davis,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9278,Lechmere #3,Cambridge,Lechmere,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9239,Central #7,Cambridge,Central,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9449,Union Square #17,Cambridge,Union Square,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9298,Lechmere #2,Cambridge,Lechmere,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9895,Porter #6,Cambridge,Porter,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9237,Central #5,Cambridge,Central,False,0.0,0.0,0.0,4e-05,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9706,Porter #8,Cambridge,Porter,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9447,Harvard #4,Cambridge,Harvard,True,0.032675,0.032675,0.032675,0.065875,0.00039753832755471514
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9862,Porter #9,Cambridge,Porter,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9406,Union Square #13,Cambridge,Union Square,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10017,Davis #13,Cambridge,Davis,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10015,Davis #11,Cambridge,Davis,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10116,Davis #7,Cambridge,Davis,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9808,Porter #5,Cambridge,Porter,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9438,Union Square #16,Cambridge,Union Square,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9919,Porter #7,Cambridge,Porter,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9957,Porter #10,Cambridge,Porter,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9704,Porter #11,Cambridge,Porter,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,9784,Porter #12,Cambridge,Porter,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10060,Davis #16,Cambridge,Davis,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8547,Coolidge Corner #1,Brookline,Coolidge Corner,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8787,Harvard Avenue #1,Brookline,Harvard Avenue,False,0.0,0.0,0.0,0.05258,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8527,Brookline Village #2,Brookline,Brookline Village,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8650,Coolidge Corner #4,Brookline,Coolidge Corner,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8640,Coolidge Corner #3,Brookline,Coolidge Corner,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8568,Washington Square #1,Brookline,Washington Square,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8539,Tappan Street #1,Brookline,Tappan Street,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8466,Brookline Village #3,Brookline,Brookline Village,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8865,Amory Street #1,Brookline,Amory Street,False,0.0,0.0,0.0,0.011915,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8704,Saint Mary's Street #1,Brookline,Saint Mary's Street,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8452,Brookline Village #1,Brookline,Brookline Village,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8617,Coolidge Corner #2,Brookline,Coolidge Corner,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8624,Coolidge Corner #12,Brookline,Coolidge Corner,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8728,Harvard Avenue #2,Brookline,Harvard Avenue,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8902,Babcock Street #1,Brookline,Babcock Street,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8708,Saint Mary's Street #2,Brookline,Saint Mary's Street,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8553,Washington Square #2,Brookline,Washington Square,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8487,Brookline Hills #4,Brookline,Brookline Hills,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8647,Coolidge Corner #8,Brookline,Coolidge Corner,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8593,Coolidge Corner #9,Brookline,Coolidge Corner,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8672,Summit Avenue #1,Brookline,Summit Avenue,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8399,Brookline Hills #2,Brookline,Brookline Hills,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8281,Chestnut Hill #2,Brookline,Chestnut Hill,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8476,Brookline Hills #1,Brookline,Brookline Hills,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8626,Coolidge Corner #5,Brookline,Coolidge Corner,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8685,Saint Mary's Street #3,Brookline,Saint Mary's Street,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8596,Summit Avenue #2,Brookline,Summit Avenue,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8657,Coolidge Corner #7,Brookline,Coolidge Corner,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8575,Washington Square #4,Brookline,Washington Square,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8383,Brookline Hills #3,Brookline,Brookline Hills,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8680,Summit Avenue #3,Brookline,Summit Avenue,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8649,Coolidge Corner #6,Brookline,Coolidge Corner,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8600,Coolidge Corner #11,Brookline,Coolidge Corner,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8486,Brookline Village #4,Brookline,Brookline Village,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8558,Washington Square #3,Brookline,Washington Square,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8419,Brookline Village #5,Brookline,Brookline Village,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8598,Summit Avenue #4,Brookline,Summit Avenue,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8611,Coolidge Corner #10,Brookline,Coolidge Corner,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8555,Tappan Street #2,Brookline,Tappan Street,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8878,Amory Street #2,Brookline,Amory Street,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8411,Brookline Hills #5,Brookline,Brookline Hills,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8255,Chestnut Hill #3,Brookline,Chestnut Hill,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8274,Chestnut Hill #4,Brookline,Chestnut Hill,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10667,Malden Center #1,Malden,Malden Center,True,0.265185,0.265185,0.265185,0.69707,0.0009870712126665432
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10682,Malden Center #5,Malden,Malden Center,False,0.0,0.0,0.0,0.22909,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10616,Malden Center #2,Malden,Malden Center,True,0.2077,0.2077,0.2077,0.716095,0.0009070851944552948
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10664,Malden Center #3,Malden,Malden Center,False,0.0,0.0,0.0,0.2439,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10665,Malden Center #4,Malden,Malden Center,True,0.036625,0.036625,0.036625,0.516465,0.00042002148382553
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10691,Malden Center #9,Malden,Malden Center,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10648,Malden Center #6,Malden,Malden Center,False,0.0,0.0,0.0,0.093065,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10687,Malden Center #7,Malden,Malden Center,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10779,Oak Grove #1,Malden,Oak Grove,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10771,Oak Grove #2,Malden,Oak Grove,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10710,Malden Center #10,Malden,Malden Center,False,0.0,0.0,0.0,0.016165,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10657,Malden Center #14,Malden,Malden Center,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10670,Malden Center #13,Malden,Malden Center,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10701,Malden Center #11,Malden,Malden Center,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10696,Malden Center #12,Malden,Malden Center,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10692,Malden Center #8,Malden,Malden Center,False,0.0,0.0,0.0,0.075965,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10676,Malden Center #15,Malden,Malden Center,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10618,Malden Center #16,Malden,Malden Center,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8128,Eliot #2,Newton,Eliot,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8427,Newton Centre #1,Newton,Newton Centre,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8298,Chestnut Hill #1,Newton,Chestnut Hill,True,0.0,0.0,0.0,7.5e-05,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8165,Eliot #1,Newton,Eliot,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8140,Eliot #5,Newton,Eliot,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8116,Eliot #6,Newton,Eliot,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8205,Newton Highlands #2,Newton,Newton Highlands,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8136,Eliot #3,Newton,Eliot,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8385,Newton Centre #2,Newton,Newton Centre,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8159,Newton Highlands #1,Newton,Newton Highlands,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8229,Newton Highlands #3,Newton,Newton Highlands,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8175,Eliot #8,Newton,Eliot,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8379,Newton Centre #4,Newton,Newton Centre,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8341,Waban #1,Newton,Waban,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8407,Newton Centre #5,Newton,Newton Centre,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8388,Newton Centre #7,Newton,Newton Centre,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8500,Newton Centre #10,Newton,Newton Centre,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8143,Newton Highlands #5,Newton,Newton Highlands,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8408,Newton Centre #9,Newton,Newton Centre,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8410,Newton Centre #6,Newton,Newton Centre,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8102,Eliot #4,Newton,Eliot,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8115,Eliot #7,Newton,Eliot,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8418,Newton Centre #8,Newton,Newton Centre,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8169,Eliot #9,Newton,Eliot,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8214,Newton Highlands #4,Newton,Newton Highlands,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8400,Newton Centre #3,Newton,Newton Centre,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8213,Newton Highlands #6,Newton,Newton Highlands,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8217,Newton Highlands #7,Newton,Newton Highlands,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,8394,Newton Centre #11,Newton,Newton Centre,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10236,Wellington #1,Medford,Wellington,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10364,Medford/Tufts #1,Medford,Medford/Tufts,False,0.0,0.0,0.0,0.021545,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10200,Wellington #2,Medford,Wellington,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10366,Medford/Tufts #2,Medford,Medford/Tufts,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10230,Ball Square #5,Medford,Ball Square,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10211,Ball Square #2,Medford,Ball Square,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10231,Ball Square #7,Medford,Ball Square,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10316,Medford/Tufts #3,Medford,Medford/Tufts,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10369,Revere Beach #1,Revere,Revere Beach,True,0.26968,0.26968,0.26968,0.38954,0.0009923525018863005
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10358,Revere Beach #2,Revere,Revere Beach,False,0.0,0.0,0.0,0.110425,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10381,Wonderland #1,Revere,Wonderland,True,0.05358,0.05358,0.05358,0.19364,0.0005035334328522785
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10326,Revere Beach #4,Revere,Revere Beach,False,0.0,0.0,0.0,0.018475,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10520,Wonderland #2,Revere,Wonderland,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10273,Revere Beach #3,Revere,Revere Beach,False,0.0,0.0,0.0,0.044065,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10281,Revere Beach #5,Revere,Revere Beach,False,0.0,0.0,0.0,0.02255,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10262,Revere Beach #6,Revere,Revere Beach,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,10285,Revere Beach #7,Revere,Revere Beach,False,0.0,0.0,0.0,0.00231,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,6730,Quincy Center #2,Quincy,Quincy Center,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,6771,Quincy Center #4,Quincy,Quincy Center,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,6760,Quincy Center #1,Quincy,Quincy Center,True,0.0,0.0,0.0,0.294505,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,6766,Quincy Center #8,Quincy,Quincy Center,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,6886,Quincy Center #12,Quincy,Quincy Center,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,6782,Quincy Center #3,Quincy,Quincy Center,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,7340,North Quincy #5,Quincy,North Quincy,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,7424,North Quincy #3,Quincy,North Quincy,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,7487,North Quincy #1,Quincy,North Quincy,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,7173,Wollaston #2,Quincy,Wollaston,True,0.0,0.0,0.0,0.05425,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,7176,Wollaston #5,Quincy,Wollaston,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,7529,North Quincy #2,Quincy,North Quincy,True,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,6755,Quincy Center #9,Quincy,Quincy Center,False,0.0,0.0,0.0,0.004975,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,7196,Wollaston #3,Quincy,Wollaston,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,6710,Quincy Center #10,Quincy,Quincy Center,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,6758,Quincy Center #6,Quincy,Quincy Center,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,6729,Quincy Center #7,Quincy,Quincy Center,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,7300,Wollaston #1,Quincy,Wollaston,True,0.0,0.0,0.0,0.210275,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,6736,Quincy Center #5,Quincy,Quincy Center,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,7180,Wollaston #4,Quincy,Wollaston,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,7310,North Quincy #7,Quincy,North Quincy,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,7346,North Quincy #6,Quincy,North Quincy,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,6857,Quincy Center #11,Quincy,Quincy Center,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,6472,Quincy Adams #2,Quincy,Quincy Adams,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,7329,North Quincy #8,Quincy,North Quincy,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,7338,North Quincy #4,Quincy,North Quincy,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,6762,Quincy Center #13,Quincy,Quincy Center,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,7241,North Quincy #9,Quincy,North Quincy,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,6781,Quincy Center #14,Quincy,Quincy Center,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,7183,Wollaston #8,Quincy,Wollaston,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,7360,North Quincy #10,Quincy,North Quincy,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,7163,Wollaston #6,Quincy,Wollaston,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,6474,Quincy Adams #1,Quincy,Quincy Adams,True,3.5e-05,3.5e-05,3.5e-05,0.00207,1.3228525050057545e-05
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,7088,Wollaston #10,Quincy,Wollaston,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,6465,Quincy Adams #3,Quincy,Quincy Adams,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,7190,Wollaston #7,Quincy,Wollaston,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,7194,Wollaston #9,Quincy,Wollaston,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,5973,Braintree #1,Braintree,Braintree,True,0.09237,0.09237,0.09237,0.34163,0.0006474480021592468
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,6019,Braintree #2,Braintree,Braintree,False,0.0,0.0,0.0,0.192665,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,5982,Braintree #5,Braintree,Braintree,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,5965,Braintree #4,Braintree,Braintree,False,0.0,0.0,0.0,1.5e-05,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,5966,Braintree #3,Braintree,Braintree,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,5992,Braintree #7,Braintree,Braintree,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,5999,Braintree #6,Braintree,Braintree,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,5967,Braintree #8,Braintree,Braintree,False,0.0,0.0,0.0,0.0,0.0
+4ind_uniform,ppa buildar_ac daily peak_share,"(1,1,1,1)",7,200000,5991,Braintree #9,Braintree,Braintree,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9475,East Somerville #1,Somerville,East Somerville,True,0.00125,0.00125,0.00125,0.008005,7.900751546530241e-05
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9577,Union Square #1,Somerville,Union Square,True,0.0006,0.0006,0.0006,0.009295,5.475582160830024e-05
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9967,Assembly #1,Somerville,Assembly,True,0.004965,0.0,0.00993,0.113735,0.00015716788436255036
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9695,Union Square #2,Somerville,Union Square,False,0.0,0.0,0.0,1.5e-05,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9766,Porter #2,Somerville,Porter,True,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9986,Gilman Square #1,Somerville,Gilman Square,True,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9949,Assembly #3,Somerville,Assembly,False,0.0,0.0,0.0,0.015835,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9457,Lechmere #1,Somerville,Lechmere,True,0.0,0.0,0.0,0.000705,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9588,East Somerville #3,Somerville,East Somerville,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10038,Davis #1,Somerville,Davis,True,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9679,Union Square #3,Somerville,Union Square,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9971,Assembly #2,Somerville,Assembly,True,0.004965,0.0,0.0,0.113735,0.00015716788436255036
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9653,East Somerville #2,Somerville,East Somerville,True,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9620,Union Square #4,Somerville,Union Square,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9660,Union Square #9,Somerville,Union Square,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9525,Union Square #6,Somerville,Union Square,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9471,Union Square #7,Somerville,Union Square,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10018,Davis #2,Somerville,Davis,True,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10040,Davis #5,Somerville,Davis,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9608,Union Square #10,Somerville,Union Square,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10034,Davis #3,Somerville,Davis,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9548,East Somerville #5,Somerville,East Somerville,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9591,Union Square #8,Somerville,Union Square,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10021,Davis #8,Somerville,Davis,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9817,Porter #4,Somerville,Porter,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9640,Union Square #11,Somerville,Union Square,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10054,Davis #10,Somerville,Davis,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9818,Sullivan Square #3,Somerville,Sullivan Square,True,0.00011,0.00011,0.00011,0.00262,2.3450788899309977e-05
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9863,Sullivan Square #1,Somerville,Sullivan Square,True,0.00139,0.00139,0.00139,0.029585,8.330870002586765e-05
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9643,Union Square #14,Somerville,Union Square,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9667,East Somerville #4,Somerville,East Somerville,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10006,Gilman Square #2,Somerville,Gilman Square,True,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9905,Gilman Square #7,Somerville,Gilman Square,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10043,Davis #6,Somerville,Davis,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9810,Sullivan Square #2,Somerville,Sullivan Square,True,0.0005,0.0005,0.0005,0.00812,4.9987498437109255e-05
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9463,Union Square #15,Somerville,Union Square,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10118,Davis #12,Somerville,Davis,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9700,Union Square #19,Somerville,Union Square,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9696,Union Square #18,Somerville,Union Square,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10042,Davis #15,Somerville,Davis,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10046,Davis #9,Somerville,Davis,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9877,Gilman Square #4,Somerville,Gilman Square,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9639,Union Square #12,Somerville,Union Square,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10059,Magoun Square #1,Somerville,Magoun Square,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9850,Gilman Square #11,Somerville,Gilman Square,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10064,Magoun Square #2,Somerville,Magoun Square,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10065,Davis #14,Somerville,Davis,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9842,Sullivan Square #4,Somerville,Sullivan Square,False,0.0,0.0,0.0,0.00025,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10126,Ball Square #1,Somerville,Ball Square,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9890,Gilman Square #9,Somerville,Gilman Square,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9989,Gilman Square #3,Somerville,Gilman Square,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10123,Ball Square #3,Somerville,Ball Square,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9628,East Somerville #6,Somerville,East Somerville,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9867,Gilman Square #10,Somerville,Gilman Square,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9872,Gilman Square #6,Somerville,Gilman Square,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10143,Ball Square #4,Somerville,Ball Square,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9976,Gilman Square #5,Somerville,Gilman Square,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9845,Sullivan Square #5,Somerville,Sullivan Square,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10031,Magoun Square #3,Somerville,Magoun Square,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10140,Ball Square #6,Somerville,Ball Square,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9887,Gilman Square #8,Somerville,Gilman Square,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10012,Assembly #4,Somerville,Assembly,True,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9995,Assembly #5,Somerville,Assembly,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9921,Porter #1,Cambridge,Porter,True,0.003035,0.003035,0.003035,0.03842,0.0001229997718493819
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9427,Union Square #5,Cambridge,Union Square,True,0.0,0.0,0.0,1e-05,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9397,Harvard #1,Cambridge,Harvard,True,0.09653,0.09653,0.09653,0.20299,0.000660348238053226
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9441,Harvard #2,Cambridge,Harvard,True,0.0,0.0,0.0,0.157845,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9965,Alewife #1,Cambridge,Alewife,True,0.000555,0.000555,0.000555,0.050515,5.2663648515840605e-05
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9206,Central #2,Cambridge,Central,True,4e-05,4e-05,4e-05,0.002475,1.4141852778189992e-05
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9289,Central #1,Cambridge,Central,True,0.000745,0.000745,0.000745,0.02492,6.101003913291648e-05
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9325,Harvard #3,Cambridge,Harvard,True,0.0,0.0,0.0,0.13869,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9179,Central #3,Cambridge,Central,False,0.0,0.0,0.0,1e-05,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9382,Union Square #20,Cambridge,Union Square,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9928,Alewife #2,Cambridge,Alewife,False,0.0,0.0,0.0,0.00672,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9768,Porter #3,Cambridge,Porter,True,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9208,Central #6,Cambridge,Central,False,0.0,0.0,0.0,1e-05,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9168,Central #4,Cambridge,Central,True,0.0,0.0,0.0,1e-05,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9975,Davis #4,Cambridge,Davis,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9278,Lechmere #3,Cambridge,Lechmere,False,0.0,0.0,0.0,5e-06,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9239,Central #7,Cambridge,Central,False,0.0,0.0,0.0,3e-05,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9449,Union Square #17,Cambridge,Union Square,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9298,Lechmere #2,Cambridge,Lechmere,True,0.00016,0.00016,0.00016,0.00238,2.8282008415245197e-05
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9895,Porter #6,Cambridge,Porter,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9237,Central #5,Cambridge,Central,True,0.0,0.0,0.0,0.00012,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9706,Porter #8,Cambridge,Porter,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9447,Harvard #4,Cambridge,Harvard,True,0.023115,0.023115,0.023115,0.10169,0.00033601113653419285
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9862,Porter #9,Cambridge,Porter,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9406,Union Square #13,Cambridge,Union Square,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10017,Davis #13,Cambridge,Davis,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10015,Davis #11,Cambridge,Davis,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10116,Davis #7,Cambridge,Davis,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9808,Porter #5,Cambridge,Porter,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9438,Union Square #16,Cambridge,Union Square,True,0.00048,0.00048,0.00048,0.00438,4.897803589365339e-05
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9919,Porter #7,Cambridge,Porter,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9957,Porter #10,Cambridge,Porter,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9704,Porter #11,Cambridge,Porter,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9784,Porter #12,Cambridge,Porter,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10060,Davis #16,Cambridge,Davis,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8547,Coolidge Corner #1,Brookline,Coolidge Corner,True,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8787,Harvard Avenue #1,Brookline,Harvard Avenue,True,0.0,0.0,0.0,0.033815,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8527,Brookline Village #2,Brookline,Brookline Village,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8650,Coolidge Corner #4,Brookline,Coolidge Corner,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8640,Coolidge Corner #3,Brookline,Coolidge Corner,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8568,Washington Square #1,Brookline,Washington Square,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8539,Tappan Street #1,Brookline,Tappan Street,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8466,Brookline Village #3,Brookline,Brookline Village,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8865,Amory Street #1,Brookline,Amory Street,True,0.0018,0.0018,0.0018,0.023205,9.47829098519348e-05
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8704,Saint Mary's Street #1,Brookline,Saint Mary's Street,True,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8452,Brookline Village #1,Brookline,Brookline Village,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8617,Coolidge Corner #2,Brookline,Coolidge Corner,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8624,Coolidge Corner #12,Brookline,Coolidge Corner,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8728,Harvard Avenue #2,Brookline,Harvard Avenue,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8902,Babcock Street #1,Brookline,Babcock Street,True,0.0,0.0,0.0,4.5e-05,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8708,Saint Mary's Street #2,Brookline,Saint Mary's Street,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8553,Washington Square #2,Brookline,Washington Square,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8487,Brookline Hills #4,Brookline,Brookline Hills,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8647,Coolidge Corner #8,Brookline,Coolidge Corner,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8593,Coolidge Corner #9,Brookline,Coolidge Corner,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8672,Summit Avenue #1,Brookline,Summit Avenue,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8399,Brookline Hills #2,Brookline,Brookline Hills,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8281,Chestnut Hill #2,Brookline,Chestnut Hill,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8476,Brookline Hills #1,Brookline,Brookline Hills,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8626,Coolidge Corner #5,Brookline,Coolidge Corner,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8685,Saint Mary's Street #3,Brookline,Saint Mary's Street,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8596,Summit Avenue #2,Brookline,Summit Avenue,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8657,Coolidge Corner #7,Brookline,Coolidge Corner,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8575,Washington Square #4,Brookline,Washington Square,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8383,Brookline Hills #3,Brookline,Brookline Hills,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8680,Summit Avenue #3,Brookline,Summit Avenue,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8649,Coolidge Corner #6,Brookline,Coolidge Corner,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8600,Coolidge Corner #11,Brookline,Coolidge Corner,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8486,Brookline Village #4,Brookline,Brookline Village,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8558,Washington Square #3,Brookline,Washington Square,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8419,Brookline Village #5,Brookline,Brookline Village,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8598,Summit Avenue #4,Brookline,Summit Avenue,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8611,Coolidge Corner #10,Brookline,Coolidge Corner,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8555,Tappan Street #2,Brookline,Tappan Street,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8878,Amory Street #2,Brookline,Amory Street,False,0.0,0.0,0.0,5e-06,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8411,Brookline Hills #5,Brookline,Brookline Hills,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8255,Chestnut Hill #3,Brookline,Chestnut Hill,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8274,Chestnut Hill #4,Brookline,Chestnut Hill,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10667,Malden Center #1,Malden,Malden Center,True,0.34254,0.34254,0.34254,0.66655,0.0010611464281615425
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10682,Malden Center #5,Malden,Malden Center,False,0.0,0.0,0.0,0.05573,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10616,Malden Center #2,Malden,Malden Center,True,0.020705,0.020705,0.020705,0.59098,0.00031840464015934193
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10664,Malden Center #3,Malden,Malden Center,False,0.0,0.0,0.0,0.101945,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10665,Malden Center #4,Malden,Malden Center,True,0.00259,0.00259,0.00259,0.255545,0.00011365060272607445
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10691,Malden Center #9,Malden,Malden Center,True,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10648,Malden Center #6,Malden,Malden Center,False,0.0,0.0,0.0,0.011455,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10687,Malden Center #7,Malden,Malden Center,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10779,Oak Grove #1,Malden,Oak Grove,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10771,Oak Grove #2,Malden,Oak Grove,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10710,Malden Center #10,Malden,Malden Center,True,0.001415,0.001415,0.001415,0.040055,8.405348817865919e-05
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10657,Malden Center #14,Malden,Malden Center,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10670,Malden Center #13,Malden,Malden Center,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10701,Malden Center #11,Malden,Malden Center,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10696,Malden Center #12,Malden,Malden Center,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10692,Malden Center #8,Malden,Malden Center,False,0.0,0.0,0.0,0.024275,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10676,Malden Center #15,Malden,Malden Center,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10618,Malden Center #16,Malden,Malden Center,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8128,Eliot #2,Newton,Eliot,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8427,Newton Centre #1,Newton,Newton Centre,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8298,Chestnut Hill #1,Newton,Chestnut Hill,True,0.0,0.0,0.0,5e-06,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8165,Eliot #1,Newton,Eliot,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8140,Eliot #5,Newton,Eliot,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8116,Eliot #6,Newton,Eliot,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8205,Newton Highlands #2,Newton,Newton Highlands,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8136,Eliot #3,Newton,Eliot,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8385,Newton Centre #2,Newton,Newton Centre,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8159,Newton Highlands #1,Newton,Newton Highlands,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8229,Newton Highlands #3,Newton,Newton Highlands,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8175,Eliot #8,Newton,Eliot,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8379,Newton Centre #4,Newton,Newton Centre,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8341,Waban #1,Newton,Waban,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8407,Newton Centre #5,Newton,Newton Centre,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8388,Newton Centre #7,Newton,Newton Centre,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8500,Newton Centre #10,Newton,Newton Centre,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8143,Newton Highlands #5,Newton,Newton Highlands,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8408,Newton Centre #9,Newton,Newton Centre,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8410,Newton Centre #6,Newton,Newton Centre,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8102,Eliot #4,Newton,Eliot,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8115,Eliot #7,Newton,Eliot,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8418,Newton Centre #8,Newton,Newton Centre,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8169,Eliot #9,Newton,Eliot,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8214,Newton Highlands #4,Newton,Newton Highlands,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8400,Newton Centre #3,Newton,Newton Centre,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8213,Newton Highlands #6,Newton,Newton Highlands,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8217,Newton Highlands #7,Newton,Newton Highlands,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8394,Newton Centre #11,Newton,Newton Centre,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10236,Wellington #1,Medford,Wellington,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10364,Medford/Tufts #1,Medford,Medford/Tufts,True,0.0,0.0,0.0,0.00091,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10200,Wellington #2,Medford,Wellington,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10366,Medford/Tufts #2,Medford,Medford/Tufts,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10230,Ball Square #5,Medford,Ball Square,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10211,Ball Square #2,Medford,Ball Square,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10231,Ball Square #7,Medford,Ball Square,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10316,Medford/Tufts #3,Medford,Medford/Tufts,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10369,Revere Beach #1,Revere,Revere Beach,True,0.130465,0.130465,0.130465,0.275195,0.0007531397074082603
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10358,Revere Beach #2,Revere,Revere Beach,True,0.0019,0.0019,0.0019,0.051905,9.73753048775715e-05
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10381,Wonderland #1,Revere,Wonderland,True,0.16712,0.16712,0.16712,0.329775,0.00083423889144537
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10326,Revere Beach #4,Revere,Revere Beach,False,0.0,0.0,0.0,0.00578,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10520,Wonderland #2,Revere,Wonderland,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10273,Revere Beach #3,Revere,Revere Beach,True,0.000125,0.000125,0.000125,0.02264,2.4998437451168822e-05
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10281,Revere Beach #5,Revere,Revere Beach,True,1.5e-05,1.5e-05,1.5e-05,0.012765,8.660189085695532e-06
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10262,Revere Beach #6,Revere,Revere Beach,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10285,Revere Beach #7,Revere,Revere Beach,False,0.0,0.0,0.0,0.002405,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,6730,Quincy Center #2,Quincy,Quincy Center,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,6771,Quincy Center #4,Quincy,Quincy Center,True,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,6760,Quincy Center #1,Quincy,Quincy Center,True,0.0,0.0,0.0,0.128675,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,6766,Quincy Center #8,Quincy,Quincy Center,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,6886,Quincy Center #12,Quincy,Quincy Center,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,6782,Quincy Center #3,Quincy,Quincy Center,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,7340,North Quincy #5,Quincy,North Quincy,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,7424,North Quincy #3,Quincy,North Quincy,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,7487,North Quincy #1,Quincy,North Quincy,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,7173,Wollaston #2,Quincy,Wollaston,True,0.01316,0.01316,0.01316,0.27442,0.0002548216474320814
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,7176,Wollaston #5,Quincy,Wollaston,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,7529,North Quincy #2,Quincy,North Quincy,True,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,6755,Quincy Center #9,Quincy,Quincy Center,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,7196,Wollaston #3,Quincy,Wollaston,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,6710,Quincy Center #10,Quincy,Quincy Center,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,6758,Quincy Center #6,Quincy,Quincy Center,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,6729,Quincy Center #7,Quincy,Quincy Center,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,7300,Wollaston #1,Quincy,Wollaston,True,0.056135,0.056135,0.056135,0.467165,0.0005147031269333808
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,6736,Quincy Center #5,Quincy,Quincy Center,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,7180,Wollaston #4,Quincy,Wollaston,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,7310,North Quincy #7,Quincy,North Quincy,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,7346,North Quincy #6,Quincy,North Quincy,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,6857,Quincy Center #11,Quincy,Quincy Center,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,6472,Quincy Adams #2,Quincy,Quincy Adams,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,7329,North Quincy #8,Quincy,North Quincy,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,7338,North Quincy #4,Quincy,North Quincy,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,6762,Quincy Center #13,Quincy,Quincy Center,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,7241,North Quincy #9,Quincy,North Quincy,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,6781,Quincy Center #14,Quincy,Quincy Center,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,7183,Wollaston #8,Quincy,Wollaston,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,7360,North Quincy #10,Quincy,North Quincy,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,7163,Wollaston #6,Quincy,Wollaston,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,6474,Quincy Adams #1,Quincy,Quincy Adams,True,0.00274,0.00274,0.00274,0.050205,0.0001168865347249203
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,7088,Wollaston #10,Quincy,Wollaston,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,6465,Quincy Adams #3,Quincy,Quincy Adams,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,7190,Wollaston #7,Quincy,Wollaston,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,7194,Wollaston #9,Quincy,Wollaston,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,5973,Braintree #1,Braintree,Braintree,True,0.12085,0.12085,0.12085,0.33788,0.000728852788634303
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,6019,Braintree #2,Braintree,Braintree,True,0.0,0.0,0.0,0.2366,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,5982,Braintree #5,Braintree,Braintree,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,5965,Braintree #4,Braintree,Braintree,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,5966,Braintree #3,Braintree,Braintree,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,5992,Braintree #7,Braintree,Braintree,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,5999,Braintree #6,Braintree,Braintree,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,5967,Braintree #8,Braintree,Braintree,False,0.0,0.0,0.0,0.0,0.0
+5ind_mixed,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,5991,Braintree #9,Braintree,Braintree,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9475,East Somerville #1,Somerville,East Somerville,True,0.00098,0.00098,0.00098,0.015225,6.996569159237976e-05
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9577,Union Square #1,Somerville,Union Square,True,0.01969,0.01969,0.01969,0.059545,0.00031066303207816665
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9967,Assembly #1,Somerville,Assembly,True,0.0145075,0.0,0.029015,0.14297,0.00026736709262500875
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9695,Union Square #2,Somerville,Union Square,False,0.0,0.0,0.0,0.001935,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9766,Porter #2,Somerville,Porter,True,0.0,0.0,0.0,0.01573,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9986,Gilman Square #1,Somerville,Gilman Square,True,0.0,0.0,0.0,5.5e-05,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9949,Assembly #3,Somerville,Assembly,False,0.0,0.0,0.0,0.05296,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9457,Lechmere #1,Somerville,Lechmere,True,0.00047,0.00047,0.00047,0.03344,4.846540518761811e-05
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9588,East Somerville #3,Somerville,East Somerville,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10038,Davis #1,Somerville,Davis,True,0.0,0.0,0.0,0.00063,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9679,Union Square #3,Somerville,Union Square,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9971,Assembly #2,Somerville,Assembly,True,0.0145075,0.0,0.0,0.14297,0.00026736709262500875
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9653,East Somerville #2,Somerville,East Somerville,True,0.0,0.0,0.0,0.00112,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9620,Union Square #4,Somerville,Union Square,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9660,Union Square #9,Somerville,Union Square,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9525,Union Square #6,Somerville,Union Square,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9471,Union Square #7,Somerville,Union Square,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10018,Davis #2,Somerville,Davis,True,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10040,Davis #5,Somerville,Davis,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9608,Union Square #10,Somerville,Union Square,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10034,Davis #3,Somerville,Davis,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9548,East Somerville #5,Somerville,East Somerville,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9591,Union Square #8,Somerville,Union Square,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10021,Davis #8,Somerville,Davis,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9817,Porter #4,Somerville,Porter,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9640,Union Square #11,Somerville,Union Square,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10054,Davis #10,Somerville,Davis,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9818,Sullivan Square #3,Somerville,Sullivan Square,True,0.001775,0.001775,0.001775,0.07713,9.412357236633127e-05
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9863,Sullivan Square #1,Somerville,Sullivan Square,True,0.0917,0.0917,0.0917,0.30181,0.0006453336733814531
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9643,Union Square #14,Somerville,Union Square,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9667,East Somerville #4,Somerville,East Somerville,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10006,Gilman Square #2,Somerville,Gilman Square,True,0.0,0.0,0.0,0.000105,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9905,Gilman Square #7,Somerville,Gilman Square,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10043,Davis #6,Somerville,Davis,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9810,Sullivan Square #2,Somerville,Sullivan Square,True,0.00685,0.00685,0.00685,0.106605,0.00018443260964373952
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9463,Union Square #15,Somerville,Union Square,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10118,Davis #12,Somerville,Davis,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9700,Union Square #19,Somerville,Union Square,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9696,Union Square #18,Somerville,Union Square,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10042,Davis #15,Somerville,Davis,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10046,Davis #9,Somerville,Davis,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9877,Gilman Square #4,Somerville,Gilman Square,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9639,Union Square #12,Somerville,Union Square,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10059,Magoun Square #1,Somerville,Magoun Square,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9850,Gilman Square #11,Somerville,Gilman Square,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10064,Magoun Square #2,Somerville,Magoun Square,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10065,Davis #14,Somerville,Davis,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9842,Sullivan Square #4,Somerville,Sullivan Square,False,0.0,0.0,0.0,0.00048,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10126,Ball Square #1,Somerville,Ball Square,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9890,Gilman Square #9,Somerville,Gilman Square,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9989,Gilman Square #3,Somerville,Gilman Square,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10123,Ball Square #3,Somerville,Ball Square,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9628,East Somerville #6,Somerville,East Somerville,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9867,Gilman Square #10,Somerville,Gilman Square,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9872,Gilman Square #6,Somerville,Gilman Square,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10143,Ball Square #4,Somerville,Ball Square,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9976,Gilman Square #5,Somerville,Gilman Square,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9845,Sullivan Square #5,Somerville,Sullivan Square,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10031,Magoun Square #3,Somerville,Magoun Square,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10140,Ball Square #6,Somerville,Ball Square,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9887,Gilman Square #8,Somerville,Gilman Square,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10012,Assembly #4,Somerville,Assembly,True,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9995,Assembly #5,Somerville,Assembly,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9921,Porter #1,Cambridge,Porter,True,0.024415,0.024415,0.024415,0.06913,0.00034510076626255117
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9427,Union Square #5,Cambridge,Union Square,True,9.5e-05,9.5e-05,9.5e-05,0.010105,2.1793459454616195e-05
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9397,Harvard #1,Cambridge,Harvard,True,0.11107,0.11107,0.11107,0.261235,0.0007026145995494259
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9441,Harvard #2,Cambridge,Harvard,True,0.0,0.0,0.0,0.17812,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9965,Alewife #1,Cambridge,Alewife,True,0.00015,0.00015,0.00015,0.01085,2.7384073838638397e-05
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9206,Central #2,Cambridge,Central,True,0.001665,0.001665,0.001665,0.04798,9.11654478133026e-05
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9289,Central #1,Cambridge,Central,True,0.110765,0.110765,0.110765,0.283335,0.0007017696017034366
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9325,Harvard #3,Cambridge,Harvard,True,0.0005,0.0005,0.0005,0.194225,4.9987498437109255e-05
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9179,Central #3,Cambridge,Central,False,0.0,0.0,0.0,0.00084,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9382,Union Square #20,Cambridge,Union Square,False,0.0,0.0,0.0,0.000125,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9928,Alewife #2,Cambridge,Alewife,False,0.0,0.0,0.0,0.00048,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9768,Porter #3,Cambridge,Porter,True,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9208,Central #6,Cambridge,Central,False,0.0,0.0,0.0,0.00016,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9168,Central #4,Cambridge,Central,True,0.0,0.0,0.0,0.00829,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9975,Davis #4,Cambridge,Davis,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9278,Lechmere #3,Cambridge,Lechmere,False,0.0,0.0,0.0,0.00162,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9239,Central #7,Cambridge,Central,False,0.0,0.0,0.0,0.001155,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9449,Union Square #17,Cambridge,Union Square,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9298,Lechmere #2,Cambridge,Lechmere,True,0.01983,0.01983,0.01983,0.15183,0.00031174325253323446
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9895,Porter #6,Cambridge,Porter,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9237,Central #5,Cambridge,Central,True,0.0,0.0,0.0,0.04054,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9706,Porter #8,Cambridge,Porter,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9447,Harvard #4,Cambridge,Harvard,True,0.091525,0.091525,0.091525,0.26516,0.0006447797080204991
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9862,Porter #9,Cambridge,Porter,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9406,Union Square #13,Cambridge,Union Square,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10017,Davis #13,Cambridge,Davis,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10015,Davis #11,Cambridge,Davis,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10116,Davis #7,Cambridge,Davis,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9808,Porter #5,Cambridge,Porter,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9438,Union Square #16,Cambridge,Union Square,True,0.01219,0.01219,0.01219,0.030275,0.00024537118718382566
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9919,Porter #7,Cambridge,Porter,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9957,Porter #10,Cambridge,Porter,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9704,Porter #11,Cambridge,Porter,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,9784,Porter #12,Cambridge,Porter,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10060,Davis #16,Cambridge,Davis,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8547,Coolidge Corner #1,Brookline,Coolidge Corner,True,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8787,Harvard Avenue #1,Brookline,Harvard Avenue,True,0.0,0.0,0.0,0.020285,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8527,Brookline Village #2,Brookline,Brookline Village,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8650,Coolidge Corner #4,Brookline,Coolidge Corner,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8640,Coolidge Corner #3,Brookline,Coolidge Corner,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8568,Washington Square #1,Brookline,Washington Square,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8539,Tappan Street #1,Brookline,Tappan Street,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8466,Brookline Village #3,Brookline,Brookline Village,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8865,Amory Street #1,Brookline,Amory Street,True,0.00475,0.00475,0.00475,0.02815,0.00015374390231810822
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8704,Saint Mary's Street #1,Brookline,Saint Mary's Street,True,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8452,Brookline Village #1,Brookline,Brookline Village,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8617,Coolidge Corner #2,Brookline,Coolidge Corner,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8624,Coolidge Corner #12,Brookline,Coolidge Corner,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8728,Harvard Avenue #2,Brookline,Harvard Avenue,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8902,Babcock Street #1,Brookline,Babcock Street,True,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8708,Saint Mary's Street #2,Brookline,Saint Mary's Street,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8553,Washington Square #2,Brookline,Washington Square,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8487,Brookline Hills #4,Brookline,Brookline Hills,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8647,Coolidge Corner #8,Brookline,Coolidge Corner,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8593,Coolidge Corner #9,Brookline,Coolidge Corner,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8672,Summit Avenue #1,Brookline,Summit Avenue,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8399,Brookline Hills #2,Brookline,Brookline Hills,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8281,Chestnut Hill #2,Brookline,Chestnut Hill,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8476,Brookline Hills #1,Brookline,Brookline Hills,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8626,Coolidge Corner #5,Brookline,Coolidge Corner,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8685,Saint Mary's Street #3,Brookline,Saint Mary's Street,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8596,Summit Avenue #2,Brookline,Summit Avenue,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8657,Coolidge Corner #7,Brookline,Coolidge Corner,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8575,Washington Square #4,Brookline,Washington Square,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8383,Brookline Hills #3,Brookline,Brookline Hills,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8680,Summit Avenue #3,Brookline,Summit Avenue,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8649,Coolidge Corner #6,Brookline,Coolidge Corner,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8600,Coolidge Corner #11,Brookline,Coolidge Corner,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8486,Brookline Village #4,Brookline,Brookline Village,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8558,Washington Square #3,Brookline,Washington Square,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8419,Brookline Village #5,Brookline,Brookline Village,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8598,Summit Avenue #4,Brookline,Summit Avenue,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8611,Coolidge Corner #10,Brookline,Coolidge Corner,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8555,Tappan Street #2,Brookline,Tappan Street,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8878,Amory Street #2,Brookline,Amory Street,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8411,Brookline Hills #5,Brookline,Brookline Hills,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8255,Chestnut Hill #3,Brookline,Chestnut Hill,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8274,Chestnut Hill #4,Brookline,Chestnut Hill,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10667,Malden Center #1,Malden,Malden Center,True,0.146265,0.146265,0.146265,0.44549,0.0007901631153597338
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10682,Malden Center #5,Malden,Malden Center,False,0.0,0.0,0.0,0.103565,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10616,Malden Center #2,Malden,Malden Center,True,0.11795,0.11795,0.11795,0.465845,0.0007212412824429839
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10664,Malden Center #3,Malden,Malden Center,False,0.0,0.0,0.0,0.118135,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10665,Malden Center #4,Malden,Malden Center,True,0.00951,0.00951,0.00951,0.326335,0.00021702027439849945
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10691,Malden Center #9,Malden,Malden Center,True,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10648,Malden Center #6,Malden,Malden Center,False,0.0,0.0,0.0,0.02723,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10687,Malden Center #7,Malden,Malden Center,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10779,Oak Grove #1,Malden,Oak Grove,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10771,Oak Grove #2,Malden,Oak Grove,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10710,Malden Center #10,Malden,Malden Center,True,0.01258,0.01258,0.01258,0.091325,0.00024921620733812634
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10657,Malden Center #14,Malden,Malden Center,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10670,Malden Center #13,Malden,Malden Center,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10701,Malden Center #11,Malden,Malden Center,False,0.0,0.0,0.0,0.003565,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10696,Malden Center #12,Malden,Malden Center,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10692,Malden Center #8,Malden,Malden Center,False,0.0,0.0,0.0,0.027965,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10676,Malden Center #15,Malden,Malden Center,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10618,Malden Center #16,Malden,Malden Center,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8128,Eliot #2,Newton,Eliot,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8427,Newton Centre #1,Newton,Newton Centre,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8298,Chestnut Hill #1,Newton,Chestnut Hill,True,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8165,Eliot #1,Newton,Eliot,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8140,Eliot #5,Newton,Eliot,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8116,Eliot #6,Newton,Eliot,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8205,Newton Highlands #2,Newton,Newton Highlands,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8136,Eliot #3,Newton,Eliot,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8385,Newton Centre #2,Newton,Newton Centre,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8159,Newton Highlands #1,Newton,Newton Highlands,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8229,Newton Highlands #3,Newton,Newton Highlands,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8175,Eliot #8,Newton,Eliot,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8379,Newton Centre #4,Newton,Newton Centre,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8341,Waban #1,Newton,Waban,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8407,Newton Centre #5,Newton,Newton Centre,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8388,Newton Centre #7,Newton,Newton Centre,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8500,Newton Centre #10,Newton,Newton Centre,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8143,Newton Highlands #5,Newton,Newton Highlands,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8408,Newton Centre #9,Newton,Newton Centre,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8410,Newton Centre #6,Newton,Newton Centre,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8102,Eliot #4,Newton,Eliot,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8115,Eliot #7,Newton,Eliot,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8418,Newton Centre #8,Newton,Newton Centre,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8169,Eliot #9,Newton,Eliot,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8214,Newton Highlands #4,Newton,Newton Highlands,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8400,Newton Centre #3,Newton,Newton Centre,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8213,Newton Highlands #6,Newton,Newton Highlands,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8217,Newton Highlands #7,Newton,Newton Highlands,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,8394,Newton Centre #11,Newton,Newton Centre,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10236,Wellington #1,Medford,Wellington,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10364,Medford/Tufts #1,Medford,Medford/Tufts,True,0.0,0.0,0.0,0.003995,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10200,Wellington #2,Medford,Wellington,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10366,Medford/Tufts #2,Medford,Medford/Tufts,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10230,Ball Square #5,Medford,Ball Square,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10211,Ball Square #2,Medford,Ball Square,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10231,Ball Square #7,Medford,Ball Square,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10316,Medford/Tufts #3,Medford,Medford/Tufts,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10369,Revere Beach #1,Revere,Revere Beach,True,0.110395,0.110395,0.110395,0.2111,0.0007007422635141968
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10358,Revere Beach #2,Revere,Revere Beach,True,0.001765,0.001765,0.001765,0.065975,9.385853117857748e-05
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10381,Wonderland #1,Revere,Wonderland,True,0.04988,0.04988,0.04988,0.17473,0.00048678529969587206
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10326,Revere Beach #4,Revere,Revere Beach,False,0.0,0.0,0.0,0.00418,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10520,Wonderland #2,Revere,Wonderland,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10273,Revere Beach #3,Revere,Revere Beach,True,0.0001,0.0001,0.0001,0.020385,2.23595617130569e-05
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10281,Revere Beach #5,Revere,Revere Beach,True,1e-05,1e-05,1e-05,0.008835,7.0710324564380276e-06
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10262,Revere Beach #6,Revere,Revere Beach,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,10285,Revere Beach #7,Revere,Revere Beach,False,0.0,0.0,0.0,0.001435,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,6730,Quincy Center #2,Quincy,Quincy Center,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,6771,Quincy Center #4,Quincy,Quincy Center,True,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,6760,Quincy Center #1,Quincy,Quincy Center,True,0.0,0.0,0.0,0.08389,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,6766,Quincy Center #8,Quincy,Quincy Center,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,6886,Quincy Center #12,Quincy,Quincy Center,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,6782,Quincy Center #3,Quincy,Quincy Center,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,7340,North Quincy #5,Quincy,North Quincy,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,7424,North Quincy #3,Quincy,North Quincy,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,7487,North Quincy #1,Quincy,North Quincy,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,7173,Wollaston #2,Quincy,Wollaston,True,0.00024,0.00024,0.00024,0.03478,3.463685897999413e-05
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,7176,Wollaston #5,Quincy,Wollaston,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,7529,North Quincy #2,Quincy,North Quincy,True,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,6755,Quincy Center #9,Quincy,Quincy Center,False,0.0,0.0,0.0,0.000425,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,7196,Wollaston #3,Quincy,Wollaston,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,6710,Quincy Center #10,Quincy,Quincy Center,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,6758,Quincy Center #6,Quincy,Quincy Center,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,6729,Quincy Center #7,Quincy,Quincy Center,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,7300,Wollaston #1,Quincy,Wollaston,True,0.013415,0.013415,0.013415,0.152365,0.00025724538649896133
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,6736,Quincy Center #5,Quincy,Quincy Center,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,7180,Wollaston #4,Quincy,Wollaston,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,7310,North Quincy #7,Quincy,North Quincy,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,7346,North Quincy #6,Quincy,North Quincy,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,6857,Quincy Center #11,Quincy,Quincy Center,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,6472,Quincy Adams #2,Quincy,Quincy Adams,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,7329,North Quincy #8,Quincy,North Quincy,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,7338,North Quincy #4,Quincy,North Quincy,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,6762,Quincy Center #13,Quincy,Quincy Center,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,7241,North Quincy #9,Quincy,North Quincy,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,6781,Quincy Center #14,Quincy,Quincy Center,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,7183,Wollaston #8,Quincy,Wollaston,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,7360,North Quincy #10,Quincy,North Quincy,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,7163,Wollaston #6,Quincy,Wollaston,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,6474,Quincy Adams #1,Quincy,Quincy Adams,True,5e-06,5e-06,5e-06,0.0002,4.999987499984375e-06
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,7088,Wollaston #10,Quincy,Wollaston,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,6465,Quincy Adams #3,Quincy,Quincy Adams,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,7190,Wollaston #7,Quincy,Wollaston,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,7194,Wollaston #9,Quincy,Wollaston,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,5973,Braintree #1,Braintree,Braintree,True,0.01045,0.01045,0.01045,0.06883,0.00022738510835144856
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,6019,Braintree #2,Braintree,Braintree,True,0.0,0.0,0.0,0.02795,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,5982,Braintree #5,Braintree,Braintree,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,5965,Braintree #4,Braintree,Braintree,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,5966,Braintree #3,Braintree,Braintree,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,5992,Braintree #7,Braintree,Braintree,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,5999,Braintree #6,Braintree,Braintree,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,5967,Braintree #8,Braintree,Braintree,False,0.0,0.0,0.0,0.0,0.0
+5ind_uniform,ppa buildar_ac daily peak_share jobs45tr,"(1,1,1,1,1)",7,200000,5991,Braintree #9,Braintree,Braintree,False,0.0,0.0,0.0,0.0,0.0

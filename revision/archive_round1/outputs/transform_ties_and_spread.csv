@@ -1,0 +1,11 @@
+reference,indicator,reference_set,distinct_raw,distinct_percentile,tied_pairs_raw,tied_pairs_created_by_transform,largest_tie_group,pct_min,pct_p10,pct_median,pct_p90,pct_max,pct_sd,max_gap_vs_midrank
+mixed,ppa,"MAPC records with ppa > 0 (n=2,973)",250,250,1,0,2,0.067,1.11,8.106,40.767,76.085,16.406,0.034
+mixed,buildar_ac,"all MAPC records (n=3,028)",108,108,427,0,12,0.0,4.723,32.86,73.745,97.688,25.956,0.991
+mixed,daily,the 251 candidate sites,39,39,1110,0,20,0.0,9.163,49.801,89.243,98.406,28.666,3.984
+mixed,peak_share,the 251 candidate sites,39,39,1110,0,20,2.789,11.155,50.996,90.837,100.0,28.781,3.984
+mixed,jobs45tr,"all MAPC records (n=3,028)",122,122,331,0,11,0.0,75.892,91.843,98.514,99.967,11.388,0.231
+uniform,ppa,the 251 candidate sites,250,250,1,0,2,0.398,10.359,50.199,90.04,100.0,28.924,0.398
+uniform,buildar_ac,the 251 candidate sites,108,108,427,0,12,0.0,5.578,49.801,89.641,99.602,29.46,2.39
+uniform,daily,the 251 candidate sites,39,39,1110,0,20,0.0,9.163,49.801,89.243,98.406,28.666,3.984
+uniform,peak_share,the 251 candidate sites,39,39,1110,0,20,2.789,11.155,50.996,90.837,100.0,28.781,3.984
+uniform,jobs45tr,the 251 candidate sites,122,122,331,0,11,0.0,9.96,49.004,89.641,99.602,29.088,2.191

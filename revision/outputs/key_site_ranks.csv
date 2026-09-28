@@ -1,0 +1,21 @@
+site_oid,sid,municipal,cost_indicator,in_main_set,peak_share,rank_M3_equal,rank_S0_equal,rank_S1_equal,rank_S2_equal,rank_S3_equal,rank_K3_equal,rank_X4_peak_high_equal,rank_E3_equal,rank_E3u_equal,rank_S0_developer,rank_S3_developer,rank_S3_city,rank_S3_transit,rank_S3_placemaking,split_share_M3,split_share_S0,split_share_S3,split_share_E3
+10667,Malden Center #1,Malden,reliable,True,0.4817,1,1,1,1,1,1,3,1,1,5,2,1,1,2,0.4164,0.3108,0.2679,0.1566
+10616,Malden Center #2,Malden,reliable,True,0.4817,1,2,2,2,1,1,3,1,1,6,1,2,1,4,0.3198,0.0265,0.2011,0.1199
+10665,Malden Center #4,Malden,reliable,True,0.4817,3,7,7,7,3,3,5,4,4,9,3,3,3,5,0.0902,0.0043,0.0424,0.0123
+6760,Quincy Center #1,Quincy,reliable,True,0.4712,7,6,6,6,5,5,22,14,13,10,8,5,9,3,0.0,0.0,0.0,0.0
+7300,Wollaston #1,Quincy,reliable,True,0.4757,8,4,4,4,10,10,20,12,12,4,5,6,22,11,0.0,0.0,0.0,0.0138
+9965,Alewife #1,Cambridge,reliable,True,0.5728,9,52,48,49,62,64,1,99,100,30,40,16,85,108,0.0231,0.0018,0.0006,0.0001
+5973,Braintree #1,Braintree,reliable,True,0.4755,13,3,3,3,11,11,24,33,33,1,4,7,28,8,0.1285,0.3341,0.0996,0.0112
+10381,Wonderland #1,Revere,reliable,True,0.4672,17,10,10,10,9,9,34,8,7,7,12,19,8,6,0.0029,0.1018,0.0634,0.057
+10369,Revere Beach #1,Revere,reliable,True,0.3831,21,9,9,9,7,6,53,10,10,12,13,10,12,1,0.0,0.144,0.261,0.1065
+9289,Central #1,Cambridge,reliable,True,0.4916,34,47,43,43,38,41,32,5,5,61,53,47,25,50,0.003,0.0,0.0001,0.1145
+9863,Sullivan Square #1,Somerville,reliable,True,0.4492,37,34,30,30,21,21,82,3,3,44,37,38,13,15,0.0,0.0,0.0,0.0872
+9921,Porter #1,Cambridge,reliable,True,0.517,55,44,40,40,77,82,36,38,39,48,105,37,78,79,0.0,0.0,0.0,0.0249
+9298,Lechmere #2,Cambridge,reliable,True,0.4549,74,64,59,60,50,53,143,13,14,74,61,64,64,36,0.0,0.0,0.0,0.0236
+9447,Harvard #4,Cambridge,reliable,True,0.456,79,48,44,44,57,59,152,16,16,97,93,119,15,49,0.0056,0.0138,0.0274,0.084
+9397,Harvard #1,Cambridge,reliable,True,0.456,88,26,23,23,64,68,159,21,21,70,153,61,18,32,0.0086,0.0592,0.0332,0.1139
+9967,Assembly #1,Somerville,unreliable,False,0.4618,,16,,,,39,,,,40,,,,,,0.0,,
+9971,Assembly #2,Somerville,unreliable,False,0.4618,,16,,,,39,,,,40,,,,,,0.0,,
+9949,Assembly #3,Somerville,unreliable,False,0.4618,,24,,,,48,,,,53,,,,,,0.0,,
+6766,Quincy Center #8,Quincy,unverifiable,False,0.4712,,30,,,,24,,,,25,,,,,,0.0,,
+6758,Quincy Center #6,Quincy,unverifiable,False,0.4712,,54,,,,64,,,,85,,,,,,0.0,,

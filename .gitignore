@@ -3,6 +3,13 @@ __pycache__/
 .venv/
 .DS_Store
 
-figures/
+/figures/
 
-outputs/
+/outputs/
+
+# The frozen e18a184 charts are regenerable by revision/reproduce_baseline.py;
+# its tables, manifest and printed output are tracked.
+revision/baseline_e18a184/figures/
+
+# External review bundle, built by tools/make_review_package.py
+/dist/

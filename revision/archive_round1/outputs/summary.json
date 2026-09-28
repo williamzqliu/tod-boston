@@ -1,0 +1,82 @@
+{
+  "screening": [
+    [
+      "MAPC sites, region-wide",
+      3028
+    ],
+    [
+      "in a Rapid Transit Community",
+      581
+    ],
+    [
+      "MAPC nearest station is rapid transit",
+      285
+    ],
+    [
+      "within 0.805 km straight-line of a rated station",
+      265
+    ],
+    [
+      "assessed land value and buildable area above zero",
+      257
+    ],
+    [
+      "excl_p < 50 and fz100_p < 50, each separately",
+      251
+    ]
+  ],
+  "frontier": {
+    "4": 22,
+    "5": 54,
+    "communities_4": 7,
+    "communities_5": 9
+  },
+  "first": {
+    "4ind_mixed_developer": "Braintree #1",
+    "4ind_mixed_city": "Malden Center #1",
+    "4ind_mixed_transit": "Malden Center #1",
+    "4ind_mixed_placemaking": "Revere Beach #1",
+    "4ind_mixed_equal": "Malden Center #1",
+    "5ind_mixed_equal": "Malden Center #1",
+    "4ind_uniform_developer": "Malden Center #2",
+    "4ind_uniform_city": "Malden Center #1",
+    "4ind_uniform_transit": "Malden Center #1 = Malden Center #2",
+    "4ind_uniform_placemaking": "Revere Beach #1",
+    "4ind_uniform_equal": "Malden Center #1 = Malden Center #2",
+    "5ind_uniform_equal": "Sullivan Square #1"
+  },
+  "weight_space": {
+    "4ind_mixed": {
+      "first": "Braintree #1",
+      "first_share": 0.3341,
+      "second": "Malden Center #1",
+      "second_share": 0.3108,
+      "sites_ever_first": 10,
+      "tied_draws": 0
+    },
+    "4ind_uniform": {
+      "first": "Revere Beach #1",
+      "first_share": 0.2697,
+      "second": "Malden Center #1",
+      "second_share": 0.2652,
+      "sites_ever_first": 14,
+      "tied_draws": 10
+    },
+    "5ind_mixed": {
+      "first": "Malden Center #1",
+      "first_share": 0.3425,
+      "second": "Wonderland #1",
+      "second_share": 0.1671,
+      "sites_ever_first": 29,
+      "tied_draws": 1986
+    },
+    "5ind_uniform": {
+      "first": "Malden Center #1",
+      "first_share": 0.1463,
+      "second": "Malden Center #2",
+      "second_share": 0.118,
+      "sites_ever_first": 32,
+      "tied_draws": 5803
+    }
+  }
+}

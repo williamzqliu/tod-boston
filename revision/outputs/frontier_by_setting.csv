@@ -1,0 +1,252 @@
+site_oid,sid,municipal,station,in_main_set,3ind_main,4ind_all251,4ind_main,5ind_all251,5ind_main,5ind_main_jobs_known
+9475,East Somerville #1,Somerville,East Somerville,True,False,False,False,True,True,True
+9577,Union Square #1,Somerville,Union Square,True,False,False,False,True,True,True
+9967,Assembly #1,Somerville,Assembly,False,,True,,True,,
+9695,Union Square #2,Somerville,Union Square,True,False,False,False,False,False,False
+9766,Porter #2,Somerville,Porter,True,False,False,False,True,True,True
+9986,Gilman Square #1,Somerville,Gilman Square,True,False,False,False,True,True,True
+9949,Assembly #3,Somerville,Assembly,False,,False,,False,,
+9457,Lechmere #1,Somerville,Lechmere,True,False,False,False,True,True,True
+9588,East Somerville #3,Somerville,East Somerville,True,False,False,False,False,False,False
+10038,Davis #1,Somerville,Davis,True,False,False,False,True,True,True
+9679,Union Square #3,Somerville,Union Square,True,False,False,False,False,False,False
+9971,Assembly #2,Somerville,Assembly,False,,True,,True,,
+9653,East Somerville #2,Somerville,East Somerville,True,False,False,False,True,True,True
+9620,Union Square #4,Somerville,Union Square,True,False,False,False,False,False,False
+9660,Union Square #9,Somerville,Union Square,True,False,False,False,False,False,False
+9525,Union Square #6,Somerville,Union Square,True,False,False,False,False,False,False
+9471,Union Square #7,Somerville,Union Square,True,False,False,False,False,False,False
+10018,Davis #2,Somerville,Davis,True,False,False,False,True,True,True
+10040,Davis #5,Somerville,Davis,True,False,False,False,False,False,False
+9608,Union Square #10,Somerville,Union Square,True,False,False,False,False,False,False
+10034,Davis #3,Somerville,Davis,True,False,False,False,False,False,False
+9548,East Somerville #5,Somerville,East Somerville,True,False,False,False,False,False,False
+9591,Union Square #8,Somerville,Union Square,True,False,False,False,False,False,False
+10021,Davis #8,Somerville,Davis,True,False,False,False,False,False,False
+9817,Porter #4,Somerville,Porter,True,False,False,False,False,False,False
+9640,Union Square #11,Somerville,Union Square,True,False,False,False,False,False,False
+10054,Davis #10,Somerville,Davis,True,False,False,False,False,False,False
+9818,Sullivan Square #3,Somerville,Sullivan Square,True,False,False,False,True,True,True
+9863,Sullivan Square #1,Somerville,Sullivan Square,True,False,True,True,True,True,True
+9643,Union Square #14,Somerville,Union Square,True,False,False,False,False,False,False
+9667,East Somerville #4,Somerville,East Somerville,True,False,False,False,False,False,False
+10006,Gilman Square #2,Somerville,Gilman Square,True,False,False,False,True,True,True
+9905,Gilman Square #7,Somerville,Gilman Square,True,False,False,False,False,False,False
+10043,Davis #6,Somerville,Davis,True,False,False,False,False,False,False
+9810,Sullivan Square #2,Somerville,Sullivan Square,True,False,False,False,True,True,True
+9463,Union Square #15,Somerville,Union Square,True,False,False,False,False,False,False
+10118,Davis #12,Somerville,Davis,True,False,False,False,False,False,False
+9700,Union Square #19,Somerville,Union Square,True,False,False,False,False,False,False
+9696,Union Square #18,Somerville,Union Square,True,False,False,False,False,False,False
+10042,Davis #15,Somerville,Davis,True,False,False,False,False,False,False
+10046,Davis #9,Somerville,Davis,True,False,False,False,False,False,False
+9877,Gilman Square #4,Somerville,Gilman Square,True,False,False,False,False,False,False
+9639,Union Square #12,Somerville,Union Square,True,False,False,False,False,False,False
+10059,Magoun Square #1,Somerville,Magoun Square,True,False,False,False,False,False,False
+9850,Gilman Square #11,Somerville,Gilman Square,True,False,False,False,False,False,False
+10064,Magoun Square #2,Somerville,Magoun Square,True,False,False,False,False,False,False
+10065,Davis #14,Somerville,Davis,True,False,False,False,False,False,False
+9842,Sullivan Square #4,Somerville,Sullivan Square,True,False,False,False,False,False,False
+10126,Ball Square #1,Somerville,Ball Square,True,False,False,False,False,False,False
+9890,Gilman Square #9,Somerville,Gilman Square,True,False,False,False,False,False,False
+9989,Gilman Square #3,Somerville,Gilman Square,True,False,False,False,False,False,False
+10123,Ball Square #3,Somerville,Ball Square,True,False,False,False,False,False,False
+9628,East Somerville #6,Somerville,East Somerville,True,False,False,False,False,False,False
+9867,Gilman Square #10,Somerville,Gilman Square,True,False,False,False,False,False,False
+9872,Gilman Square #6,Somerville,Gilman Square,True,False,False,False,False,False,False
+10143,Ball Square #4,Somerville,Ball Square,True,False,False,False,False,False,False
+9976,Gilman Square #5,Somerville,Gilman Square,True,False,False,False,False,False,False
+9845,Sullivan Square #5,Somerville,Sullivan Square,True,False,False,False,False,False,False
+10031,Magoun Square #3,Somerville,Magoun Square,True,False,False,False,False,False,False
+10140,Ball Square #6,Somerville,Ball Square,True,False,False,False,False,False,False
+9887,Gilman Square #8,Somerville,Gilman Square,True,False,False,False,False,False,False
+10012,Assembly #4,Somerville,Assembly,True,False,True,True,True,True,
+9995,Assembly #5,Somerville,Assembly,True,False,False,False,False,False,
+9921,Porter #1,Cambridge,Porter,True,False,False,False,True,True,True
+9427,Union Square #5,Cambridge,Union Square,True,False,False,False,True,True,True
+9397,Harvard #1,Cambridge,Harvard,True,True,True,True,True,True,True
+9441,Harvard #2,Cambridge,Harvard,True,True,True,True,True,True,True
+9965,Alewife #1,Cambridge,Alewife,True,True,True,True,True,True,True
+9206,Central #2,Cambridge,Central,True,False,False,False,True,True,True
+9289,Central #1,Cambridge,Central,True,True,True,True,True,True,True
+9325,Harvard #3,Cambridge,Harvard,True,True,True,True,True,True,True
+9179,Central #3,Cambridge,Central,True,False,False,False,False,False,False
+9382,Union Square #20,Cambridge,Union Square,True,False,False,False,False,False,False
+9928,Alewife #2,Cambridge,Alewife,True,False,False,False,False,False,False
+9768,Porter #3,Cambridge,Porter,True,False,False,False,True,True,True
+9208,Central #6,Cambridge,Central,True,False,False,False,False,False,False
+9168,Central #4,Cambridge,Central,True,False,False,False,True,True,True
+9975,Davis #4,Cambridge,Davis,True,False,False,False,False,False,False
+9278,Lechmere #3,Cambridge,Lechmere,True,False,False,False,False,False,False
+9239,Central #7,Cambridge,Central,True,False,False,False,False,False,False
+9449,Union Square #17,Cambridge,Union Square,True,False,False,False,False,False,False
+9298,Lechmere #2,Cambridge,Lechmere,True,False,False,False,True,True,True
+9895,Porter #6,Cambridge,Porter,True,False,False,False,False,False,False
+9237,Central #5,Cambridge,Central,True,False,False,False,True,True,True
+9706,Porter #8,Cambridge,Porter,True,False,False,False,False,False,False
+9447,Harvard #4,Cambridge,Harvard,True,True,True,True,True,True,True
+9862,Porter #9,Cambridge,Porter,True,False,False,False,False,False,False
+9406,Union Square #13,Cambridge,Union Square,True,False,False,False,False,False,False
+10017,Davis #13,Cambridge,Davis,True,False,False,False,False,False,False
+10015,Davis #11,Cambridge,Davis,True,False,False,False,False,False,False
+10116,Davis #7,Cambridge,Davis,True,False,False,False,False,False,False
+9808,Porter #5,Cambridge,Porter,True,False,False,False,False,False,False
+9438,Union Square #16,Cambridge,Union Square,True,False,False,False,True,True,True
+9919,Porter #7,Cambridge,Porter,True,False,False,False,False,False,False
+9957,Porter #10,Cambridge,Porter,True,False,False,False,False,False,False
+9704,Porter #11,Cambridge,Porter,True,False,False,False,False,False,False
+9784,Porter #12,Cambridge,Porter,True,False,False,False,False,False,False
+10060,Davis #16,Cambridge,Davis,True,False,False,False,False,False,False
+8547,Coolidge Corner #1,Brookline,Coolidge Corner,True,False,False,False,True,True,True
+8787,Harvard Avenue #1,Brookline,Harvard Avenue,True,False,False,False,True,True,True
+8527,Brookline Village #2,Brookline,Brookline Village,True,False,False,False,False,False,False
+8650,Coolidge Corner #4,Brookline,Coolidge Corner,True,False,False,False,False,False,False
+8640,Coolidge Corner #3,Brookline,Coolidge Corner,True,False,False,False,False,False,False
+8568,Washington Square #1,Brookline,Washington Square,True,False,False,False,False,False,False
+8539,Tappan Street #1,Brookline,Tappan Street,True,False,False,False,False,False,False
+8466,Brookline Village #3,Brookline,Brookline Village,True,False,False,False,False,False,False
+8865,Amory Street #1,Brookline,Amory Street,True,False,False,False,True,True,True
+8704,Saint Mary's Street #1,Brookline,Saint Mary's Street,True,False,False,False,True,True,True
+8452,Brookline Village #1,Brookline,Brookline Village,True,False,False,False,False,True,True
+8617,Coolidge Corner #2,Brookline,Coolidge Corner,True,False,False,False,False,True,True
+8624,Coolidge Corner #12,Brookline,Coolidge Corner,True,False,False,False,False,False,False
+8728,Harvard Avenue #2,Brookline,Harvard Avenue,True,False,False,False,False,False,False
+8902,Babcock Street #1,Brookline,Babcock Street,True,False,False,False,True,True,True
+8708,Saint Mary's Street #2,Brookline,Saint Mary's Street,True,False,False,False,False,False,False
+8553,Washington Square #2,Brookline,Washington Square,True,False,False,False,False,False,False
+8487,Brookline Hills #4,Brookline,Brookline Hills,True,False,False,False,False,False,False
+8647,Coolidge Corner #8,Brookline,Coolidge Corner,True,False,False,False,False,False,False
+8593,Coolidge Corner #9,Brookline,Coolidge Corner,True,False,False,False,False,False,False
+8672,Summit Avenue #1,Brookline,Summit Avenue,True,False,False,False,False,False,False
+8399,Brookline Hills #2,Brookline,Brookline Hills,True,False,False,False,False,False,False
+8281,Chestnut Hill #2,Brookline,Chestnut Hill,True,False,False,False,False,False,False
+8476,Brookline Hills #1,Brookline,Brookline Hills,True,False,False,False,False,False,False
+8626,Coolidge Corner #5,Brookline,Coolidge Corner,True,False,False,False,False,False,False
+8685,Saint Mary's Street #3,Brookline,Saint Mary's Street,True,False,False,False,False,False,False
+8596,Summit Avenue #2,Brookline,Summit Avenue,True,False,False,False,False,False,False
+8657,Coolidge Corner #7,Brookline,Coolidge Corner,True,False,False,False,False,False,False
+8575,Washington Square #4,Brookline,Washington Square,True,False,False,False,False,False,False
+8383,Brookline Hills #3,Brookline,Brookline Hills,True,False,False,False,False,False,False
+8680,Summit Avenue #3,Brookline,Summit Avenue,True,False,False,False,False,False,False
+8649,Coolidge Corner #6,Brookline,Coolidge Corner,True,False,False,False,False,False,False
+8600,Coolidge Corner #11,Brookline,Coolidge Corner,True,False,False,False,False,False,False
+8486,Brookline Village #4,Brookline,Brookline Village,True,False,False,False,False,False,False
+8558,Washington Square #3,Brookline,Washington Square,True,False,False,False,False,False,False
+8419,Brookline Village #5,Brookline,Brookline Village,True,False,False,False,False,False,False
+8598,Summit Avenue #4,Brookline,Summit Avenue,True,False,False,False,False,False,False
+8611,Coolidge Corner #10,Brookline,Coolidge Corner,True,False,False,False,False,False,False
+8555,Tappan Street #2,Brookline,Tappan Street,True,False,False,False,False,False,False
+8878,Amory Street #2,Brookline,Amory Street,True,False,False,False,False,False,False
+8411,Brookline Hills #5,Brookline,Brookline Hills,True,False,False,False,False,False,False
+8255,Chestnut Hill #3,Brookline,Chestnut Hill,True,False,False,False,False,False,False
+8274,Chestnut Hill #4,Brookline,Chestnut Hill,True,False,False,False,False,False,False
+10667,Malden Center #1,Malden,Malden Center,True,True,True,True,True,True,True
+10682,Malden Center #5,Malden,Malden Center,True,False,False,False,False,False,False
+10616,Malden Center #2,Malden,Malden Center,True,True,True,True,True,True,True
+10664,Malden Center #3,Malden,Malden Center,True,False,False,False,False,False,False
+10665,Malden Center #4,Malden,Malden Center,True,True,True,True,True,True,True
+10691,Malden Center #9,Malden,Malden Center,True,False,False,False,True,True,True
+10648,Malden Center #6,Malden,Malden Center,True,False,False,False,False,False,False
+10687,Malden Center #7,Malden,Malden Center,True,False,False,False,False,False,False
+10779,Oak Grove #1,Malden,Oak Grove,True,False,False,False,False,False,False
+10771,Oak Grove #2,Malden,Oak Grove,True,False,False,False,False,False,False
+10710,Malden Center #10,Malden,Malden Center,True,False,False,False,True,True,True
+10657,Malden Center #14,Malden,Malden Center,True,False,False,False,False,False,False
+10670,Malden Center #13,Malden,Malden Center,True,False,False,False,False,False,False
+10701,Malden Center #11,Malden,Malden Center,True,False,False,False,False,False,False
+10696,Malden Center #12,Malden,Malden Center,True,False,False,False,False,False,False
+10692,Malden Center #8,Malden,Malden Center,True,False,False,False,False,False,False
+10676,Malden Center #15,Malden,Malden Center,True,False,False,False,False,False,False
+10618,Malden Center #16,Malden,Malden Center,True,False,False,False,False,False,False
+8128,Eliot #2,Newton,Eliot,True,False,False,False,False,False,False
+8427,Newton Centre #1,Newton,Newton Centre,True,False,False,False,False,False,False
+8298,Chestnut Hill #1,Newton,Chestnut Hill,True,False,True,True,True,True,True
+8165,Eliot #1,Newton,Eliot,True,False,False,False,False,False,False
+8140,Eliot #5,Newton,Eliot,True,False,False,False,False,False,False
+8116,Eliot #6,Newton,Eliot,True,False,False,False,False,False,False
+8205,Newton Highlands #2,Newton,Newton Highlands,True,False,False,False,False,False,False
+8136,Eliot #3,Newton,Eliot,True,False,False,False,False,False,False
+8385,Newton Centre #2,Newton,Newton Centre,True,False,False,False,False,False,False
+8159,Newton Highlands #1,Newton,Newton Highlands,True,False,False,False,False,False,False
+8229,Newton Highlands #3,Newton,Newton Highlands,True,False,False,False,False,False,False
+8175,Eliot #8,Newton,Eliot,True,False,False,False,False,False,False
+8379,Newton Centre #4,Newton,Newton Centre,True,False,False,False,False,False,False
+8341,Waban #1,Newton,Waban,True,False,False,False,False,False,False
+8407,Newton Centre #5,Newton,Newton Centre,True,False,False,False,False,False,False
+8388,Newton Centre #7,Newton,Newton Centre,True,False,False,False,False,False,False
+8500,Newton Centre #10,Newton,Newton Centre,True,False,False,False,False,False,False
+8143,Newton Highlands #5,Newton,Newton Highlands,True,False,False,False,False,False,False
+8408,Newton Centre #9,Newton,Newton Centre,True,False,False,False,False,False,False
+8410,Newton Centre #6,Newton,Newton Centre,True,False,False,False,False,False,False
+8102,Eliot #4,Newton,Eliot,True,False,False,False,False,False,False
+8115,Eliot #7,Newton,Eliot,True,False,False,False,False,False,False
+8418,Newton Centre #8,Newton,Newton Centre,True,False,False,False,False,False,False
+8169,Eliot #9,Newton,Eliot,True,False,False,False,False,False,False
+8214,Newton Highlands #4,Newton,Newton Highlands,True,False,False,False,False,False,False
+8400,Newton Centre #3,Newton,Newton Centre,True,False,False,False,False,False,False
+8213,Newton Highlands #6,Newton,Newton Highlands,True,False,False,False,False,False,False
+8217,Newton Highlands #7,Newton,Newton Highlands,True,False,False,False,False,False,False
+8394,Newton Centre #11,Newton,Newton Centre,True,False,False,False,False,False,False
+10236,Wellington #1,Medford,Wellington,True,False,False,False,False,False,False
+10364,Medford/Tufts #1,Medford,Medford/Tufts,True,False,False,False,True,True,True
+10200,Wellington #2,Medford,Wellington,True,False,False,False,False,False,False
+10366,Medford/Tufts #2,Medford,Medford/Tufts,True,False,False,False,False,False,False
+10230,Ball Square #5,Medford,Ball Square,True,False,False,False,False,False,False
+10211,Ball Square #2,Medford,Ball Square,True,False,False,False,False,False,False
+10231,Ball Square #7,Medford,Ball Square,True,False,False,False,False,False,False
+10316,Medford/Tufts #3,Medford,Medford/Tufts,True,False,False,False,False,False,False
+10369,Revere Beach #1,Revere,Revere Beach,True,False,True,True,True,True,True
+10358,Revere Beach #2,Revere,Revere Beach,True,False,False,False,True,True,True
+10381,Wonderland #1,Revere,Wonderland,True,True,True,True,True,True,True
+10326,Revere Beach #4,Revere,Revere Beach,True,False,False,False,False,False,False
+10520,Wonderland #2,Revere,Wonderland,True,False,False,False,False,False,False
+10273,Revere Beach #3,Revere,Revere Beach,True,False,False,False,True,True,True
+10281,Revere Beach #5,Revere,Revere Beach,True,False,False,False,True,True,True
+10262,Revere Beach #6,Revere,Revere Beach,True,False,False,False,False,False,False
+10285,Revere Beach #7,Revere,Revere Beach,True,False,False,False,False,False,False
+6730,Quincy Center #2,Quincy,Quincy Center,True,False,False,False,False,False,False
+6771,Quincy Center #4,Quincy,Quincy Center,True,False,False,False,True,True,True
+6760,Quincy Center #1,Quincy,Quincy Center,True,False,True,True,True,True,True
+6766,Quincy Center #8,Quincy,Quincy Center,False,,False,,False,,
+6886,Quincy Center #12,Quincy,Quincy Center,True,False,False,False,False,False,False
+6782,Quincy Center #3,Quincy,Quincy Center,True,False,False,False,False,False,False
+7340,North Quincy #5,Quincy,North Quincy,True,False,False,False,False,False,False
+7424,North Quincy #3,Quincy,North Quincy,True,False,False,False,False,False,False
+7487,North Quincy #1,Quincy,North Quincy,True,False,False,False,False,False,False
+7173,Wollaston #2,Quincy,Wollaston,True,True,True,True,True,True,True
+7176,Wollaston #5,Quincy,Wollaston,True,False,False,False,False,False,False
+7529,North Quincy #2,Quincy,North Quincy,True,True,True,True,True,True,True
+6755,Quincy Center #9,Quincy,Quincy Center,True,False,False,False,False,False,False
+7196,Wollaston #3,Quincy,Wollaston,True,False,False,False,False,False,False
+6710,Quincy Center #10,Quincy,Quincy Center,True,False,False,False,False,False,False
+6758,Quincy Center #6,Quincy,Quincy Center,False,,False,,False,,
+6729,Quincy Center #7,Quincy,Quincy Center,True,False,False,False,False,False,False
+7300,Wollaston #1,Quincy,Wollaston,True,True,True,True,True,True,True
+6736,Quincy Center #5,Quincy,Quincy Center,True,False,False,False,False,False,False
+7180,Wollaston #4,Quincy,Wollaston,True,False,False,False,False,False,False
+7310,North Quincy #7,Quincy,North Quincy,True,False,False,False,False,False,False
+7346,North Quincy #6,Quincy,North Quincy,True,False,False,False,False,False,False
+6857,Quincy Center #11,Quincy,Quincy Center,True,False,False,False,False,False,False
+6472,Quincy Adams #2,Quincy,Quincy Adams,True,False,False,False,False,False,False
+7329,North Quincy #8,Quincy,North Quincy,True,False,False,False,False,False,False
+7338,North Quincy #4,Quincy,North Quincy,True,False,False,False,False,False,False
+6762,Quincy Center #13,Quincy,Quincy Center,True,False,False,False,False,False,False
+7241,North Quincy #9,Quincy,North Quincy,True,False,False,False,False,False,False
+6781,Quincy Center #14,Quincy,Quincy Center,True,False,False,False,False,False,False
+7183,Wollaston #8,Quincy,Wollaston,True,False,False,False,False,False,False
+7360,North Quincy #10,Quincy,North Quincy,True,False,False,False,False,False,False
+7163,Wollaston #6,Quincy,Wollaston,True,False,False,False,False,False,False
+6474,Quincy Adams #1,Quincy,Quincy Adams,True,True,True,True,True,True,True
+7088,Wollaston #10,Quincy,Wollaston,True,False,False,False,False,False,False
+6465,Quincy Adams #3,Quincy,Quincy Adams,True,False,False,False,False,False,False
+7190,Wollaston #7,Quincy,Wollaston,True,False,False,False,False,False,False
+7194,Wollaston #9,Quincy,Wollaston,True,False,False,False,False,False,False
+5973,Braintree #1,Braintree,Braintree,True,True,True,True,True,True,True
+6019,Braintree #2,Braintree,Braintree,True,False,False,False,True,True,True
+5982,Braintree #5,Braintree,Braintree,True,False,False,False,False,False,False
+5965,Braintree #4,Braintree,Braintree,True,False,False,False,False,False,False
+5966,Braintree #3,Braintree,Braintree,True,False,False,False,False,False,False
+5992,Braintree #7,Braintree,Braintree,True,False,False,False,False,False,False
+5999,Braintree #6,Braintree,Braintree,True,False,False,False,False,False,False
+5967,Braintree #8,Braintree,Braintree,True,False,False,False,False,False,False
+5991,Braintree #9,Braintree,Braintree,True,False,False,False,False,False,False

@@ -1,0 +1,31 @@
+setting,sid,site_oid,station,split_share_within_quincy,unique_win_share_within_quincy,split_share_among_all,quincy_total_share_among_all
+E3,Wollaston #1,7300,Wollaston,0.50054,0.50054,0.01377,0.01402
+E3,Quincy Center #1,6760,Quincy Center,0.448825,0.448825,0.0,0.01402
+E3,Wollaston #2,7173,Wollaston,0.018235,0.018235,0.000245,0.01402
+E3,Quincy Center #11,6857,Quincy Center,0.016125,0.016125,0.0,0.01402
+E3,North Quincy #1,7487,North Quincy,0.009675,0.009675,0.0,0.01402
+E3,North Quincy #3,7424,North Quincy,0.00492,0.00492,0.0,0.01402
+E3,Quincy Center #9,6755,Quincy Center,0.00147,0.00147,0.0,0.01402
+E3,North Quincy #2,7529,North Quincy,0.0002,0.0002,0.0,0.01402
+E3,Quincy Adams #1,6474,Quincy Adams,1e-05,1e-05,5e-06,0.01402
+E3u,Wollaston #1,7300,Wollaston,0.50054,0.50054,0.014465,0.01472
+E3u,Quincy Center #1,6760,Quincy Center,0.448825,0.448825,0.0,0.01472
+E3u,Wollaston #2,7173,Wollaston,0.018235,0.018235,0.00025,0.01472
+E3u,Quincy Center #11,6857,Quincy Center,0.016125,0.016125,0.0,0.01472
+E3u,North Quincy #1,7487,North Quincy,0.009675,0.009675,0.0,0.01472
+E3u,North Quincy #3,7424,North Quincy,0.00492,0.00492,0.0,0.01472
+E3u,Quincy Center #9,6755,Quincy Center,0.00147,0.00147,0.0,0.01472
+E3u,North Quincy #2,7529,North Quincy,0.0002,0.0002,0.0,0.01472
+E3u,Quincy Adams #1,6474,Quincy Adams,1e-05,1e-05,5e-06,0.01472
+S0,Quincy Center #1,6760,Quincy Center,0.39943,0.39943,0.0,0.00372
+S0,Wollaston #1,7300,Wollaston,0.318215,0.318215,0.0,0.00372
+S0,Wollaston #2,7173,Wollaston,0.254725,0.254725,0.0,0.00372
+S0,Quincy Adams #1,6474,Quincy Adams,0.02257,0.02257,0.00372,0.00372
+S0,Quincy Center #9,6755,Quincy Center,0.00495,0.00495,0.0,0.00372
+S0,North Quincy #2,7529,North Quincy,0.00011,0.00011,0.0,0.00372
+S3,Quincy Center #1,6760,Quincy Center,0.721885,0.721885,0.0,4.5e-05
+S3,Wollaston #1,7300,Wollaston,0.18585,0.18585,0.0,4.5e-05
+S3,Wollaston #2,7173,Wollaston,0.068775,0.068775,0.0,4.5e-05
+S3,Quincy Center #9,6755,Quincy Center,0.021745,0.021745,0.0,4.5e-05
+S3,North Quincy #2,7529,North Quincy,0.001545,0.001545,0.0,4.5e-05
+S3,Quincy Adams #1,6474,Quincy Adams,0.0002,0.0002,4.5e-05,4.5e-05

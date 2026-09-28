@@ -1,0 +1,49 @@
+check,result,detail,status
+re-implementation reproduces frozen e18a184 sites_scored_2026.csv,yes,"251 site names, coordinates, all indicators, frontier flags and all five scenario scores match to 1e-9",ok
+buildable-area ties inside a station (numbering then depends on sort order),31 sites,Assembly #1 = site_oid 9967; Assembly #2 = site_oid 9971; Ball Square #4 = site_oid 10143; Ball Square #5 = site_oid 10230; Ball Square #6 = site_oid 10140; Ball Square #7 = site_oid 10231; Davis #12 = site_oid 10118; Davis #13 = site_oid 10017; Davis #14 = site_oid 10065; Davis #6 = site_oid 10043; Davis #7 = site_oid 10116; Gilman Square #10 = site_oid 9867; Gilman Square #9 = site_oid 9890; North Quincy #8 = site_oid 7329; North Quincy #9 = site_oid 7241; Porter #10 = site_oid 9957; Porter #11 = site_oid 9704; Porter #12 = site_oid 9784; Porter #8 = site_oid 9706; Porter #9 = site_oid 9862; Quincy Center #8 = site_oid 6766; Quincy Center #9 = site_oid 6755; Revere Beach #6 = site_oid 10262; Revere Beach #7 = site_oid 10285; Union Square #12 = site_oid 9639; Union Square #13 = site_oid 9406; Union Square #14 = site_oid 9643; Union Square #15 = site_oid 9463; Union Square #16 = site_oid 9438; Union Square #17 = site_oid 9449; Union Square #18 = site_oid 9696. Names are frozen from the baseline and every table carries site_oid.,note
+baseline scenario top fives reproduced,yes,"all five scenarios, same sites in the same order",ok
+frontier: baseline loop agrees with an independent pairwise dominance matrix,yes,4 ind: 22 sites; 5 ind: 54 sites,ok
+four-indicator frontier is contained in the five-indicator frontier,yes,guaranteed unless two sites tie on all four and differ on jobs45tr,ok
+"frontier recomputed on mixed-reference percentiles, 4 indicators",22 sites (raw: 22),identical membership,ok
+"frontier recomputed on mixed-reference percentiles, 5 indicators",54 sites (raw: 54),identical membership,ok
+"frontier recomputed on uniform-reference percentiles, 4 indicators",22 sites (raw: 22),identical membership,ok
+"frontier recomputed on uniform-reference percentiles, 5 indicators",54 sites (raw: 54),identical membership,ok
+candidates with identical values on all four indicators,2 sites,"['Assembly #1', 'Assembly #2']",note
+"baseline Dirichlet(1,1,1,1), seed 7, 200,000 draws reproduced",yes,"7 printed shares match; 10 sites rank first at least once, 7 above 0.5% (the baseline chart shows only these)",ok
+baseline first-place shares equal the tie-aware shares over all 251 sites,yes,tied draws: 0; restricting to the frontier loses nothing because a dominated site can at best tie its dominator,ok
+missing or infinite values: ppa,0 of 251,,ok
+missing or infinite values: buildar_ac,0 of 251,,ok
+missing or infinite values: daily,0 of 251,,ok
+missing or infinite values: peak_share,0 of 251,,ok
+missing or infinite values: jobs45tr,0 of 251,,ok
+missing or infinite values: excl_p,0 of 251,,ok
+missing or infinite values: fz100_p,0 of 251,,ok
+missing or infinite values: station_km,0 of 251,,ok
+"site_oid unique (region, candidates)","True, True",,ok
+display name and map code unique,"True, True",,ok
+MAPC records with nparcels = 0,"13 region, 4 candidates","every one lists a single parcel id without brackets and an empty address; Assembly #1 (9967), Assembly #2 (9971), Quincy Center #8 (6766), Braintree #7 (5992)",unknown
+candidate records whose parcel id also appears in another MAPC site,5 candidates,"Assembly #1 (9967) with [9949, 9971]; Assembly #3 (9949) with [9967, 9971]; Assembly #2 (9971) with [9949, 9967]; Quincy Center #8 (6766) with [6758]; Quincy Center #6 (6758) with [6766]",check
+"candidate records identical to another on parcel id, land, building, area and job access",2 candidates,Assembly #1 (9967) = Assembly #2 (9971),check
+jobs45tr = 0,"2 region, 2 candidates","Assembly #4, Assembly #5; neighbours at the same station carry ~700,000",check
+MAPC landv_pac granularity,max 3 distinct values per municipality,"a municipal-level figure despite its dictionary entry; not used, ppa is computed per site",note
+"candidate stations with weekday, Saturday and Sunday rows",39 of 39,,ok
+"daily vs weekend correlation, site level, 251 sites","Pearson 0.980, Spearman 0.981",site-level figures repeat each station once per site,note
+"daily vs weekend correlation, station level, 39 candidate stations","Pearson 0.981, Spearman 0.966",,note
+"daily vs weekend correlation, station level, all 118 rated stations","Pearson 0.973, Spearman 0.979",,note
+"buildar_ac vs estcapmix correlation, site level",Pearson 0.942,,ok
+sites per candidate station,"39 stations; median 5, max 20 (Union Square)","daily and peak_share are identical within a station, so sites at one station compete on land, area and job access alone, and site-level correlations weight busy multi-site stations more",note
+strongest Pearson correlation of jobs45tr with the other candidate indicators,0.38 (ppa),,ok
+Spearman of jobs45tr with the four-indicator equal-weight score,-0.054,,ok
+winner of 4ind_uniform_transit,2 tied at the top; on frontier: True,,check
+winner of 4ind_uniform_equal,2 tied at the top; on frontier: True,,check
+every weighted-sum winner lies on the frontier,"yes, by construction","percentiles are monotone in the raw values, so a dominated site scores at most what its dominator scores under any positive weights; the baseline presented this as a check, but it cannot fail except by a tie",note
+"baseline ""Quincy Center wins N scenarios"" count",0 printed; corrected test also 0,"the baseline tested labels for the prefix ""Quincy / Quincy Center"", which no label has, so it could only print 0",note
+"Riverside, Fall 2025 weekday flow as % of Fall 2019; change since Fall 2023","236%; -1,251","weekday boardings + alightings, not riders; Riverside is not a candidate station",ok
+"""absolute growth correlates 0.87 with ridership itself""",not reproduced as stated,"29 candidate stations with Fall 2019 data: change 2023-25 vs Fall 2025 flow Pearson 0.85, Spearman 0.72; change 2019-25 vs Fall 2025 Pearson -0.79",check
+"median Fall 2023 to Fall 2025 weekday flow change, candidate stations",+12.3%,over the 29 of 39 candidate stations with Fall 2019 data (the GLX stations opened in 2022),note
+"Somerville sites MAPC labels ""Washington Street"": distance to that GTFS stop","7 sites, 5.6-6.2 km",,ok
+sites dropped by the 0.805 km straight-line cut,20 of 285,"13 between 0.805 and 1 km; Medford 5, Milton 2 beyond 1 km (Medford: MAPC ""Route 16""; Milton: Mattapan-line stops have no Fall 2025 rating). The baseline comment said seven.",check
+"equirectangular vs haversine straight-line distance, candidates",max difference 0.9 m,the approximation is not the issue; the absence of a network is,ok
+"Saturday 3 Feb 2024 median headway, minutes: trunk vs branch",Blue trunk 10.3; Green-B trunk 7.5 branch 9.3; Green-C trunk 7.5 branch 9.7; Green-D trunk 6.7 branch 10.4; Green-E trunk 7.9 branch 10.3; Mattapan trunk 12.4; Orange trunk 10.4; Red trunk 11.0 branch 19.8,"the baseline chart plots trunk headway, which on the Green Line pools four branches",check
+Saturday 3 Feb 2024 median seconds between stops by line,Blue 71; Green 72; Mattapan 54; Orange 78; Red 128,"Blue is shorter than Green; hop time reflects stop spacing, not speed",check
+"Spearman of MAPC ovscr with land value per acre, candidates",+0.29,README quotes 0.44; the script prints 0.29,check

@@ -1,0 +1,13 @@
+setting,first_baseline_rule,first_midrank_rule,top10_overlap,spearman,max_abs_rank_shift
+4ind_mixed_developer,Braintree #1,Braintree #1,10,0.9999,3
+4ind_mixed_city,Malden Center #1,Malden Center #1,10,0.9999,5
+4ind_mixed_transit,Malden Center #1,Malden Center #1,10,0.9999,4
+4ind_mixed_placemaking,Revere Beach #1,Revere Beach #1,10,0.9999,4
+4ind_mixed_equal,Malden Center #1,Malden Center #1,10,1.0,2
+5ind_mixed_equal,Malden Center #1,Malden Center #1,10,1.0,3
+4ind_uniform_developer,Malden Center #2,Malden Center #2,10,0.9999,4
+4ind_uniform_city,Malden Center #1,Malden Center #1,10,0.9998,6
+4ind_uniform_transit,Malden Center #1 = Malden Center #2,Malden Center #1 = Malden Center #2,10,0.9999,4
+4ind_uniform_placemaking,Revere Beach #1,Revere Beach #1,10,0.9999,4
+4ind_uniform_equal,Malden Center #1 = Malden Center #2,Malden Center #1 = Malden Center #2,10,0.9999,3
+5ind_uniform_equal,Sullivan Square #1,Malden Center #1 = Malden Center #2,10,0.9999,5

@@ -1,0 +1,60 @@
+{
+  "commit": "e18a1841e4fbba4d4a0342a8f5e44b202ecd3c3d",
+  "script": "build_2026.py",
+  "script_sha256": "a4691e04460d42856aa07890a07c69f621fb710f4f4fe53e5c4d745f05eedd27",
+  "command": "python build_2026.py  (MPLBACKEND=Agg, in a clean git archive of the commit)",
+  "seeds": {
+    "dirichlet": 7,
+    "kmeans_random_state": 7
+  },
+  "environment": {
+    "python": "3.13.7",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "numpy": "2.3.2",
+    "pandas": "2.3.1",
+    "matplotlib": "3.10.6",
+    "sklearn": "1.8.0",
+    "pyarrow": "25.0.1"
+  },
+  "data_sha256": {
+    "2024-02-03-subway-on-time-performance-v1.parquet": "ff7c779634166d9375003324627964fb787f3af9d09e7d9a7d6ce4c7c7ac3c43",
+    "Fall_2023_MBTA_Rail_Ridership_Data.csv": "647d48f49fc735657d50336b353459b6aa465ed7abf5796e040c6dc17b506ebc",
+    "Fall_2024_MBTA_Rail_Ridership_by_SDP_Time_Period_Route_Line_and_Stop.csv": "ec62b3cde02fc09b8d66ee307e4a96d9030233c9dcc0a1597cae921e9c2aacb8",
+    "Fall_2025_MBTA_Rail_Ridership_by_Hour_RouteLine_and_Stop.csv": "fbec1801bed54086da1bf1894f4e6ed699aea772a16a75e3a4c5fc05cc00f972",
+    "MBTA Communities.csv": "a34156bb0b3fdb9ee96056d7387e64c24f9242aaef2c1a30bef9df36932527e1",
+    "Rail_Ridership_by_Season_Time_Period_RouteLine_and_Stop.csv": "e70124a28ba02ac903b7ef1f44fe0d3daf607996b6dcd82c8d9bebe46ac74c0f",
+    "Rethinking the Retail Strip Sites-metadata.csv": "c6ab52c5fefab6fe7977511c000815e2b9da481c0fe2b5ab4047a48267dca204",
+    "assess_community.csv": "8f79870ef84f49c02b3d22f796d3e242bee2361a5b0c77d811787f607992ee47",
+    "boston_subway_stations_info.csv": "79cdae971e7c2631dfae60325e3f7ab584da4508066ee6335f0ee0722efe1f2c",
+    "mapc.rethinking_retail_sites.csv": "a562dbe33a4f94728f2f4e3f22977bbf8cfaa3d4ad85bec59e310eb2ad035f46",
+    "mbta_rapid_transit_shapes.csv": "41b5f421fdf1ddcb17135f2ac53e5c12f8a174a74da39cd4404f906c0e83dbc6",
+    "rtc_2020_census.csv": "15844cb663be7fe54875e928869d24e2f12df07f085950de87e252a6b4f55fa8",
+    "zip_code_ma.csv": "60f60fe1292a67438a4428a4b531bcdb7c866abf3b7f557f3f147fae71db84b9",
+    "zoning_atlas.csv": "d39be3ba5aee161b21a2b4d06bf0962c182d12c8b556b8a811338eb595b1f9da"
+  },
+  "outputs_sha256": {
+    "map.json": "a124f44bdf9086f5f51d1af44012704bfddee7846737b2c9732022e00a3483b7",
+    "ridership_panel_2017_2025.csv": "b276b0c6253c6e618565bbc05e297e6584664d544f03fcbefc99b581f80c07c1",
+    "scenario_top5.csv": "5dee4a65db33bf365f652ca43b78f3a014f927755cb345f2ed0188de7f642ba7",
+    "sites_scored_2026.csv": "ae96e3ffc4ebac666031ecfa73d2cc6171df3f0bb7dcb210bd0307ddf0e9edf9"
+  },
+  "figures_sha256": {
+    "00-cover.png": "869c1f2f42dd31f51eb030f5ffa8ebec637fe887887d2386ecd3578794363b51",
+    "01-eligibility.png": "83218f452263a42e8400ee283ada1bcecc1a18a7be7f70b5f58bf271cac91181",
+    "02-screening.png": "3871015d90c5a85935e87277fb5c0f4733ea1a96831fc39cb12105108ede54ab",
+    "03-distributions.png": "36ca5d44ed20431a5aac5d7a663c7b0ab595f91dc6df73b7e791ab48de470d5e",
+    "04-correlation.png": "64813ee8810acc6453635389b52c933c41149cb867fb47267247e9c54fffa728",
+    "05-by-line.png": "02bee9616ed4e65c05428a14b36e6bc88e9a9f32a94458d6d35a28755fd83036",
+    "06-trend.png": "9f4c3f20d8f827156ff1761011d727f55f412ebae40a9020683193b39a599829",
+    "07-pareto.png": "d3e439fc30e12a12a512263d3637ed7a3748bc80053e94cb94e9d133d53b7c45",
+    "08-typology.png": "c65900f2ae5452ed6fc0016911efaff60368ed39a84f09dd90f9717393ae9fdb",
+    "09-scenarios.png": "61e3cce7dd5bd2328c4061753a373d5057ceb17cb5d222e4a9414f29d683a14e",
+    "10-weight-space.png": "ba20fa56be4a6036d8bf6d9a8afd4c549413dba3eb409f381607ed4c4c84fa5d",
+    "11-baselines.png": "402a7aee386f131f5df05a42681464cb15b2e26f10a6ad15e83f3cef2948b0ae",
+    "12-validation.png": "4743bc5d3c8514d49599c0b1568466d9cf326771292e58a9a725f265791cff7d",
+    "13-cost-vs-capacity.png": "094d42b0bfb48ed367632b6705eb798821c85028327f8ae40671f1e281dde44c",
+    "14-then-and-now.png": "ab55eda954b94f9ad986d37cf6fb1a05fe7befa4fb26fad23ab1dfaa340ed67a",
+    "15-two-methods.png": "313ef8a6d091cb681e8e9ed044948f830a815784599f3dc103a788cb55f897da",
+    "16-map.png": "d125569369e69b006344aa917d0d351cb002f8e2b8a8953e405f713a337c2a5b"
+  }
+}

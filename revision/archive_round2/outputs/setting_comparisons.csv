@@ -1,0 +1,42 @@
+change,setting_a,setting_b,first_a,first_b,same_first,n_common,top10_overlap,top10_only_a,top10_only_b,spearman,kendall_tau_b,max_abs_rank_shift,median_abs_rank_shift
+record handling | Developer (cost first),S0_developer,S1_developer,Braintree #1,Braintree #1,True,246,10,,,1.0,1.0,5,5.0
+"tie rule, mixed reference | Developer (cost first)",S1_developer,S2_developer,Braintree #1,Braintree #1,True,246,10,,,0.9999,0.9966,3,0.0
+"tie rule, candidate-set reference | Developer (cost first)",S2u_developer,S3_developer,Malden Center #2,Malden Center #2,True,246,10,,,0.9999,0.9946,4,0.0
+"reference, strict ties | Developer (cost first)",S1_developer,S2u_developer,Braintree #1,Malden Center #2,False,246,8,Wonderland #1; Quincy Adams #1,Malden Center #5; Malden Center #3,0.9103,0.7566,86,15.0
+"reference, midrank ties | Developer (cost first)",S2_developer,S3_developer,Braintree #1,Malden Center #2,False,246,8,Wonderland #1; Quincy Adams #1,Malden Center #5; Malden Center #3,0.909,0.7559,87,15.0
+"keep vs exclude flagged records, main rules | Developer (cost first)",K3_developer,S3_developer,Malden Center #2,Malden Center #2,True,246,10,,,0.9999,0.9934,9,4.0
+all changes together | Developer (cost first),S0_developer,S3_developer,Braintree #1,Malden Center #2,False,246,8,Wonderland #1; Quincy Adams #1,Malden Center #5; Malden Center #3,0.9094,0.7558,83,17.5
+record handling | City (housing first),S0_city,S1_city,Malden Center #1,Malden Center #1,True,246,10,,,1.0,1.0,5,5.0
+"tie rule, mixed reference | City (housing first)",S1_city,S2_city,Malden Center #1,Malden Center #1,True,246,10,,,0.9999,0.9933,5,0.0
+"tie rule, candidate-set reference | City (housing first)",S2u_city,S3_city,Malden Center #1,Malden Center #1,True,246,10,,,0.9998,0.9924,6,1.0
+"reference, strict ties | City (housing first)",S1_city,S2u_city,Malden Center #1,Malden Center #1,True,246,9,Wollaston #2,Malden Center #5,0.9792,0.8776,43,9.0
+"reference, midrank ties | City (housing first)",S2_city,S3_city,Malden Center #1,Malden Center #1,True,246,9,Wollaston #2,Malden Center #5,0.9791,0.8767,43,9.0
+"keep vs exclude flagged records, main rules | City (housing first)",K3_city,S3_city,Malden Center #1,Malden Center #1,True,246,10,,,0.9999,0.9947,10,5.0
+all changes together | City (housing first),S0_city,S3_city,Malden Center #1,Malden Center #1,True,246,9,Wollaston #2,Malden Center #5,0.9797,0.8786,46,11.0
+record handling | Transit agency (ridership first),S0_transit,S1_transit,Malden Center #1,Malden Center #1,True,246,10,,,1.0,1.0,5,5.0
+"tie rule, mixed reference | Transit agency (ridership first)",S1_transit,S2_transit,Malden Center #1,Malden Center #1,True,246,10,,,0.9999,0.9963,4,0.0
+"tie rule, candidate-set reference | Transit agency (ridership first)",S2u_transit,S3_transit,Malden Center #1 = Malden Center #2,Malden Center #1 = Malden Center #2,True,246,10,,,0.9999,0.9951,4,0.0
+"reference, strict ties | Transit agency (ridership first)",S1_transit,S2u_transit,Malden Center #1,Malden Center #1 = Malden Center #2,False,246,7,Harvard #1; Harvard #2; Harvard #3,Malden Center #8; Quincy Center #1; Malden Center #7,0.9914,0.9216,29,6.0
+"reference, midrank ties | Transit agency (ridership first)",S2_transit,S3_transit,Malden Center #1,Malden Center #1 = Malden Center #2,False,246,7,Harvard #1; Harvard #2; Harvard #3,Malden Center #8; Quincy Center #1; Malden Center #7,0.9914,0.9216,30,7.0
+"keep vs exclude flagged records, main rules | Transit agency (ridership first)",K3_transit,S3_transit,Malden Center #1 = Malden Center #2,Malden Center #1 = Malden Center #2,True,246,10,,,0.9998,0.9918,9,5.0
+all changes together | Transit agency (ridership first),S0_transit,S3_transit,Malden Center #1,Malden Center #1 = Malden Center #2,False,246,7,Harvard #1; Harvard #2; Harvard #3,Malden Center #8; Quincy Center #1; Malden Center #7,0.9913,0.9214,26,7.0
+record handling | Place-making (all-day use first),S0_placemaking,S1_placemaking,Revere Beach #1,Revere Beach #1,True,246,10,,,1.0,1.0,5,5.0
+"tie rule, mixed reference | Place-making (all-day use first)",S1_placemaking,S2_placemaking,Revere Beach #1,Revere Beach #1,True,246,10,,,0.9999,0.9937,4,1.0
+"tie rule, candidate-set reference | Place-making (all-day use first)",S2u_placemaking,S3_placemaking,Revere Beach #1,Revere Beach #1,True,246,10,,,0.9999,0.9929,6,1.0
+"reference, strict ties | Place-making (all-day use first)",S1_placemaking,S2u_placemaking,Revere Beach #1,Revere Beach #1,True,246,8,Wollaston #1; Wollaston #2,Malden Center #3; Malden Center #5,0.989,0.9107,27,7.0
+"reference, midrank ties | Place-making (all-day use first)",S2_placemaking,S3_placemaking,Revere Beach #1,Revere Beach #1,True,246,8,Wollaston #1; Wollaston #2,Malden Center #3; Malden Center #5,0.9893,0.9104,27,7.0
+"keep vs exclude flagged records, main rules | Place-making (all-day use first)",K3_placemaking,S3_placemaking,Revere Beach #1,Revere Beach #1,True,246,10,,,0.9999,0.9932,8,5.0
+all changes together | Place-making (all-day use first),S0_placemaking,S3_placemaking,Revere Beach #1,Revere Beach #1,True,246,8,Wollaston #1; Wollaston #2,Malden Center #3; Malden Center #5,0.9894,0.9115,30,8.0
+record handling | No prior (all four equal),S0_equal,S1_equal,Malden Center #1,Malden Center #1,True,246,10,,,1.0,1.0,5,5.0
+"tie rule, mixed reference | No prior (all four equal)",S1_equal,S2_equal,Malden Center #1,Malden Center #1,True,246,10,,,1.0,0.9981,2,0.0
+"tie rule, candidate-set reference | No prior (all four equal)",S2u_equal,S3_equal,Malden Center #1 = Malden Center #2,Malden Center #1 = Malden Center #2,True,246,10,,,0.9999,0.996,4,0.0
+"reference, strict ties | No prior (all four equal)",S1_equal,S2u_equal,Malden Center #1,Malden Center #1 = Malden Center #2,False,246,7,Braintree #1; Braintree #2; Wollaston #2,Malden Center #3; Malden Center #5; Malden Center #6,0.975,0.8677,47,11.0
+"reference, midrank ties | No prior (all four equal)",S2_equal,S3_equal,Malden Center #1,Malden Center #1 = Malden Center #2,False,246,7,Braintree #1; Braintree #2; Wollaston #2,Malden Center #3; Malden Center #5; Malden Center #6,0.9752,0.8674,46,11.0
+"keep vs exclude flagged records, main rules | No prior (all four equal)",K3_equal,S3_equal,Malden Center #1 = Malden Center #2,Malden Center #1 = Malden Center #2,True,246,10,,,0.9999,0.9945,10,5.0
+all changes together | No prior (all four equal),S0_equal,S3_equal,Malden Center #1,Malden Center #1 = Malden Center #2,False,246,7,Braintree #1; Braintree #2; Wollaston #2,Malden Center #3; Malden Center #5; Malden Center #6,0.9754,0.8678,50,11.5
+"indicator set: + jobs45tr, main rules",S3_equal,E3_equal,Malden Center #1 = Malden Center #2,Malden Center #1 = Malden Center #2,True,246,8,Quincy Center #1; Wollaston #1,Sullivan Square #1; Central #1,0.9325,0.7753,67,19.0
+"reference, five indicators, midrank",E2_equal,E3_equal,Malden Center #1,Malden Center #1 = Malden Center #2,False,246,6,Wollaston #1; Wollaston #2; Quincy Center #1; Braintree #1,Sullivan Square #1; Central #1; Malden Center #5; Malden Center #6,0.9691,0.8505,67,11.0
+jobs45tr zero: as recorded vs unknown,E3_equal,E3u_equal,Malden Center #1 = Malden Center #2,Malden Center #1 = Malden Center #2,True,244,10,,,0.9999,0.9972,4,1.0
+five indicators: round-1 rules vs main rules,E0_equal,E3_equal,Malden Center #1,Malden Center #1 = Malden Center #2,False,246,6,Wollaston #1; Wollaston #2; Quincy Center #1; Braintree #1,Sullivan Square #1; Central #1; Malden Center #5; Malden Center #6,0.9691,0.8505,71,11.0
+drop peak share,S3_equal,S3_no_peak_share,Malden Center #1 = Malden Center #2,Malden Center #1 = Malden Center #2,True,246,8,Revere Beach #1; Wonderland #1,Alewife #1; Malden Center #8,0.923,0.7669,77,16.0
+reverse peak share direction,S3_equal,S3_peak_share_reversed,Malden Center #1 = Malden Center #2,Alewife #1,False,246,5,Quincy Center #1; Revere Beach #1; Malden Center #6; Wonderland #1; Wollaston #1,Alewife #1; Alewife #2; Oak Grove #2; Wellington #1; Porter #2,0.6002,0.4281,136,42.0

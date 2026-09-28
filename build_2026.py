@@ -11,15 +11,21 @@
 # the question and almost none of the method, and it arrives somewhere different:
 # not at one station, but at a shortlist whose order depends on who is asking.
 #
+# It is an exploratory screen of redevelopment sites, not a finding about which
+# site would pay, be approved or work. A later research revision
+# (`RESEARCH_REVISION_REPORT.md`, `revision_2026.py`) keeps this notebook as its
+# four-indicator baseline, corrects its labels, and tests how far its results
+# depend on the indicator set, the percentile reference and the candidate scope.
+#
 # **What changed, in one table:**
 #
 # | | 2024 | 2026 |
 # | --- | --- | --- |
-# | Unit of analysis | community, then station | **site** |
+# | Unit of analysis | community, then station | **site** (a MAPC site can span several parcels) |
 # | Stages | two, the first discarding seven communities | one |
-# | Candidates | 8 communities, then 4 stations | **249 sites in 12 communities** |
-# | Scale | min-max inside the sample | percentile against 3,028 regional sites |
-# | Shortlist | none, a single winner | **Pareto frontier, 27 sites, no weights** |
+# | Candidates | 8 communities, then 4 stations | **251 sites in 9 communities** |
+# | Scale | min-max inside the sample | empirical percentiles: land value and buildable area against MAPC's regional records, the two station measures against the 251 candidates |
+# | Shortlist | none, a single winner | **Pareto frontier, 22 sites, no weights** |
 # | Weights | one set, justified in prose | **five scenarios, each a stated position** |
 # | Demand vintage | Fall 2023 | Fall 2025, with a 2017–2025 panel behind it |
 # | Output | Quincy Center, 82.40 | three winners, depending on the question |
@@ -130,8 +136,9 @@ print(', '.join(RTC))
 # ## 02. Candidates are sites, because the decision is a site
 #
 # MAPC's *Rethinking the Retail Strip* inventory carries 3,028 redevelopment
-# sites across Greater Boston, each with its own land value, buildable area and
-# the transit station it sits beside. The 2024 model used two of its 64 columns
+# sites across Greater Boston, each with its own assessed land value, buildable
+# area and the transit station it sits beside. A site is MAPC's unit, and one
+# site can combine several parcels. The 2024 model used two of its 64 columns
 # and averaged them up to the municipality. This one keeps the site.
 #
 # It also removes a step. The 2024 screening reverse-geocoded 124 stations
@@ -148,7 +155,7 @@ steps = [('MAPC sites, region-wide', len(s))]
 site = s[s.municipal.isin(RTC)].copy()
 steps.append(('in a Rapid Transit Community', len(site)))
 site = site[site.stattyp == 'Rapid Transit']
-steps.append(('beside a rapid transit station', len(site)))
+steps.append(("MAPC's nearest station is rapid transit", len(site)))
 # MAPC's own station label, kept for the cross-check further down. It is not
 # what the model joins on.
 site['mapc_station'] = site.statname.str.replace(' Glx', '', regex=False).str.strip()
@@ -156,18 +163,22 @@ site['mapc_station'] = site.statname.str.replace(' Glx', '', regex=False).str.st
 # %% [markdown]
 # ### Demand, measured in the most recent autumn
 #
-# Section 06 shows why the vintage matters: Fall 2023, which the 2024 model used,
-# was a trough. Fall 2025 is the freshest release. It reports ridership by hour
-# rather than by service-planning period, so the peak window has to be defined
-# here — and the definition is checked against the period-based Fall 2024 file
-# rather than asserted.
+# Section 06 shows why the vintage matters: at most candidate stations, Fall
+# 2023, which the 2024 model used, was lower than Fall 2025. Fall 2025 is the
+# freshest release. It reports ridership by hour rather than by service-planning
+# period, so the peak window has to be defined here — and the definition is
+# checked against the period-based Fall 2024 file rather than asserted.
+#
+# "Flow" throughout is boardings plus alightings at the stop. It counts
+# movements, not people: one round trip is up to four of them across two
+# stations. It is not MBTA's own `average_flow` field, which is the load on board.
 
 # %%
 def load_ridership(fn):
     d = pd.read_csv(DATA + fn, encoding='utf-8-sig', low_memory=False)
     d.columns = [c.lower() for c in d.columns]
     d['day_type'] = d.day_type_name.str.lower()
-    d['flow'] = d.average_ons + d.average_offs
+    d['flow'] = d.average_ons + d.average_offs   # boardings + alightings
     return d
 
 
@@ -204,11 +215,11 @@ station = pd.DataFrame({
 })
 station['line'] = station.line.str.split('-').str[0]
 
-# Each parcel is assigned to the nearest station that has Fall 2025 ridership,
-# not to the station MAPC named. Names go stale: seven Somerville parcels are
+# Each site is assigned to the nearest station that has Fall 2025 ridership,
+# not to the station MAPC named. Names go stale: seven Somerville sites are
 # inventoried under `Washington Street`, which in the current MBTA feed is a
-# Green Line B stop six kilometres away in Brighton, and joining on the name
-# gave those parcels Brighton's ridership. Coordinates do not go stale.
+# Green Line B stop about six kilometres away in Brighton, and joining on the
+# name gave those sites Brighton's ridership. Coordinates do not go stale.
 coords = pd.read_csv(DATA + 'boston_subway_stations_info.csv')
 coords = coords[coords.stop_name.isin(station.index)].reset_index(drop=True)
 KM_PER_DEG = 111.32
@@ -217,27 +228,35 @@ gap = np.hypot(
     * KM_PER_DEG * np.cos(np.radians(site.lat.to_numpy()[:, None])),
     (site.lat.to_numpy()[:, None] - coords.position_y.to_numpy()) * KM_PER_DEG)
 site['station'] = coords.stop_name.to_numpy()[gap.argmin(1)]
+# Straight-line distance from the site centroid to the station, not a walk: there
+# is no street network in this model.
 site['station_km'] = gap.min(1)
 print('nearest station differs from the MAPC label at',
       int((site.station != site.mapc_station).sum()), 'of', len(site), 'sites;',
-      'farthest walk', round(site.station_km.max(), 2), 'km')
+      'farthest straight-line distance', round(site.station_km.max(), 2), 'km')
 
 # Half a mile is the catchment transit-oriented development is usually defined
-# over, and it is as far as attributing a station's ridership to a parcel can be
-# defended. Seven sites sit beyond it: five in Medford inventoried against a
-# Green Line extension station that was never built, two in Milton.
+# over, and it is as far as attributing a station's ridership to a site can be
+# defended. It is applied here as 0.805 km in a straight line, which is shorter
+# than any walk to the same point. Twenty sites sit beyond it: thirteen between
+# 0.805 and 1 km, five in Medford inventoried against the Route 16 Green Line
+# stop that was never built, and two in Milton, whose Mattapan-line stops have
+# no Fall 2025 rating.
 HALF_MILE_KM = 0.805
 site = site[site.station_km <= HALF_MILE_KM]
-steps.append(('within a half-mile walk of a station', len(site)))
+steps.append(('within 0.805 km straight-line of a rated station', len(site)))
 
 site = site.join(station.drop(columns='line'), on='station')
 site['line'] = site.station.map(station.line)
 
 n = len(site)
 site = site[(site.ppa > 0) & (site.buildar_ac > 0)]
-steps.append(('land value and buildable area above zero', len(site)))
+steps.append(('assessed land value and buildable area above zero', len(site)))
+# Two separate conditions, each under half the site's area: excluded
+# (non-buildable) land, and the FEMA 1% flood zone. Not their sum, and not a
+# test of whether anything could be permitted.
 site = site[(site.excl_p < 50) & (site.fz100_p < 50)]
-steps.append(('under half excluded land or flood zone', len(site)))
+steps.append(('excluded land < 50% and flood zone < 50%', len(site)))
 
 # %%
 fig, ax = plt.subplots(figsize=(9, 3.6))
@@ -332,7 +351,7 @@ handles += [plt.Line2D([], [], ls='', marker='o', ms=4.5, color=MUTE, alpha=0.5,
                        label='other MAPC site in the region')]
 ax.legend(handles=handles, frameon=False, fontsize=9.2, loc='upper left',
           labelspacing=0.55, handletextpad=0.4, alignment='left',
-          title='candidate site, by the line it walks to', title_fontsize=9.2)
+          title='candidate site, by the line of its nearest station', title_fontsize=9.2)
 
 ax.set_xlim(x0, x1)
 ax.set_ylim(y0, y1)
@@ -352,19 +371,25 @@ save('16-map', dpi=450, source=SRC_BOTH)
 # %% [markdown]
 # ## 03. What each indicator looks like before anything is done to it
 #
-# Four quantities, each in its own units. Land price and buildable area are
-# properties of the parcel; ridership and peak share are properties of the
-# station it sits beside. Plotting them first is not decoration: three of the
-# four are heavily skewed, which is exactly the shape that makes a mean
-# misleading and a percentile honest.
+# Four quantities, each in its own units. Assessed land value per acre and
+# buildable area are properties of the site; station activity (boardings plus
+# alightings) and peak share are properties of the station it sits beside, so
+# every site at one station carries the same two values. Plotting them first is
+# not decoration: three of the four are heavily skewed, which is the shape that
+# makes a mean misleading.
+#
+# Assessed land value is set for taxation. It is not a sale price or an
+# acquisition cost. Peak share is the share of weekday movements in 07–10 and
+# 16–19; a low value means the weekday is less concentrated in the peaks, which
+# is not the same as demand being even across the day or the week.
 
 # %%
 IND = ['ppa', 'buildar_ac', 'daily', 'peak_share']
 LOWER_IS_BETTER = {'ppa', 'peak_share'}
-NICE = {'ppa': 'Land price per acre', 'buildar_ac': 'Buildable area (acres)',
-        'daily': 'Average daily riders at the station',
-        'peak_share': 'Share of weekday flow in the peaks',
-        'jobs45tr': 'Jobs reachable in 45 minutes'}
+NICE = {'ppa': 'Assessed land value per acre', 'buildar_ac': 'Buildable area (acres)',
+        'daily': 'Daily boardings + alightings at the station',
+        'peak_share': 'Share of weekday boardings + alightings in the peaks',
+        'jobs45tr': 'Jobs reachable by transit in 45 minutes (2018)'}
 
 fig, axes = plt.subplots(1, len(IND), figsize=(3.75 * len(IND), 3.2))
 for ax, c in zip(axes, IND):
@@ -384,14 +409,17 @@ plt.tight_layout()
 save('03-distributions', source=SRC_BOTH)
 
 # %% [markdown]
-# ## 04. Two of the 2024 indicators were the same indicator
+# ## 04. Two of the 2024 indicators carry nearly the same ranking
 #
 # The 2024 station model weighted average daily ridership at 40% and average
-# weekend ridership at 20%. Across these sites those two correlate at 0.98. Sixty
-# per cent of that model's weight was on one quantity entered twice under two
-# names. Buildable area and estimated mixed-use capacity are the same trap at
-# 0.94. Job access clears the bar easily: its strongest tie to anything else
-# here is 0.38.
+# weekend ridership at 20%. In Fall 2025 those two correlate at 0.98 across these
+# sites, and at 0.98 across the 39 distinct stations behind them, so the
+# site-level figure is not an artefact of stations being repeated. That puts
+# most of the 60% on one dimension of station activity. It is measured on Fall
+# 2025 at the 2026 candidates, not on the four Quincy stations and Fall 2023 data
+# the 2024 model actually weighted. Buildable area and estimated mixed-use
+# capacity correlate at 0.94. Job access clears the bar easily: its strongest
+# tie to anything else here is 0.38.
 #
 # Checking this costs one line and it decides what the weights actually mean.
 
@@ -418,16 +446,14 @@ print('dropped as redundant: weekend (r=%.2f with daily), estcapmix (r=%.2f with
       % (corr.loc['daily', 'weekend'], corr.loc['buildar_ac', 'estcapmix']))
 
 # %% [markdown]
-# ## 05. Is the Green Line's problem its service?
+# ## 05. What one Saturday says about the lines
 #
 # Half the candidate sites sit on Green Line branches, and the branches have a
-# reputation for being slow. That is a testable claim, and three independent
-# measurements disagree with it.
-#
-# The service data is one Saturday (3 February 2024), so it can describe how the
-# lines are built but not how reliable they are. Stop-to-stop time and station
-# dwell are structural; a single day is enough for those. Headway on a Saturday
-# is not a weekday headway and is labelled as such.
+# reputation for being slow. The data here cannot settle that. The service file
+# is one Saturday (3 February 2024): it can describe how the lines are laid out
+# on that day, not how they perform on weekdays or over a season, and nothing
+# in it measures reliability. Job access is a 2018 MAPC model output, not a
+# service measure. The panels are context for the candidate set, not a test.
 
 # %%
 otp = pd.read_parquet(DATA + '2024-02-03-subway-on-time-performance-v1.parquet')
@@ -441,10 +467,10 @@ riders = station.groupby('line').daily.median().drop('Mattapan', errors='ignore'
 panel_lines = ['Red', 'Orange', 'Blue', 'Green']
 
 fig, axes = plt.subplots(1, 4, figsize=(15, 3.4))
-series = [(svc.sec_per_hop, 'Seconds between stops', 'one Saturday'),
-          (svc.headway_min, 'Minutes between trains', 'one Saturday'),
-          (jobs, 'Jobs reachable in 45 minutes', 'MAPC, site median'),
-          (riders, 'Average daily riders', 'Fall 2025, station median')]
+series = [(svc.sec_per_hop, 'Seconds between stops', 'one Saturday, median'),
+          (svc.headway_min, 'Minutes between trains, trunk', 'one Saturday; Green pools four branches'),
+          (jobs, 'Jobs reachable by transit in 45 min', 'MAPC 2018, site median'),
+          (riders, 'Daily boardings + alightings', 'Fall 2025, median over all rated stations')]
 for ax, (ser, title, note) in zip(axes, series):
     v = ser.reindex(panel_lines).dropna()
     ax.bar(v.index, v.values, color=[LINE_COLOR[i] for i in v.index])
@@ -463,22 +489,35 @@ fig.suptitle('Service and demand measures by rapid transit line',
 plt.tight_layout()
 save('05-by-line', source=f'MBTA subway performance, 3 Feb 2024  ·  {SRC_MAPC}  ·  {SRC_RIDE}')
 
+# The trunk headway pools every branch that shares the track, so on the Green
+# Line it is not the wait at a branch stop. The branch figure is printed beside it.
+print(otp.groupby('route_id').agg(
+    trunk_min=('headway_trunk_seconds', lambda x: x.median() / 60),
+    branch_min=('headway_branch_seconds', lambda x: x.median() / 60)).round(1).to_string())
+
 # %% [markdown]
-# **The Green Line branches have the shortest hop times, the most frequent
-# service and the best regional job access of any line in the candidate set, and
-# roughly a tenth of the ridership.** What makes a Green Line trip slow is the
-# number of stops, not the speed between them — and whatever is holding those
-# sites back, it is not the service they get.
+# **At the median, a Green Line station carries roughly a tenth of the Fall 2025
+# boardings and alightings of a station on the other lines** — across every
+# rated station (the last panel) and across the candidate stations alike. On the
+# one Saturday, median time between stops was 72 seconds on the Green Line and
+# 71 on the Blue, which mostly reflects stop spacing. The
+# Green Line's shorter headway is a trunk figure: at a branch stop the median was
+# 9–10 minutes, about the same as the Blue and Orange lines. One day of service
+# data supports no conclusion about Green Line service quality as a whole, and
+# none is drawn here.
 
 # %% [markdown]
 # ## 06. Six autumns, and why the vintage matters
 #
 # Every number in the 2024 model came from Fall 2023. Adding Fall 2017, 2018,
-# 2019, 2024 and 2025 turns a snapshot into a trajectory, and the trajectory says
-# the snapshot was taken at the bottom.
+# 2019, 2024 and 2025 turns a snapshot into a short series with a gap in it:
+# there is nothing for 2020–2022. At most candidate stations the Fall 2023 value
+# sits below Fall 2025.
 #
 # MBTA flags a track-circuit problem in the Fall 2018 file, so Fall 2019 is used
-# as the pre-pandemic baseline.
+# as the pre-pandemic baseline. Ten of the 39 candidate stations have no Fall
+# 2019 value, mostly the Green Line Extension stops that opened in 2022, so the
+# comparisons below cover 29.
 
 # %%
 def season_panel():
@@ -532,33 +571,45 @@ for nm in ['Quincy Center', 'Malden Center', 'Revere Beach', 'Harvard', 'Waban']
 plt.tight_layout()
 save('06-trend', source='MBTA rail ridership, Fall 2017, 2018, 2019, 2023, 2024 and 2025')
 
-print('median flow change across candidate stations, Fall 2023 to Fall 2025: '
-      f'{(pc["Fall 2025"] / pc["Fall 2023"]).median() * 100 - 100:+.1f}%')
+print(f'median weekday flow change, Fall 2023 to Fall 2025, across the {len(pc)} candidate '
+      f'stations with Fall 2019 data: {(pc["Fall 2025"] / pc["Fall 2023"]).median() * 100 - 100:+.1f}%')
+_growth = pc['Fall 2025'] - pc['Fall 2023']
+print('absolute change Fall 2023 to Fall 2025 against Fall 2025 flow, same stations: '
+      f'Pearson {np.corrcoef(_growth, pc["Fall 2025"])[0, 1]:.2f}')
 
 # %% [markdown]
 # Two conclusions, and one of them is a decision about the model.
 #
-# **Fall 2023 was a trough.** Across the candidate stations, weekday flow is
-# materially higher in Fall 2025 than in Fall 2023. Measuring demand on the 2023
-# file understates it, so the model here uses Fall 2025.
+# **Fall 2023 was lower than Fall 2025 at most candidate stations.** The median
+# change in weekday boardings and alightings is +12%. With no 2020–2022 data the
+# series cannot say where a low point was, only that the 2023 file reads lower
+# than the 2025 one, so the model here uses Fall 2025.
 #
-# **Recovery does not become an indicator.** It is tempting: growth sounds like
-# exactly what a site-selection model should reward. But percentage recovery is
-# an artefact of the base — Riverside recovered to 236% of 2019 while losing
-# 1,251 riders a day since 2023 — and absolute growth correlates 0.87 with
-# ridership itself, which is the redundancy trap from Section 04. Six seasons of
-# data changed *which year the model measures*, not how many indicators it has.
+# **Recovery does not become an indicator.** Percentage recovery is sensitive to
+# its base — Riverside, not a candidate, stands at 236% of Fall 2019 while its
+# weekday boardings and alightings fell by 1,251 between Fall 2023 and Fall
+# 2025 — and absolute change since 2023 correlates 0.85 with the Fall 2025 level
+# at these stations, so it adds little that the level does not already carry.
+# Neither figure says why ridership moved: nothing here identifies trip
+# purposes, commuting, or local demand. Six seasons of data changed *which year
+# the model measures*, not how many indicators it has.
 
 # %% [markdown]
 # ## 07. The shortlist that needs no weights
 #
 # A site is *dominated* if some other site beats it on all four indicators at
-# once. Nothing dominated can be the right answer under any weighting, so the
-# dominated sites can be removed before any judgement is applied. What is left is
-# the Pareto frontier.
+# once (at least as good on all four, better on one). A dominated site cannot
+# come first under any positive weighting of these four, so the dominated sites
+# can be set aside before any judgement about weights is applied. What is left
+# is the Pareto frontier.
 #
-# This is the step the 2024 model had no equivalent of. It cuts the field by nine tenths
-# using only the data.
+# This is the step the 2024 model had no equivalent of. It cuts the field by
+# nine tenths without weights — but not without choices: which indicators count,
+# and in which direction, decide what the frontier is. Two of its 22 members,
+# Assembly #1 and #2 (site_oid 9967 and 9971), are separate sites that each
+# carry the whole assessed value of one shared parcel, so their land value per
+# acre is not attributable to either. The research revision leaves them, and
+# three other such records, out of its main candidate set.
 
 # %%
 def pareto_mask(frame, cols, lower):
@@ -576,8 +627,8 @@ def pareto_mask(frame, cols, lower):
 def name_ends(ax, frame, xcol, ycol, offsets=None):
     """Name the frontier site at each end of each axis: four labels, one rule.
 
-    Labelling two of twenty-seven invites the question of why those two.
-    Labelling all twenty-seven buries the shape the panel exists to show. The
+    Labelling two of twenty-two invites the question of why those two.
+    Labelling all twenty-two buries the shape the panel exists to show. The
     ends of the axes are a rule a caption can state in one clause, and they are
     the points a reader wants named anyway.
     """
@@ -600,13 +651,17 @@ def name_ends(ax, frame, xcol, ycol, offsets=None):
 
 site['pareto'] = pareto_mask(site, IND, LOWER_IS_BETTER)
 
-# A parcel needs a name short enough for a chart axis and unique enough to carry
-# from a table to a map. `Assembly, 2.3 ac` names two different parcels, so the
+# A site needs a name short enough for a chart axis and unique enough to carry
+# from a table to a map. `Assembly, 2.3 ac` names two different records, so the
 # acreage does not even do the second job, and `Malden Center` on its own names
-# three.
+# sixteen.
 #
-# The station and a number for the parcel, largest first: `Malden Center #1` is
+# The station and a number for the site, largest first: `Malden Center #1` is
 # the ten acres and `Malden Center #3` is the acre and a half two streets over.
+# Where two sites at a station have the same buildable area, which one gets the
+# lower number is decided by the sort, so the names are frozen as they came out
+# at commit e18a184 and `revision/outputs/site_id_map.csv` maps each to MAPC's
+# own `site_oid`.
 #
 # The map gets a short form of the same thing, three letters and the number,
 # because two dozen markers cannot each carry a station name at the zoom the
@@ -694,57 +749,55 @@ plt.tight_layout()
 save('07-pareto', source=SRC_BOTH)
 
 # %% [markdown]
-# ### What a fifth criterion would cost
+# ### With job access as a fifth criterion
 #
-# Job access is a real quantity, it is not redundant with any of the four, and
-# one of the scenarios below leans on it. So why is it not a fifth indicator?
-#
-# Because dominance gets weaker with every criterion added. Beating a parcel on
-# four measures at once is hard; on five it is harder, so fewer parcels are
-# beaten and more survive. The cell below runs the same filter with job access
-# added and reports what that does.
+# Job access — jobs reachable by transit within 45 minutes at the morning peak,
+# as MAPC modelled it for 2018 — is not redundant with any of the four. This
+# notebook keeps the four-indicator frontier as its baseline. An earlier version
+# argued that job access should stay out because adding it lengthens the
+# shortlist. That is not a reason: more criteria always make dominance harder, so
+# a longer frontier says the criteria disagree, not that one of them is wrong.
+# The research revision runs the four- and five-indicator settings side by side
+# on the same candidates (`revision/outputs/frontier_4v5.csv`). The cell below
+# reports what adding it does to the frontier.
 
 # %%
 five_mask = pareto_mask(site, IND + ['jobs45tr'], LOWER_IS_BETTER)
 gained = site[five_mask & ~site.pareto]
-print(f'four indicators: {site.pareto.sum():>3} of {len(site)} survive'
+print(f'four indicators: {site.pareto.sum():>3} of {len(site)} on the frontier'
       f'  ({site.pareto.sum() / len(site):.0%})')
 print(f'five, with job access: {five_mask.sum():>3} of {len(site)}'
       f'  ({five_mask.sum() / len(site):.0%})')
-print('none of the four-indicator shortlist drops out:',
+print('none of the four-indicator frontier drops out:',
       bool(not (site.pareto & ~five_mask).any()))
-print(f'\nthe {len(gained)} the fifth criterion rescues, at the median:'
-      f'  ${gained.ppa.median() / 1e6:.2f}M an acre,'
+print(f'\nthe {len(gained)} the fifth criterion adds, at the median:'
+      f'  ${gained.ppa.median() / 1e6:.2f}M assessed land value an acre,'
       f'  {gained.buildar_ac.median():.2f} ac,'
-      f'  {gained.daily.median():,.0f} riders,'
+      f'  {gained.daily.median():,.0f} boardings + alightings,'
       f'  {gained.jobs45tr.median():,.0f} jobs in 45 min')
 print('against the 251 overall:'
       f'  ${site.ppa.median() / 1e6:.2f}M an acre,'
       f'  {site.buildar_ac.median():.2f} ac,'
-      f'  {site.daily.median():,.0f} riders,'
+      f'  {site.daily.median():,.0f} boardings + alightings,'
       f'  {site.jobs45tr.median():,.0f} jobs')
 print('where they are:', gained.municipal.value_counts().to_dict())
+print('\nfour-indicator frontier by community:')
+print(site[site.pareto].groupby('municipal').size().sort_values(ascending=False).to_string())
 
 # %% [markdown]
-# **The rescued parcels survive on job access alone.** The 32 that the fifth
-# criterion adds sit at a median 694,000 jobs within 45 minutes against 510,000
-# for the candidate set, and on everything else they are ordinary: a shade
-# cheaper, a shade busier, a shade larger than the median parcel. That is the
-# whole mechanism. A criterion that ranks these parcels almost independently of
-# the others -- job access correlates minus 0.05 with the four combined --
-# hands every parcel that happens to score well on it one axis where nothing
-# beats it, and one axis is all dominance requires.
-#
-# So job access stays out of the filter and out of the composite, and appears
-# where it can be argued with instead: as the measure one scenario weights
-# heavily, and as a column in the baseline test.
-
-print(site[site.pareto].groupby('municipal').size().sort_values(ascending=False).to_string())
+# **The added sites are distinguished mainly by job access.** The 32 that the
+# fifth criterion adds sit at a median 694,000 jobs within 45 minutes against
+# 510,000 for the candidate set, and on the other four they are close to the
+# candidate median. Job access correlates at −0.05 with the four-indicator
+# equal-weight score, so it ranks sites almost independently of the other four,
+# and a site that is strong on it is hard to dominate. Eleven of the 32 are in
+# Somerville; the 2018 figure predates the Green Line Extension that now serves
+# several of them.
 
 # %% [markdown]
 # ## 08. Three kinds of site
 #
-# Twenty-four is still too many to describe one at a time, and they are not one
+# Twenty-two is still too many to describe one at a time, and they are not one
 # kind of thing. Standardising the four indicators and clustering gives groups
 # that can be named. The silhouette score keeps creeping up past three clusters,
 # but three is what can be described in words, and a typology nobody can name is
@@ -782,14 +835,14 @@ for t, g in site.groupby('type'):
                 color=TYPE_COLOR[t], alpha=np.where(g.pareto, 1.0, 0.35).mean(),
                 edgecolor='white', lw=0.5, label=f'{t} (n={len(g)})')
 ax1.set_xscale('log'); ax1.set_yscale('log')
-ax1.set_xlabel('Buildable acres'); ax1.set_ylabel('Average daily riders')
+ax1.set_xlabel('Buildable acres'); ax1.set_ylabel('Daily boardings + alightings')
 ax1.yaxis.set_major_formatter(thousands)
 ax1.xaxis.set_major_formatter(FuncFormatter(lambda v, _: f'{v:g}'))
 ax1.xaxis.set_minor_formatter(mpl.ticker.NullFormatter())
 name_ends(ax1, site[site.pareto], 'buildar_ac', 'daily',
           {'xmax': (-9, 12), 'ymin': (10, -10)})
 ax1.legend(frameon=False, fontsize=9, loc='lower right')
-ax1.set_title('Sites by buildable area and daily ridership, coloured by cluster')
+ax1.set_title('Sites by buildable area and station activity, coloured by cluster')
 
 share = (site.groupby('type').pareto.sum() / site.groupby('type').size() * 100).sort_values()
 b = ax2.barh(share.index, share.values, color=[TYPE_COLOR[i] for i in share.index])
@@ -814,12 +867,32 @@ print('It is mostly:', ', '.join(f'{m} ({n})' for m, n in quiet.municipal.value_
 # I could not defend one set of weights in 2024 and I cannot now. The honest
 # response is not to pick harder, it is to stop pretending there is one answer.
 #
-# Each scenario below is a position somebody could actually hold, written as a
-# weight vector. None of them is *the* answer. The spread between them is the
-# result.
+# Each scenario below is a position somebody could hold, written as a weight
+# vector. The first four are the author's constructions; no developer, city,
+# transit agency or place-making group has reviewed them. The fifth, equal
+# weights, is also a preference. None of them is *the* answer. The spread
+# between them is the result. (This notebook is the historical baseline. The
+# research revision's main comparison uses three of these indicators; see
+# `RESEARCH_REVISION_REPORT.md`.)
 #
-# Scores are percentiles against all 3,028 regional MAPC sites, not min-max
-# inside the shortlist, so a site's score does not move when the shortlist does.
+# Scores are empirical percentiles, not min-max inside the shortlist, so a
+# site's score does not move when the shortlist does. The reference set is not
+# the same for every indicator: land value is ranked against the 2,973 regional
+# MAPC records with a positive value, buildable area and job access against all
+# 3,028, and the two station measures against the 251 candidates, because
+# ridership is only attached to the candidates. Against the region the
+# candidates are expensive and well connected, so their land-value percentiles
+# sit mostly low and their job-access percentiles mostly high, in narrower
+# ranges than the station measures. The research revision compares this with
+# ranking every indicator against the candidate set itself, and uses that,
+# with a mid-rank tie rule, as its main setting; this notebook keeps the
+# original rule as the historical baseline.
+#
+# The percentile is the share of the reference strictly below the value; for a
+# lower-is-better indicator it is 100 minus that. Tied values therefore fall on
+# the unfavourable side for higher-is-better indicators and on the favourable
+# side for lower-is-better ones, by up to 4 points where twenty sites share a
+# station.
 
 # %%
 REGION = s[s.ppa > 0]
@@ -842,11 +915,20 @@ SCENARIOS = {
                               'The zoning law exists to produce homes. Maximise how many fit.'),
     'Transit agency (ridership first)':        ({'daily': .40, 'peak_share': .30, 'ppa': .15, 'buildar_ac': .15},
                               'Put density where the trains already run.'),
+    # The goal is all-day use; the indicator it leans on, a low weekday peak
+    # share, is a proxy for part of that goal, not a measure of it.
     'Place-making (all-day use first)':         ({'peak_share': .40, 'buildar_ac': .25, 'daily': .20, 'ppa': .15},
-                              'Shops need customers at noon, not only at eight.'),
+                              'Shops need customers at noon, not only at eight (proxied by a low weekday peak share).'),
+    # Shown as "Equal weights": equal weights are a preference too, not the
+    # absence of one. The key keeps its original name because the output tables
+    # and outputs/map.json are read by that name.
     'No prior (all four equal)':       ({'ppa': .25, 'buildar_ac': .25, 'daily': .25, 'peak_share': .25},
-                              'I cannot tell these four apart, so I will not pretend to.'),
+                              'Equal weights: a preference for treating the four alike.'),
 }
+# What charts print for each scenario. The first four are positions the author
+# wrote for groups that have not reviewed them.
+SHOWN = {k: k for k in SCENARIOS}
+SHOWN['No prior (all four equal)'] = 'Equal weights (all four equal)'
 
 scores = pd.DataFrame({k: sum(PCT[c] * w for c, w in v[0].items())
                        for k, v in SCENARIOS.items()}, index=site.index)
@@ -864,7 +946,11 @@ for k in SCENARIOS:
 top5 = pd.DataFrame(rows)
 winners = top5[top5['rank'] == 1].set_index('scenario')
 print(winners[['site', 'line', 'acres', 'ppa', 'daily', 'score', 'frontier']].to_string())
-print('\nevery scenario winner is on the frontier:', bool(winners.frontier.all()))
+# This holds by construction rather than as a test of the frontier: percentiles
+# rise with the raw values, so a dominated site cannot outscore the site that
+# dominates it under any positive weights. It could fail only through a tie.
+print('\nevery scenario winner is on the frontier (true by construction):',
+      bool(winners.frontier.all()))
 
 # %%
 order = list(SCENARIOS)
@@ -893,12 +979,12 @@ for nm, g in shown.groupby('site'):
 handles = [plt.Line2D([], [], color=c, lw=2.4, marker='o', ms=7, label=n)
            for n, c in highlight.items()]
 handles.append(plt.Line2D([], [], color=FAINT, lw=1, marker='o', ms=4,
-                          label='other parcels reaching a top five'))
+                          label='other sites reaching a top five'))
 ax.legend(handles=handles, frameon=False, fontsize=9.5, loc='upper left',
           bbox_to_anchor=(1.01, 1.0), alignment='left',
-          title='only parcels that reach a top five appear;\nnamed ones take first place somewhere',
+          title='only sites that reach a top five appear;\nnamed ones take first place somewhere',
           title_fontsize=9)
-ax.set_xticks(range(len(order)), [o.replace(', ', ',\n') for o in order], fontsize=10)
+ax.set_xticks(range(len(order)), [SHOWN[o].replace(' (', '\n(') for o in order], fontsize=10)
 ax.set_yticks(range(1, 6))
 ax.set_ylim(5.5, 0.6)
 ax.set_ylabel('rank')
@@ -909,8 +995,17 @@ save('09-scenarios', source=SRC_BOTH)
 # %% [markdown]
 # ## 10. How far does a position have to move before the answer does?
 #
-# The scenarios are six points. Drawing weights at random fills in everything
-# between them and says how much of that space each site owns.
+# The scenarios are five points. Drawing weights at random — uniformly over all
+# four-way splits, Dirichlet(1,1,1,1), 200,000 draws, seed 7 — fills in the
+# space between them and says how much of it each site comes first in.
+#
+# That share is a property of this sampling scheme over these four
+# percentiles. It is not a probability that a site is the best site, and not a
+# measure of how many people would support it. No draw here ties for first; the
+# research revision counts ties explicitly, because with five indicators the
+# Assembly #1 and #2 records (identical on every indicator) do tie, and
+# `argmax` would hand every such draw to
+# whichever of the two comes first in the table.
 
 # %%
 rng = np.random.default_rng(7)
@@ -919,6 +1014,9 @@ PF = PCT.loc[F.index, IND].to_numpy()
 draws = rng.dirichlet(np.ones(len(IND)), 200_000)
 wins = np.bincount(np.argmax(draws @ PF.T, axis=1), minlength=len(F)) / len(draws)
 share = pd.Series(wins, index=label[F.index]).sort_values(ascending=False)
+print(f'{int((share > 0).sum())} sites come first in at least one draw:')
+print(share[share > 0].round(4).to_string())
+# The chart shows the ones above half a per cent; the full list is printed above.
 share = share[share > 0.005]
 
 fig, ax = plt.subplots(figsize=(9, 3.6))
@@ -927,9 +1025,9 @@ b = ax.barh(share.index[::-1], share.values[::-1] * 100,
 for bar, v in zip(b, share.values[::-1]):
     ax.text(v * 100 + 0.6, bar.get_y() + bar.get_height() / 2, f'{v:.0%}', va='center',
             fontsize=10, color=MUTE)
-ax.set_xlabel('share of all possible weightings in which this parcel ranks first')
-ax.set_ylabel('candidate parcel')
-ax.set_title('First-place share across 200,000 sampled weightings')
+ax.set_xlabel('share of 200,000 Dirichlet(1,1,1,1) weightings in which the site ranks first')
+ax.set_ylabel('candidate site')
+ax.set_title('First-place share across 200,000 sampled weightings (sites above 0.5%)')
 ax.set_xlim(0, share.max() * 118)
 ax.grid(axis='y', visible=False)
 save('10-weight-space', source=SRC_BOTH)
@@ -946,12 +1044,12 @@ print(share.round(3).to_string())
 BASE = {
     'Composite (equal)': scores['No prior (all four equal)'],
     'Ridership only': site.daily,
-    'Land price only': -site.ppa,
+    'Land value only': -site.ppa,
     'Buildable area only': site.buildar_ac,
     'Peak share only': -site.peak_share,
     # Job access is not one of the four the shortlist was built on, but the
-    # regional-access scenario weights it heavily, so leaving it out of the
-    # baseline test would exempt the one indicator the scenarios reach for.
+    # job-access-first stance below weights it heavily, so leaving it out of the
+    # baseline test would exempt it from the check the others face.
     # Named for what it is a proxy for, with the measure stated: the other
     # columns are their own measure, this one stands in for a concept.
     'Regional access (jobs in 45 min)': site.jobs45tr,
@@ -996,30 +1094,31 @@ ax2.set_title('Top three under each rule')
 plt.tight_layout()
 save('11-baselines', source=SRC_BOTH)
 
-# Two of these columns are measured at the station, so every parcel beside the
+# Two of these columns are measured at the station, so every site beside the
 # busiest station holds the same value and `nlargest(1)` would report an index
-# order as a result. Four parcels tie on ridership and seven on peak share;
-# those rules rank stations, and the page says so rather than picking one parcel
-# out of the tie. MAPC's percentile saturates and ties two parcels at 100.0.
+# order as a result. Four sites tie on ridership and seven on peak share;
+# those rules rank stations, and the page says so rather than picking one site
+# out of the tie. MAPC's percentile saturates and ties two sites at 100.0.
 TIE_LIMIT = 2
 _tops = []
 for _k, _v in BASE.items():
     _t = list(_v[_v == _v.max()].index)
     print(f'  top of "{_k}":',
           ', '.join(label[i] for i in _t) if len(_t) <= TIE_LIMIT
-          else f'{len(_t)} parcels tied at {site.station[_t[0]]}')
+          else f'{len(_t)} sites tied at {site.station[_t[0]]}')
     if len(_t) <= TIE_LIMIT:
         _tops += _t
 site['cited'] = site.index.isin(_tops)
 
 print('No single indicator reproduces the composite top three.')
-print('Sorting on ridership alone gives the region\'s busiest square;')
-print('sorting on land price alone gives the park-and-ride with the least demand.')
+print('Sorting on station activity alone gives the busiest square in the set;')
+print('sorting on assessed land value alone gives the park-and-ride with the least activity.')
 
-# The other way a fifth measure could have entered: as a stance rather than
-# as a criterion. Weighting job access at 0.40 and the three
-# parcel-and-station measures at 0.20 each is a coherent position, and where
-# it lands is the reason the scenario table can do without it.
+# The other way a fifth measure could enter: as a stance rather than as a
+# criterion. Weighting job access at 0.40 and three of the site-and-station
+# measures at 0.20 each is one coherent position. It is printed for reference;
+# a stance that agrees with the equal-weight composite is not evidence that
+# the measure can be left out.
 JOB_FIRST = {'jobs45tr': .40, 'daily': .20, 'ppa': .20, 'buildar_ac': .20}
 job_score = sum(PCT[c] * w for c, w in JOB_FIRST.items())
 print('a regional-access-first weighting picks:', label[job_score.idxmax()],
@@ -1030,13 +1129,15 @@ print('a regional-access-first weighting picks:', label[job_score.idxmax()],
 #
 # MAPC scores every site in its inventory for redevelopment potential on its own
 # criteria — health, travel choice, growth potential — which overlap with these
-# four but are not the same. That makes their percentile a useful outside check:
-# not a ground truth, but a second reading.
+# four but are not the same. That makes their percentile a useful second
+# reading, not a ground truth for this model to be validated against, and not
+# a benchmark this model can be shown to beat.
 #
 # The two readings agree on direction and disagree on plenty of individual
-# parcels, and the disagreement is not noise. Their score is built out of things
-# this model does not weigh and leaves out two that it does, so the second panel
-# below is worth more than the correlation coefficient.
+# sites. The disagreement follows from what each is built on: MAPC's score
+# moves with things this model does not weigh and barely with two that it does.
+# A difference between the two rankings says they answer different questions;
+# it does not say which answer is better.
 
 # %%
 v = site.dropna(subset=['regipctile']).copy()
@@ -1047,12 +1148,12 @@ v['gap'] = v.theirs - v.ours
 # Left: what their overall score actually moves with. Spearman rather than
 # Pearson, because the score is a percentile and the indicators are not.
 WITH = [('walkscore', 'Walk score'), ('buildar_ac', 'Buildable acres'),
-        ('jobs45tr', 'Jobs reachable in 45 min'), ('ppa', 'Land price per acre'),
-        ('daily', 'Daily riders at the station'), ('peak_share', 'Peak share of the weekday')]
+        ('jobs45tr', 'Jobs reachable by transit in 45 min'), ('ppa', 'Assessed land value per acre'),
+        ('daily', 'Station boardings + alightings'), ('peak_share', 'Peak share of the weekday')]
 rho_with = pd.Series({lab: v.ovscr.corr(v[c], method='spearman') for c, lab in WITH})
 rho_with = rho_with.sort_values()
 
-# Right: the parcels the two readings place more than sixty positions apart.
+# Right: the sites the two readings place more than sixty positions apart.
 CUT = 60
 ours_up, theirs_up = v[v.gap > CUT], v[v.gap < -CUT]
 
@@ -1080,7 +1181,7 @@ ax2.scatter(theirs_up.regipctile, theirs_up.ours, s=34, color=ACCENT2,
 ax2.invert_yaxis()
 ax2.set_xlabel('MAPC regional percentile')
 ax2.set_ylabel('rank here, 1 = best')
-ax2.set_title('Every candidate parcel, placed by both readings')
+ax2.set_title('Every candidate site, placed by both readings')
 
 # The key and the figures in one block, in the empty bottom-left corner. A
 # separate legend would say the group names twice and land on the points.
@@ -1088,7 +1189,7 @@ for grp, c, name, y in [(ours_up, ACCENT, 'this model ranks higher', 0.20),
                         (theirs_up, ACCENT2, 'MAPC ranks higher', 0.05)]:
     ax2.text(0.02, y, f'{name} (n={len(grp)})\n'
                       f'median ${grp.ppa.median()/1e6:.2f}M an acre, '
-                      f'{grp.daily.median():,.0f} riders a day',
+                      f'{grp.daily.median():,.0f} boardings + alightings a day',
              transform=ax2.transAxes, fontsize=9.5, color=c, va='bottom')
 plt.tight_layout()
 save('12-validation', source=SRC_BOTH)
@@ -1096,10 +1197,10 @@ save('12-validation', source=SRC_BOTH)
 print(f'frontier median MAPC percentile {v.loc[v.pareto, "regipctile"].median():.0f}'
       f' against {v.loc[~v.pareto, "regipctile"].median():.0f} for the rest')
 print(rho_with.round(2).to_string())
-print(f'\nparcels more than {CUT} places apart:')
+print(f'\nsites more than {CUT} places apart:')
 for name, grp in [('this model ranks higher', ours_up), ('MAPC ranks higher', theirs_up)]:
     print(f'  {name:<24} n={len(grp):>3}  ${grp.ppa.median():>10,.0f}/ac'
-          f'  {grp.buildar_ac.median():>5.2f} ac  {grp.daily.median():>7,.0f} riders'
+          f'  {grp.buildar_ac.median():>5.2f} ac  {grp.daily.median():>7,.0f} on+off'
           f'  mostly {grp.municipal.value_counts().idxmax()}'
           f' ({grp.municipal.value_counts().max()} of {len(grp)})')
 
@@ -1107,11 +1208,22 @@ print(f"frontier median MAPC percentile {v[v.pareto].regipctile.median():.0f} "
       f"against {v[~v.pareto].regipctile.median():.0f} for the rest")
 
 # %% [markdown]
-# ## 13. What the choice actually changes
+# ## 13. An illustration under fixed cost assumptions
 #
-# The 2024 model gave land price the heaviest weight of the five, 30%. This runs
-# its cost model over each scenario winner to see how much that choice moves the
-# number it was supposed to protect.
+# The 2024 model gave land price the heaviest weight of the five, 30%. This
+# re-runs its cost arithmetic over each scenario winner. Everything except land
+# is held fixed by assumption: the same 500,000 sqft building at FAR 3 on every
+# site, $700 a square foot to build, $129.5M of soft costs, and land at the
+# site's assessed value per acre for the 3.83 acres that building needs.
+#
+# Under those assumptions land is a small share of the total, so the totals
+# barely differ. That is a property of the assumptions, not a finding about
+# these sites: nothing here models acquisition prices, site-specific
+# construction, demolition, remediation, parking, financing or rents, and the
+# figure cannot be read as evidence that choosing a site barely changes what a
+# project costs. What the comparison does show, on MAPC's own buildable areas,
+# is that the sites differ more in how much floor area they could hold at FAR 3
+# than in assessed land value.
 
 # %%
 SQFT, FAR, BUILD_COST, SOFT = 500_000, 3, 700, 129_500_000
@@ -1127,31 +1239,31 @@ cost['total'] = SQFT * BUILD_COST + cost.land + SOFT
 cost['land_pct'] = cost.land / cost.total * 100
 cost['capacity_sqft'] = cost.buildable * 43_560 * FAR
 print(cost.round(2).to_string(index=False))
-print(f"\nland spread across the winners: {cost.land.max() / cost.land.min():.1f}x")
-print(f"total cost spread across the winners: "
+print(f"\nassessed land value spread across the winners: {cost.land.max() / cost.land.min():.1f}x")
+print(f"illustrative total spread across the winners, under the fixed assumptions: "
       f"${cost.total.max()-cost.total.min():,.0f} ({cost.total.max()/cost.total.min()-1:.2%})")
-print(f"capacity spread: {cost.capacity_sqft.max()/cost.capacity_sqft.min():.1f}x")
+print(f"capacity spread at FAR 3: {cost.capacity_sqft.max()/cost.capacity_sqft.min():.1f}x")
 
 # Three panels, each on its own scale, because the three quantities differ by
 # three orders of magnitude and a stacked bar buried the first of them: land
 # drawn to the same axis as the total is a sliver half a per cent wide, which
-# is the finding but is not a readable mark. Separated, the land panel shows
-# what the stack hid — the land itself is twice as dear at one site as at
-# another — and the totals beside it show how little of that survives.
+# is not a readable mark. Separated, the land panel shows what the stack hid —
+# assessed land value is twice as high at one site as at another — and the
+# totals beside it show how little of that survives the fixed assumptions.
 fig, axes = plt.subplots(1, 3, figsize=(16, 4.2), sharey=True)
 y = np.arange(len(cost))
 
 PANELS = [
-    (cost.land / 1e6, ACCENT, 'Cost of the land',
-     '$M for the land alone',
+    (cost.land / 1e6, ACCENT, 'Assessed land value of 3.83 acres',
+     '$M, at the site\'s assessed value per acre',
      [f'${v/1e6:.2f}M' for v in cost.land],
      f'{cost.land.max() / cost.land.min():.1f} times apart'),
-    (cost.total / 1e6, FAINT, 'Total cost of the identical building',
-     '$M, land plus construction and soft costs',
+    (cost.total / 1e6, FAINT, 'Illustrative total, identical building',
+     '$M, land plus fixed construction and soft costs',
      [f'${v/1e6:.1f}M' for v in cost.total],
      f'{cost.total.max() / cost.total.min() - 1:.2%} apart'),
-    (cost.capacity_sqft / 1e6, ACCENT2, 'Floor area the site could hold',
-     'million sqft at three times the lot area',
+    (cost.capacity_sqft / 1e6, ACCENT2, 'Floor area at FAR 3 on the buildable area',
+     'million sqft at three times the buildable area',
      [f'{v/1e6:.2f}M sqft' for v in cost.capacity_sqft],
      f'{cost.capacity_sqft.max() / cost.capacity_sqft.min():.1f} times apart'),
 ]
@@ -1182,8 +1294,11 @@ qc = site[site.station == 'Quincy Center']
 qc_best = qc.nlargest(1, 'buildar_ac')
 eq = scores['No prior (all four equal)']
 print(f'Quincy Center: {len(qc)} candidate sites, {qc.pareto.sum()} on the frontier')
-print(f'best of them ranks {int(eq.rank(ascending=False)[qc_best.index[0]])} of {len(site)} under equal weights')
-print(f'it wins {sum(1 for k in SCENARIOS if label[scores[k].idxmax()].startswith("Quincy / Quincy Center"))} of the {len(SCENARIOS)} scenarios')
+print(f'the largest of them ranks {int(eq.rank(ascending=False)[qc_best.index[0]])} of {len(site)} under equal weights')
+# Tested on the station column: an earlier version tested the label for a
+# prefix no label has, which could only ever print 0. The answer is still 0.
+print(f'Quincy Center wins {sum(1 for k in SCENARIOS if site.station[scores[k].idxmax()] == "Quincy Center")} '
+      f'of the {len(SCENARIOS)} scenarios')
 
 v1_rank = {'Quincy': 1, 'Cambridge': 2, 'Newton': 3, 'Somerville': 4,
            'Revere': 5, 'Malden': 6, 'Braintree': 7, 'Brookline': 8}
@@ -1218,15 +1333,18 @@ save('14-then-and-now', source=f'{SRC_BOTH}  ·  2024 community ranking from the
 
 # %% [markdown]
 # **The 2024 model discarded seven of eight communities before it looked at a
-# single station.** Its own write-up admitted that a strong station in a
-# mid-ranked community would never be evaluated. That is what happened: Malden
-# finished sixth and holds the site that wins three of five scenarios here.
-# Brookline finished eighth, was discarded first, and holds none of the frontier
-# either way. Medford was lost in the postcode join and never entered the model
-# at all.
+# single station.** Its write-up describes the two steps but does not discuss
+# what the first one could miss; that is a finding of this second pass, not
+# something the 2024 notebook said. In this framework, Malden finished sixth in
+# 2024 and holds the site that comes first in three of five scenarios here.
+# Brookline finished eighth and holds none of the four-indicator frontier.
+# Medford never entered the 2024 model: its two stations in the 2024 list,
+# Wellington and Medford/Tufts, were reverse-geocoded to Somerville postcodes.
 #
-# Quincy Center is not a bad answer. It is still on the frontier. It was a narrow
-# answer, produced by a method that could not have found the alternatives.
+# Quincy Center is still on the frontier. The research revision holds every
+# score fixed and restricts the candidates to Quincy, which shows what that
+# restriction alone takes off the table under each setting. It is a controlled
+# comparison inside the 2026 framework, not a re-run of the 2024 method.
 
 # %% [markdown]
 # ### The two workflows
@@ -1251,7 +1369,7 @@ LEFT = [('177 + 124', 'MBTA communities and rapid transit stations', None),
         ('4', 'Stations in selected community', 'station subset'),
         ('1', 'Highest-ranked station', 'weighted station ranking')]
 RIGHT = [('3,028', 'Redevelopment sites in the study region', None),
-         (f'{n_sites}', 'Sites adjacent to rapid transit', 'eligibility screening'),
+         (f'{n_sites}', 'Candidate sites near rapid transit', 'eligibility screening'),
          (f'{n_front}', 'Sites not beaten on all four measures', 'screening without weights'),
          (f'{n_win}', 'Sites ranked first in at least one scenario', 'five weighting scenarios')]
 
@@ -1351,7 +1469,7 @@ ax.margins(0.1)
 OFFSET = {'Malden Center': (20, 34), 'Braintree': (28, -54), 'Revere Beach': (36, -30)}
 for nm in dict.fromkeys(winners.site):
     i = label[label == nm].index[0]
-    station = site.station[i]  # the cover names the place, not the parcel
+    station = site.station[i]  # the cover names the place, not the site
     ax.annotate(station, (site.ppa[i], site.daily[i]),
                 textcoords='offset points', xytext=OFFSET[station],
                 fontsize=13, color=INK, zorder=5,
@@ -1379,12 +1497,29 @@ plt.show()
 # - **Land value is assessed, not transacted.** Assessment lags the market and is
 #   set for taxation, not for sale.
 # - **The MAPC inventory is retail strip sites.** It is a good frame for
-#   redevelopment and it is not every developable parcel near a station.
-# - **The service data is one Saturday.** Enough to describe how the lines are
-#   built, not enough to say anything about reliability.
-# - **Station ridership is attributed to every site beside it.** Two parcels at
-#   the same station get the same demand figures, which is right for a half-mile
-#   catchment and wrong at the corner.
+#   redevelopment and it is not every developable parcel near a station. A site
+#   can combine several parcels, and a parcel that overlaps several sites is
+#   valued in full in each. Three Assembly sites carry one parcel's whole
+#   value; two Quincy Center sites both list the same parcel; four candidates
+#   have `nparcels = 0`; two carry zero job access. The research revision
+#   audits each from MAPC's own attributes, with a provisional reading of the
+#   site polygons stored in the file.
+# - **Distance is straight-line.** Every "within half a mile" here is 0.805 km
+#   from the site centroid to the station, not a walk on the street network.
+# - **The vintages do not match.** Ridership is Fall 2025; job access is 2018,
+#   before the Green Line Extension opened; the MAPC inventory was published in
+#   January 2022 and does not state its assessment year.
+# - **The service data is one Saturday.** Enough to describe how the lines were
+#   laid out that day, not enough to say anything about service quality or
+#   reliability.
+# - **Station ridership is attributed to every site beside it.** Sites at the
+#   same station get the same activity figures, which is defensible for a
+#   half-mile catchment and wrong at the corner. It also means those sites tie
+#   on two of the four indicators.
+# - **Boardings plus alightings are not riders.** They count movements at a
+#   stop, and say nothing about who is travelling or why.
+# - **Nothing here tests whether a project would pay, be approved, or work.**
+#   The ranking is a screen over four (or five) proxies.
 # - **Nobody who works in any of these municipalities has seen this.** Every
 #   scenario is a position I wrote for them.
 #
@@ -1404,8 +1539,10 @@ panel.to_csv('outputs/ridership_panel_2017_2025.csv')
 
 # The case study shows this as a Leaflet map rather than a picture, so the
 # analysis writes what that map needs: the rapid transit geometry as drawn
-# lines, and every candidate parcel with the fields its popup reads. Written
-# here so the map cannot drift away from the numbers in the charts.
+# lines, and every candidate site with the fields its popup reads. Written
+# here so the map cannot drift away from the numbers in the charts. The keys
+# are kept as the case study reads them: `walk` is the straight-line distance
+# in km, not a walking distance, and `daily` is boardings plus alightings.
 geom = pd.read_csv(DATA + 'mbta_rapid_transit_shapes.csv')
 lines_out = [{'line': ln, 'branch': br.split('|')[0],
               'pts': [[round(la, 5), round(lo, 5)]
@@ -1430,5 +1567,5 @@ sites_out.sort(key=lambda d: d['rank'])
 with open('outputs/map.json', 'w', encoding='utf-8') as fh:
     json.dump({'lines': lines_out, 'sites': sites_out, 'total': len(sites_out),
                'frontier': int(site.pareto.sum())}, fh, separators=(',', ':'))
-print('map.json:', len(lines_out), 'line branches,', len(sites_out), 'parcels')
+print('map.json:', len(lines_out), 'line branches,', len(sites_out), 'sites')
 print('written to outputs/:', sorted(os.listdir('outputs')))

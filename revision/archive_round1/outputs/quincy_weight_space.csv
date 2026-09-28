@@ -1,0 +1,32 @@
+setting,alpha,seed,n_draws,site_oid,sid,station,first_share_within_quincy,first_share_among_all,quincy_total_share_among_all
+4ind_mixed,"(1,1,1,1)",7,200000,6760,Quincy Center #1,Quincy Center,0.39943,0.0,0.00372
+4ind_mixed,"(1,1,1,1)",7,200000,7300,Wollaston #1,Wollaston,0.318215,0.0,0.00372
+4ind_mixed,"(1,1,1,1)",7,200000,7173,Wollaston #2,Wollaston,0.254725,0.0,0.00372
+4ind_mixed,"(1,1,1,1)",7,200000,6474,Quincy Adams #1,Quincy Adams,0.02257,0.00372,0.00372
+4ind_mixed,"(1,1,1,1)",7,200000,6755,Quincy Center #9,Quincy Center,0.00495,0.0,0.00372
+4ind_mixed,"(1,1,1,1)",7,200000,7529,North Quincy #2,North Quincy,0.00011,0.0,0.00372
+4ind_uniform,"(1,1,1,1)",7,200000,6760,Quincy Center #1,Quincy Center,0.73606,0.0,3.5e-05
+4ind_uniform,"(1,1,1,1)",7,200000,7300,Wollaston #1,Wollaston,0.175775,0.0,3.5e-05
+4ind_uniform,"(1,1,1,1)",7,200000,7173,Wollaston #2,Wollaston,0.065785,0.0,3.5e-05
+4ind_uniform,"(1,1,1,1)",7,200000,6755,Quincy Center #9,Quincy Center,0.020555,0.0,3.5e-05
+4ind_uniform,"(1,1,1,1)",7,200000,7529,North Quincy #2,North Quincy,0.001635,0.0,3.5e-05
+4ind_uniform,"(1,1,1,1)",7,200000,6474,Quincy Adams #1,Quincy Adams,0.00019,3.5e-05,3.5e-05
+5ind_mixed,"(1,1,1,1,1)",7,200000,7300,Wollaston #1,Wollaston,0.45037,0.056135,0.072035
+5ind_mixed,"(1,1,1,1,1)",7,200000,6760,Quincy Center #1,Quincy Center,0.31435,0.0,0.072035
+5ind_mixed,"(1,1,1,1,1)",7,200000,7173,Wollaston #2,Wollaston,0.22354,0.01316,0.072035
+5ind_mixed,"(1,1,1,1,1)",7,200000,6474,Quincy Adams #1,Quincy Adams,0.008155,0.00274,0.072035
+5ind_mixed,"(1,1,1,1,1)",7,200000,6857,Quincy Center #11,Quincy Center,0.002835,0.0,0.072035
+5ind_mixed,"(1,1,1,1,1)",7,200000,7487,North Quincy #1,North Quincy,0.000295,0.0,0.072035
+5ind_mixed,"(1,1,1,1,1)",7,200000,6755,Quincy Center #9,Quincy Center,0.00029,0.0,0.072035
+5ind_mixed,"(1,1,1,1,1)",7,200000,7424,North Quincy #3,North Quincy,0.00011,0.0,0.072035
+5ind_mixed,"(1,1,1,1,1)",7,200000,7529,North Quincy #2,North Quincy,5.5e-05,0.0,0.072035
+5ind_uniform,"(1,1,1,1,1)",7,200000,7300,Wollaston #1,Wollaston,0.49929,0.013415,0.01366
+5ind_uniform,"(1,1,1,1,1)",7,200000,6760,Quincy Center #1,Quincy Center,0.435525,0.0,0.01366
+5ind_uniform,"(1,1,1,1,1)",7,200000,6857,Quincy Center #11,Quincy Center,0.020495,0.0,0.01366
+5ind_uniform,"(1,1,1,1,1)",7,200000,7173,Wollaston #2,Wollaston,0.017745,0.00024,0.01366
+5ind_uniform,"(1,1,1,1,1)",7,200000,7487,North Quincy #1,North Quincy,0.015685,0.0,0.01366
+5ind_uniform,"(1,1,1,1,1)",7,200000,7424,North Quincy #3,North Quincy,0.006795,0.0,0.01366
+5ind_uniform,"(1,1,1,1,1)",7,200000,6771,Quincy Center #4,Quincy Center,0.00267,0.0,0.01366
+5ind_uniform,"(1,1,1,1,1)",7,200000,6755,Quincy Center #9,Quincy Center,0.00158,0.0,0.01366
+5ind_uniform,"(1,1,1,1,1)",7,200000,7529,North Quincy #2,North Quincy,0.000205,0.0,0.01366
+5ind_uniform,"(1,1,1,1,1)",7,200000,6474,Quincy Adams #1,Quincy Adams,1e-05,5e-06,0.01366

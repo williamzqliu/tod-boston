@@ -1,0 +1,105 @@
+{
+  "baseline_commit": "e18a1841e4fbba4d4a0342a8f5e44b202ecd3c3d",
+  "working_tree_head": "e18a1841e4fbba4d4a0342a8f5e44b202ecd3c3d",
+  "working_tree_dirty": true,
+  "commands": [
+    "python revision/reproduce_baseline.py",
+    "python revision/checks.py",
+    "python revision_2026.py"
+  ],
+  "script_sha256": {
+    "revision_2026.py": "17cce6ebdf3a20ae8cb91dcddef4e02fbe4daecb270ff3cce1a84a3889329560",
+    "revision/methods.py": "561f9bd8427a66c01c436a93ec9580808cd252e8ef66f27328ef498fc3bf10bf",
+    "revision/geometry.py": "cc3809906282804b126f5eef709086d4d4a01e92f9d067c4081c26b2a62a6a91",
+    "revision/checks.py": "2da79f538df35f1f2e4447cc1e66f3ccabcdb050abc54a233b97ef48cecb8267",
+    "revision/reproduce_baseline.py": "3a19732817c49161726c3e782250427e249bd4d6cba9ed971859a1c2c16d42a6"
+  },
+  "seeds": {
+    "dirichlet": 7,
+    "seed_stability_check": [
+      7,
+      11,
+      23,
+      42,
+      2026
+    ]
+  },
+  "n_draws": 200000,
+  "tie_tolerance_random_weights": 1e-09,
+  "deterministic_ties": "exact rational arithmetic",
+  "main_setting": "S3: main candidate set, every indicator against it, mid-rank percentiles",
+  "main_candidate_set_size": 246,
+  "excluded_site_oids": [
+    9967,
+    9949,
+    9971,
+    6766,
+    6758
+  ],
+  "environment": {
+    "python": "3.13.7",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "numpy": "2.3.2",
+    "pandas": "2.3.1",
+    "matplotlib": "3.10.6",
+    "scipy": "1.16.2",
+    "pyarrow": "25.0.1"
+  },
+  "data_sha256": {
+    "2024-02-03-subway-on-time-performance-v1.parquet": "ff7c779634166d9375003324627964fb787f3af9d09e7d9a7d6ce4c7c7ac3c43",
+    "Fall_2023_MBTA_Rail_Ridership_Data.csv": "2554fa65d189584a3d0d34fdebfe11e11addfff32f7a0767f97f4f7c6a749cc6",
+    "Fall_2024_MBTA_Rail_Ridership_by_SDP_Time_Period_Route_Line_and_Stop.csv": "6319c7368952b5e9895de642c3bb1968a2752e8961db4950934736e90f93ea3a",
+    "Fall_2025_MBTA_Rail_Ridership_by_Hour_RouteLine_and_Stop.csv": "fbec1801bed54086da1bf1894f4e6ed699aea772a16a75e3a4c5fc05cc00f972",
+    "MBTA Communities.csv": "a34156bb0b3fdb9ee96056d7387e64c24f9242aaef2c1a30bef9df36932527e1",
+    "Rail_Ridership_by_Season_Time_Period_RouteLine_and_Stop.csv": "e70124a28ba02ac903b7ef1f44fe0d3daf607996b6dcd82c8d9bebe46ac74c0f",
+    "Rethinking the Retail Strip Sites-metadata.csv": "c6ab52c5fefab6fe7977511c000815e2b9da481c0fe2b5ab4047a48267dca204",
+    "assess_community.csv": "8f79870ef84f49c02b3d22f796d3e242bee2361a5b0c77d811787f607992ee47",
+    "boston_subway_stations_info.csv": "79cdae971e7c2631dfae60325e3f7ab584da4508066ee6335f0ee0722efe1f2c",
+    "mapc.rethinking_retail_sites.csv": "98ea8a0ca2ba8de6f6f3b2a6d876560534c279501a9f6c36041a4a4785b83218",
+    "mbta_rapid_transit_shapes.csv": "41b5f421fdf1ddcb17135f2ac53e5c12f8a174a74da39cd4404f906c0e83dbc6",
+    "rtc_2020_census.csv": "15844cb663be7fe54875e928869d24e2f12df07f085950de87e252a6b4f55fa8",
+    "zip_code_ma.csv": "60f60fe1292a67438a4428a4b531bcdb7c866abf3b7f557f3f147fae71db84b9",
+    "zoning_atlas.csv": "d39be3ba5aee161b21a2b4d06bf0962c182d12c8b556b8a811338eb595b1f9da"
+  },
+  "baseline_outputs_sha256": {
+    "map.json": "a124f44bdf9086f5f51d1af44012704bfddee7846737b2c9732022e00a3483b7",
+    "ridership_panel_2017_2025.csv": "b276b0c6253c6e618565bbc05e297e6584664d544f03fcbefc99b581f80c07c1",
+    "scenario_top5.csv": "5dee4a65db33bf365f652ca43b78f3a014f927755cb345f2ed0188de7f642ba7",
+    "sites_scored_2026.csv": "ae96e3ffc4ebac666031ecfa73d2cc6171df3f0bb7dcb210bd0307ddf0e9edf9"
+  },
+  "geometry_validation": {
+    "sites": 3028,
+    "area_equal_to_0.01_ac": 0.9917437252311757,
+    "area_within_2pct": 0.9930647291941875,
+    "centroid_offset_m_median": 0.07213670592576632,
+    "centroid_offset_m_p99": 0.15924482209235014
+  },
+  "outputs": [
+    "candidate_overlaps.csv",
+    "candidates_quality.csv",
+    "first_place_by_setting.csv",
+    "frontier_by_setting.csv",
+    "frontier_summary.csv",
+    "indicator_dictionary.csv",
+    "internal_checks.csv",
+    "key_site_ranks.csv",
+    "quincy_vs_all.csv",
+    "quincy_weight_space.csv",
+    "rankings_by_setting.csv",
+    "record_audit.csv",
+    "setting_comparisons.csv",
+    "settings.csv",
+    "site_id_map.csv",
+    "summary.json",
+    "top10_by_setting.csv",
+    "transform_rules.csv",
+    "weight_seed_stability.csv",
+    "weight_sensitivity.csv",
+    "weight_sensitivity_summary.csv"
+  ],
+  "figures": [
+    "f1-first-place-by-step.png",
+    "f2-key-site-ranks-by-step.png",
+    "f3-quincy-only.png"
+  ]
+}

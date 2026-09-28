@@ -1,0 +1,26 @@
+check,result,detail,status
+re-implementation reproduces frozen e18a184 sites_scored_2026.csv,yes,"251 names, coordinates, indicators and all five scenario scores, to 1e-9",ok
+site polygons decoded from the MAPC shape field,3028 sites,decoded area equals sitearea_a to 0.01 ac for 99.2%; centroid within 0.16 m of MAPC lat/long for 99% (median 0.07 m),ok
+"multi-ring decoded polygons, region-wide",30 records,"recorded area matches the decoded total for 12, the first ring alone for 9, neither for 9; the part/hole reading is not validated and no standard GIS reader was available to check it",note
+candidate records that are the same site recorded twice,0,"no pair shares a parcel, identical values and a coinciding polygon",ok
+candidates excluded from the main set (cost indicator not attributable),5,"Assembly #1 (9967), Assembly #3 (9949), Assembly #2 (9971), Quincy Center #8 (6766), Quincy Center #6 (6758)",check
+main candidate set,246 sites,"9 communities, 39 stations",ok
+"baseline Dirichlet(1,1,1,1), seed 7, 200,000 draws reproduced",yes,7 printed shares match; S0 split shares equal the baseline argmax shares: True,ok
+"four-indicator frontier, all 251 vs main set",22 vs 20,entering once the excluded records are gone: none,ok
+missing or infinite values: ppa,0 of 251,,ok
+missing or infinite values: buildar_ac,0 of 251,,ok
+missing or infinite values: daily,0 of 251,,ok
+missing or infinite values: peak_share,0 of 251,,ok
+missing or infinite values: jobs45tr,0 of 251,,ok
+"site_oid unique (region, candidates)","True, True",,ok
+"daily vs weekend, Pearson: site level / 39 candidate stations",0.980 / 0.981,,ok
+exact joint first place: S2u_transit,Malden Center #1 = Malden Center #2,,note
+exact joint first place: S2u_equal,Malden Center #1 = Malden Center #2,,note
+exact joint first place: S3_transit,Malden Center #1 = Malden Center #2,,note
+exact joint first place: S3_equal,Malden Center #1 = Malden Center #2,,note
+exact joint first place: K3_transit,Malden Center #1 = Malden Center #2,,note
+exact joint first place: K3_equal,Malden Center #1 = Malden Center #2,,note
+exact joint first place: E3_equal,Malden Center #1 = Malden Center #2,,note
+exact joint first place: E3u_equal,Malden Center #1 = Malden Center #2,,note
+exact joint first place: S3_no_peak_share,Malden Center #1 = Malden Center #2,,note
+ties created by either percentile rule between distinct raw values,0,"every candidate value is also in its reference, so distinct values keep distinct scores",ok

@@ -1,0 +1,371 @@
+setting,rank,sid,site_oid,municipal,score,exact_tie_with_another
+M3_equal,1,Malden Center #1,10667,Malden,94.7154,True
+M3_equal,1,Malden Center #2,10616,Malden,94.7154,True
+M3_equal,3,Malden Center #4,10665,Malden,92.8184,False
+M3_equal,4,Malden Center #3,10664,Malden,90.2439,False
+M3_equal,5,Malden Center #5,10682,Malden,89.8374,False
+M3_equal,6,Malden Center #6,10648,Malden,87.8049,False
+M3_equal,7,Quincy Center #1,6760,Quincy,85.6369,False
+M3_equal,8,Wollaston #1,7300,Quincy,85.5014,False
+M3_equal,9,Alewife #1,9965,Cambridge,85.2304,False
+M3_equal,10,Malden Center #8,10692,Malden,84.3496,False
+S0_developer,1,Braintree #1,5973,Braintree,76.3711,False
+S0_developer,2,Braintree #2,6019,Braintree,71.689,False
+S0_developer,3,Wollaston #2,7173,Quincy,71.3585,False
+S0_developer,4,Wollaston #1,7300,Quincy,70.7607,False
+S0_developer,5,Malden Center #1,10667,Malden,68.6438,False
+S0_developer,6,Malden Center #2,10616,Malden,68.2906,False
+S0_developer,7,Wonderland #1,10381,Revere,66.1995,False
+S0_developer,8,Quincy Adams #1,6474,Quincy,65.4062,False
+S0_developer,9,Malden Center #4,10665,Malden,64.3056,False
+S0_developer,10,Quincy Center #1,6760,Quincy,63.3609,False
+S0_city,1,Malden Center #1,10667,Malden,82.3496,False
+S0_city,2,Braintree #1,5973,Braintree,81.1478,False
+S0_city,3,Malden Center #2,10616,Malden,80.7552,False
+S0_city,4,Wollaston #1,7300,Quincy,79.0393,False
+S0_city,5,Braintree #2,6019,Braintree,78.403,False
+S0_city,6,Quincy Center #1,6760,Quincy,75.6311,False
+S0_city,7,Wollaston #2,7173,Quincy,73.3999,False
+S0_city,8,Revere Beach #1,10369,Revere,73.1442,False
+S0_city,9,Malden Center #4,10665,Malden,71.8164,False
+S0_city,10,Malden Center #3,10664,Malden,70.7456,False
+S0_transit,1,Malden Center #1,10667,Malden,78.8829,False
+S0_transit,2,Malden Center #2,10616,Malden,78.5045,False
+S0_transit,3,Malden Center #4,10665,Malden,75.9318,False
+S0_transit,4,Malden Center #3,10664,Malden,74.2816,False
+S0_transit,5,Malden Center #5,10682,Malden,73.7494,False
+S0_transit,6,Harvard #1,9397,Cambridge,73.6084,False
+S0_transit,7,Wonderland #1,10381,Revere,73.2512,False
+S0_transit,8,Malden Center #6,10648,Malden,72.7506,False
+S0_transit,9,Harvard #2,9441,Cambridge,72.6921,False
+S0_transit,10,Harvard #3,9325,Cambridge,72.3107,False
+S0_placemaking,1,Revere Beach #1,10369,Revere,78.8752,False
+S0_placemaking,2,Malden Center #1,10667,Malden,77.7633,False
+S0_placemaking,3,Braintree #1,5973,Braintree,77.2198,False
+S0_placemaking,4,Malden Center #2,10616,Malden,77.0216,False
+S0_placemaking,5,Quincy Center #1,6760,Quincy,76.442,False
+S0_placemaking,6,Braintree #2,6019,Braintree,75.4338,False
+S0_placemaking,7,Wollaston #1,7300,Quincy,74.9611,False
+S0_placemaking,8,Malden Center #4,10665,Malden,72.6127,False
+S0_placemaking,9,Wollaston #2,7173,Quincy,72.5686,False
+S0_placemaking,10,Wonderland #1,10381,Revere,72.1263,False
+S0_equal,1,Malden Center #1,10667,Malden,76.259,False
+S0_equal,2,Malden Center #2,10616,Malden,75.6283,False
+S0_equal,3,Braintree #1,5973,Braintree,75.1333,False
+S0_equal,4,Wollaston #1,7300,Quincy,72.5573,False
+S0_equal,5,Braintree #2,6019,Braintree,72.5198,False
+S0_equal,6,Quincy Center #1,6760,Quincy,71.4239,False
+S0_equal,7,Malden Center #4,10665,Malden,71.3406,False
+S0_equal,8,Wollaston #2,7173,Quincy,71.0191,False
+S0_equal,9,Revere Beach #1,10369,Revere,70.2941,False
+S0_equal,10,Wonderland #1,10381,Revere,69.5621,False
+S1_developer,1,Braintree #1,5973,Braintree,76.3711,False
+S1_developer,2,Braintree #2,6019,Braintree,71.689,False
+S1_developer,3,Wollaston #2,7173,Quincy,71.3585,False
+S1_developer,4,Wollaston #1,7300,Quincy,70.7607,False
+S1_developer,5,Malden Center #1,10667,Malden,68.6438,False
+S1_developer,6,Malden Center #2,10616,Malden,68.2906,False
+S1_developer,7,Wonderland #1,10381,Revere,66.1995,False
+S1_developer,8,Quincy Adams #1,6474,Quincy,65.4062,False
+S1_developer,9,Malden Center #4,10665,Malden,64.3056,False
+S1_developer,10,Quincy Center #1,6760,Quincy,63.3609,False
+S1_city,1,Malden Center #1,10667,Malden,82.3496,False
+S1_city,2,Braintree #1,5973,Braintree,81.1478,False
+S1_city,3,Malden Center #2,10616,Malden,80.7552,False
+S1_city,4,Wollaston #1,7300,Quincy,79.0393,False
+S1_city,5,Braintree #2,6019,Braintree,78.403,False
+S1_city,6,Quincy Center #1,6760,Quincy,75.6311,False
+S1_city,7,Wollaston #2,7173,Quincy,73.3999,False
+S1_city,8,Revere Beach #1,10369,Revere,73.1442,False
+S1_city,9,Malden Center #4,10665,Malden,71.8164,False
+S1_city,10,Malden Center #3,10664,Malden,70.7456,False
+S1_transit,1,Malden Center #1,10667,Malden,78.8829,False
+S1_transit,2,Malden Center #2,10616,Malden,78.5045,False
+S1_transit,3,Malden Center #4,10665,Malden,75.9318,False
+S1_transit,4,Malden Center #3,10664,Malden,74.2816,False
+S1_transit,5,Malden Center #5,10682,Malden,73.7494,False
+S1_transit,6,Harvard #1,9397,Cambridge,73.6084,False
+S1_transit,7,Wonderland #1,10381,Revere,73.2512,False
+S1_transit,8,Malden Center #6,10648,Malden,72.7506,False
+S1_transit,9,Harvard #2,9441,Cambridge,72.6921,False
+S1_transit,10,Harvard #3,9325,Cambridge,72.3107,False
+S1_placemaking,1,Revere Beach #1,10369,Revere,78.8752,False
+S1_placemaking,2,Malden Center #1,10667,Malden,77.7633,False
+S1_placemaking,3,Braintree #1,5973,Braintree,77.2198,False
+S1_placemaking,4,Malden Center #2,10616,Malden,77.0216,False
+S1_placemaking,5,Quincy Center #1,6760,Quincy,76.442,False
+S1_placemaking,6,Braintree #2,6019,Braintree,75.4338,False
+S1_placemaking,7,Wollaston #1,7300,Quincy,74.9611,False
+S1_placemaking,8,Malden Center #4,10665,Malden,72.6127,False
+S1_placemaking,9,Wollaston #2,7173,Quincy,72.5686,False
+S1_placemaking,10,Wonderland #1,10381,Revere,72.1263,False
+S1_equal,1,Malden Center #1,10667,Malden,76.259,False
+S1_equal,2,Malden Center #2,10616,Malden,75.6283,False
+S1_equal,3,Braintree #1,5973,Braintree,75.1333,False
+S1_equal,4,Wollaston #1,7300,Quincy,72.5573,False
+S1_equal,5,Braintree #2,6019,Braintree,72.5198,False
+S1_equal,6,Quincy Center #1,6760,Quincy,71.4239,False
+S1_equal,7,Malden Center #4,10665,Malden,71.3406,False
+S1_equal,8,Wollaston #2,7173,Quincy,71.0191,False
+S1_equal,9,Revere Beach #1,10369,Revere,70.2941,False
+S1_equal,10,Wonderland #1,10381,Revere,69.5621,False
+S2_developer,1,Braintree #1,5973,Braintree,76.4647,False
+S2_developer,2,Braintree #2,6019,Braintree,71.7743,False
+S2_developer,3,Wollaston #2,7173,Quincy,71.462,False
+S2_developer,4,Wollaston #1,7300,Quincy,70.856,False
+S2_developer,5,Malden Center #1,10667,Malden,68.7989,False
+S2_developer,6,Malden Center #2,10616,Malden,68.4498,False
+S2_developer,7,Wonderland #1,10381,Revere,66.2853,False
+S2_developer,8,Quincy Adams #1,6474,Quincy,65.4937,False
+S2_developer,9,Malden Center #4,10665,Malden,64.4854,False
+S2_developer,10,Quincy Center #1,6760,Quincy,63.4961,False
+S2_city,1,Malden Center #1,10667,Malden,82.6732,False
+S2_city,2,Braintree #1,5973,Braintree,81.3484,False
+S2_city,3,Malden Center #2,10616,Malden,81.0871,False
+S2_city,4,Wollaston #1,7300,Quincy,79.2434,False
+S2_city,5,Braintree #2,6019,Braintree,78.5872,False
+S2_city,6,Quincy Center #1,6760,Quincy,75.9149,False
+S2_city,7,Wollaston #2,7173,Quincy,73.6205,False
+S2_city,8,Revere Beach #1,10369,Revere,73.2968,False
+S2_city,9,Malden Center #4,10665,Malden,72.1895,False
+S2_city,10,Malden Center #3,10664,Malden,71.0857,False
+S2_transit,1,Malden Center #1,10667,Malden,79.2016,False
+S2_transit,2,Malden Center #2,10616,Malden,78.8256,False
+S2_transit,3,Malden Center #4,10665,Malden,76.2654,False
+S2_transit,4,Malden Center #3,10664,Malden,74.6053,False
+S2_transit,5,Malden Center #5,10682,Malden,74.0953,False
+S2_transit,6,Harvard #1,9397,Cambridge,73.7302,False
+S2_transit,7,Wonderland #1,10381,Revere,73.3331,False
+S2_transit,8,Malden Center #6,10648,Malden,73.0941,False
+S2_transit,9,Harvard #2,9441,Cambridge,72.8064,False
+S2_transit,10,Harvard #3,9325,Cambridge,72.43,False
+S2_placemaking,1,Revere Beach #1,10369,Revere,78.602,False
+S2_placemaking,2,Malden Center #1,10667,Malden,77.1274,False
+S2_placemaking,3,Braintree #1,5973,Braintree,76.8711,False
+S2_placemaking,4,Malden Center #2,10616,Malden,76.3899,False
+S2_placemaking,5,Quincy Center #1,6760,Quincy,75.8858,False
+S2_placemaking,6,Braintree #2,6019,Braintree,75.0768,False
+S2_placemaking,7,Wollaston #1,7300,Quincy,74.5643,False
+S2_placemaking,8,Wollaston #2,7173,Quincy,72.1801,False
+S2_placemaking,9,Wonderland #1,10381,Revere,72.1184,False
+S2_placemaking,10,Malden Center #4,10665,Malden,72.0017,False
+S2_equal,1,Malden Center #1,10667,Malden,76.259,False
+S2_equal,2,Malden Center #2,10616,Malden,75.6324,False
+S2_equal,3,Braintree #1,5973,Braintree,75.1415,False
+S2_equal,4,Wollaston #1,7300,Quincy,72.5572,False
+S2_equal,5,Braintree #2,6019,Braintree,72.5197,False
+S2_equal,6,Quincy Center #1,6760,Quincy,71.4239,False
+S2_equal,7,Malden Center #4,10665,Malden,71.3653,False
+S2_equal,8,Wollaston #2,7173,Quincy,71.0273,False
+S2_equal,9,Revere Beach #1,10369,Revere,70.2982,False
+S2_equal,10,Wonderland #1,10381,Revere,69.6322,False
+S2u_developer,1,Malden Center #2,10616,Malden,92.561,False
+S2u_developer,2,Malden Center #1,10667,Malden,92.2561,False
+S2u_developer,3,Malden Center #4,10665,Malden,91.3415,False
+S2u_developer,4,Braintree #1,5973,Braintree,90.4268,False
+S2u_developer,5,Wollaston #1,7300,Quincy,90.0203,False
+S2u_developer,6,Braintree #2,6019,Braintree,89.4106,False
+S2u_developer,7,Wollaston #2,7173,Quincy,89.3089,False
+S2u_developer,8,Quincy Center #1,6760,Quincy,88.6382,False
+S2u_developer,9,Malden Center #5,10682,Malden,87.9878,False
+S2u_developer,10,Malden Center #3,10664,Malden,87.1748,False
+S2u_city,1,Malden Center #1,10667,Malden,92.8049,False
+S2u_city,2,Malden Center #2,10616,Malden,92.439,False
+S2u_city,3,Malden Center #4,10665,Malden,89.3496,False
+S2u_city,4,Malden Center #3,10664,Malden,88.1707,True
+S2u_city,4,Quincy Center #1,6760,Quincy,88.1707,True
+S2u_city,6,Wollaston #1,7300,Quincy,88.0488,False
+S2u_city,7,Braintree #1,5973,Braintree,87.8455,False
+S2u_city,8,Braintree #2,6019,Braintree,86.7886,False
+S2u_city,9,Revere Beach #1,10369,Revere,86.3415,False
+S2u_city,10,Malden Center #5,10682,Malden,86.2195,False
+S2u_transit,1,Malden Center #1,10667,Malden,86.4634,True
+S2u_transit,1,Malden Center #2,10616,Malden,86.4634,True
+S2u_transit,3,Malden Center #4,10665,Malden,85.6098,False
+S2u_transit,4,Malden Center #3,10664,Malden,84.4512,False
+S2u_transit,5,Malden Center #5,10682,Malden,84.2683,False
+S2u_transit,6,Malden Center #6,10648,Malden,83.3537,False
+S2u_transit,7,Malden Center #8,10692,Malden,81.7683,False
+S2u_transit,8,Wonderland #1,10381,Revere,81.6463,False
+S2u_transit,9,Quincy Center #1,6760,Quincy,80.6911,False
+S2u_transit,10,Malden Center #7,10687,Malden,80.3049,False
+S2u_placemaking,1,Revere Beach #1,10369,Revere,88.1504,False
+S2u_placemaking,2,Malden Center #1,10667,Malden,85.7724,False
+S2u_placemaking,3,Malden Center #2,10616,Malden,85.6504,False
+S2u_placemaking,4,Quincy Center #1,6760,Quincy,85.5285,False
+S2u_placemaking,5,Malden Center #4,10665,Malden,84.1463,False
+S2u_placemaking,6,Malden Center #3,10664,Malden,83.1098,False
+S2u_placemaking,7,Wonderland #1,10381,Revere,82.6626,False
+S2u_placemaking,8,Braintree #1,5973,Braintree,82.561,False
+S2u_placemaking,9,Malden Center #5,10682,Malden,82.3577,False
+S2u_placemaking,10,Braintree #2,6019,Braintree,81.9715,False
+S2u_equal,1,Malden Center #1,10667,Malden,88.6179,True
+S2u_equal,1,Malden Center #2,10616,Malden,88.6179,True
+S2u_equal,3,Malden Center #4,10665,Malden,87.1951,False
+S2u_equal,4,Malden Center #3,10664,Malden,85.2642,False
+S2u_equal,5,Quincy Center #1,6760,Quincy,85.1626,False
+S2u_equal,6,Malden Center #5,10682,Malden,84.9593,False
+S2u_equal,7,Revere Beach #1,10369,Revere,84.7561,False
+S2u_equal,8,Malden Center #6,10648,Malden,83.435,False
+S2u_equal,9,Wonderland #1,10381,Revere,83.0285,True
+S2u_equal,9,Wollaston #1,7300,Quincy,83.0285,True
+S3_developer,1,Malden Center #2,10616,Malden,92.6728,False
+S3_developer,2,Malden Center #1,10667,Malden,92.3679,False
+S3_developer,3,Malden Center #4,10665,Malden,91.4533,False
+S3_developer,4,Braintree #1,5973,Braintree,90.4675,False
+S3_developer,5,Wollaston #1,7300,Quincy,90.0711,False
+S3_developer,6,Braintree #2,6019,Braintree,89.4512,False
+S3_developer,7,Wollaston #2,7173,Quincy,89.3598,False
+S3_developer,8,Quincy Center #1,6760,Quincy,88.7093,False
+S3_developer,9,Malden Center #5,10682,Malden,88.0996,False
+S3_developer,10,Malden Center #3,10664,Malden,87.2866,False
+S3_city,1,Malden Center #1,10667,Malden,93.1911,False
+S3_city,2,Malden Center #2,10616,Malden,92.8252,False
+S3_city,3,Malden Center #4,10665,Malden,89.7358,False
+S3_city,4,Malden Center #3,10664,Malden,88.5569,False
+S3_city,5,Quincy Center #1,6760,Quincy,88.4756,False
+S3_city,6,Wollaston #1,7300,Quincy,88.313,False
+S3_city,7,Braintree #1,5973,Braintree,88.0894,False
+S3_city,8,Braintree #2,6019,Braintree,87.0325,False
+S3_city,9,Malden Center #5,10682,Malden,86.6057,False
+S3_city,10,Revere Beach #1,10369,Revere,86.5447,False
+S3_transit,1,Malden Center #1,10667,Malden,86.7886,True
+S3_transit,1,Malden Center #2,10616,Malden,86.7886,True
+S3_transit,3,Malden Center #4,10665,Malden,85.935,False
+S3_transit,4,Malden Center #3,10664,Malden,84.7764,False
+S3_transit,5,Malden Center #5,10682,Malden,84.5935,False
+S3_transit,6,Malden Center #6,10648,Malden,83.6789,False
+S3_transit,7,Malden Center #8,10692,Malden,82.124,False
+S3_transit,8,Wonderland #1,10381,Revere,81.7175,False
+S3_transit,9,Quincy Center #1,6760,Quincy,80.935,False
+S3_transit,10,Malden Center #7,10687,Malden,80.6911,False
+S3_placemaking,1,Revere Beach #1,10369,Revere,87.8862,False
+S3_placemaking,2,Malden Center #1,10667,Malden,85.1423,False
+S3_placemaking,3,Quincy Center #1,6760,Quincy,85.061,False
+S3_placemaking,4,Malden Center #2,10616,Malden,85.0203,False
+S3_placemaking,5,Malden Center #4,10665,Malden,83.5163,False
+S3_placemaking,6,Wonderland #1,10381,Revere,82.6524,False
+S3_placemaking,7,Malden Center #3,10664,Malden,82.4797,False
+S3_placemaking,8,Braintree #1,5973,Braintree,82.2154,False
+S3_placemaking,9,Malden Center #5,10682,Malden,81.7276,False
+S3_placemaking,10,Braintree #2,6019,Braintree,81.626,False
+S3_equal,1,Malden Center #1,10667,Malden,88.6179,True
+S3_equal,1,Malden Center #2,10616,Malden,88.6179,True
+S3_equal,3,Malden Center #4,10665,Malden,87.1951,False
+S3_equal,4,Malden Center #3,10664,Malden,85.2642,False
+S3_equal,5,Quincy Center #1,6760,Quincy,85.1626,False
+S3_equal,6,Malden Center #5,10682,Malden,84.9593,False
+S3_equal,7,Revere Beach #1,10369,Revere,84.7561,False
+S3_equal,8,Malden Center #6,10648,Malden,83.435,False
+S3_equal,9,Wonderland #1,10381,Revere,83.0793,False
+S3_equal,10,Wollaston #1,7300,Quincy,83.0285,False
+K3_developer,1,Malden Center #2,10616,Malden,92.6195,False
+K3_developer,2,Malden Center #1,10667,Malden,92.3207,False
+K3_developer,3,Malden Center #4,10665,Malden,91.2251,False
+K3_developer,4,Braintree #1,5973,Braintree,90.1594,False
+K3_developer,5,Wollaston #1,7300,Quincy,89.7709,False
+K3_developer,6,Braintree #2,6019,Braintree,89.1633,False
+K3_developer,7,Wollaston #2,7173,Quincy,89.0737,False
+K3_developer,8,Quincy Center #1,6760,Quincy,88.5359,False
+K3_developer,9,Malden Center #5,10682,Malden,87.8386,False
+K3_developer,10,Malden Center #3,10664,Malden,86.9422,False
+K3_city,1,Malden Center #1,10667,Malden,93.1275,False
+K3_city,2,Malden Center #2,10616,Malden,92.7689,False
+K3_city,3,Malden Center #4,10665,Malden,89.3426,False
+K3_city,4,Quincy Center #1,6760,Quincy,88.2271,False
+K3_city,5,Malden Center #3,10664,Malden,88.1076,False
+K3_city,6,Wollaston #1,7300,Quincy,87.9482,False
+K3_city,7,Braintree #1,5973,Braintree,87.7291,False
+K3_city,8,Braintree #2,6019,Braintree,86.6932,False
+K3_city,9,Revere Beach #1,10369,Revere,86.3347,False
+K3_city,10,Malden Center #5,10682,Malden,86.0757,False
+K3_transit,1,Malden Center #1,10667,Malden,86.4542,True
+K3_transit,1,Malden Center #2,10616,Malden,86.4542,True
+K3_transit,3,Malden Center #4,10665,Malden,85.498,False
+K3_transit,4,Malden Center #3,10664,Malden,84.3028,False
+K3_transit,5,Malden Center #5,10682,Malden,84.1235,False
+K3_transit,6,Malden Center #6,10648,Malden,83.2271,False
+K3_transit,7,Malden Center #8,10692,Malden,81.6434,False
+K3_transit,8,Wonderland #1,10381,Revere,81.0657,False
+K3_transit,9,Quincy Center #1,6760,Quincy,80.1992,False
+K3_transit,10,Malden Center #7,10687,Malden,80.1793,False
+K3_placemaking,1,Revere Beach #1,10369,Revere,87.6693,False
+K3_placemaking,2,Malden Center #1,10667,Malden,84.6414,False
+K3_placemaking,3,Malden Center #2,10616,Malden,84.5219,False
+K3_placemaking,4,Quincy Center #1,6760,Quincy,84.4024,False
+K3_placemaking,5,Malden Center #4,10665,Malden,82.8486,False
+K3_placemaking,6,Wonderland #1,10381,Revere,81.9821,False
+K3_placemaking,7,Malden Center #3,10664,Malden,81.7729,False
+K3_placemaking,8,Braintree #1,5973,Braintree,81.3745,False
+K3_placemaking,9,Malden Center #5,10682,Malden,80.996,False
+K3_placemaking,10,Braintree #2,6019,Braintree,80.7968,False
+K3_equal,1,Malden Center #1,10667,Malden,88.3466,True
+K3_equal,1,Malden Center #2,10616,Malden,88.3466,True
+K3_equal,3,Malden Center #4,10665,Malden,86.753,False
+K3_equal,4,Malden Center #3,10664,Malden,84.761,False
+K3_equal,5,Quincy Center #1,6760,Quincy,84.6614,False
+K3_equal,6,Malden Center #5,10682,Malden,84.4622,True
+K3_equal,6,Revere Beach #1,10369,Revere,84.4622,True
+K3_equal,8,Malden Center #6,10648,Malden,82.9681,False
+K3_equal,9,Wonderland #1,10381,Revere,82.5199,False
+K3_equal,10,Wollaston #1,7300,Quincy,82.3705,False
+E0_equal,1,Malden Center #1,10667,Malden,78.92,False
+E0_equal,2,Malden Center #2,10616,Malden,78.4155,False
+E0_equal,3,Wollaston #1,7300,Quincy,75.6746,False
+E0_equal,4,Malden Center #4,10665,Malden,74.9853,False
+E0_equal,5,Wollaston #2,7173,Quincy,73.8761,False
+E0_equal,6,Wonderland #1,10381,Revere,73.8663,False
+E0_equal,7,Quincy Center #1,6760,Quincy,73.8432,False
+E0_equal,8,Revere Beach #1,10369,Revere,73.4084,False
+E0_equal,9,Malden Center #3,10664,Malden,72.785,False
+E0_equal,10,Braintree #1,5973,Braintree,72.5901,False
+E2_equal,1,Malden Center #1,10667,Malden,78.9596,False
+E2_equal,2,Malden Center #2,10616,Malden,78.4584,False
+E2_equal,3,Wollaston #1,7300,Quincy,75.6911,False
+E2_equal,4,Malden Center #4,10665,Malden,75.0447,False
+E2_equal,5,Wonderland #1,10381,Revere,73.9323,False
+E2_equal,6,Wollaston #2,7173,Quincy,73.8991,False
+E2_equal,7,Quincy Center #1,6760,Quincy,73.8861,False
+E2_equal,8,Revere Beach #1,10369,Revere,73.4149,False
+E2_equal,9,Malden Center #3,10664,Malden,72.8312,False
+E2_equal,10,Braintree #1,5973,Braintree,72.6,False
+E3_equal,1,Malden Center #1,10667,Malden,78.5772,True
+E3_equal,1,Malden Center #2,10616,Malden,78.5772,True
+E3_equal,3,Sullivan Square #1,9863,Somerville,78.2927,False
+E3_equal,4,Malden Center #4,10665,Malden,77.439,False
+E3_equal,5,Central #1,9289,Cambridge,76.0976,False
+E3_equal,6,Malden Center #3,10664,Malden,75.8943,False
+E3_equal,7,Malden Center #5,10682,Malden,75.6504,False
+E3_equal,8,Wonderland #1,10381,Revere,75.5285,False
+E3_equal,9,Malden Center #6,10648,Malden,74.4309,False
+E3_equal,10,Revere Beach #1,10369,Revere,73.4553,False
+E3u_equal,1,Malden Center #1,10667,Malden,78.5656,True
+E3u_equal,1,Malden Center #2,10616,Malden,78.5656,True
+E3u_equal,3,Sullivan Square #1,9863,Somerville,78.2787,False
+E3u_equal,4,Malden Center #4,10665,Malden,77.418,False
+E3u_equal,5,Central #1,9289,Cambridge,76.0656,False
+E3u_equal,6,Malden Center #3,10664,Malden,75.8607,False
+E3u_equal,7,Wonderland #1,10381,Revere,75.6557,False
+E3u_equal,8,Malden Center #5,10682,Malden,75.6148,False
+E3u_equal,9,Malden Center #6,10648,Malden,74.3852,False
+E3u_equal,10,Revere Beach #1,10369,Revere,73.4016,False
+X4_peak_low_equal,1,Malden Center #1,10667,Malden,88.6179,True
+X4_peak_low_equal,1,Malden Center #2,10616,Malden,88.6179,True
+X4_peak_low_equal,3,Malden Center #4,10665,Malden,87.1951,False
+X4_peak_low_equal,4,Malden Center #3,10664,Malden,85.2642,False
+X4_peak_low_equal,5,Quincy Center #1,6760,Quincy,85.1626,False
+X4_peak_low_equal,6,Malden Center #5,10682,Malden,84.9593,False
+X4_peak_low_equal,7,Revere Beach #1,10369,Revere,84.7561,False
+X4_peak_low_equal,8,Malden Center #6,10648,Malden,83.435,False
+X4_peak_low_equal,9,Wonderland #1,10381,Revere,83.0793,False
+X4_peak_low_equal,10,Wollaston #1,7300,Quincy,83.0285,False
+X4_peak_high_equal,1,Alewife #1,9965,Cambridge,88.1098,False
+X4_peak_high_equal,2,Alewife #2,9928,Cambridge,81.7073,False
+X4_peak_high_equal,3,Malden Center #1,10667,Malden,78.4553,True
+X4_peak_high_equal,3,Malden Center #2,10616,Malden,78.4553,True
+X4_peak_high_equal,5,Malden Center #4,10665,Malden,77.0325,False
+X4_peak_high_equal,6,Oak Grove #2,10771,Malden,76.2703,False
+X4_peak_high_equal,7,Wellington #1,10236,Medford,75.9146,False
+X4_peak_high_equal,8,Malden Center #3,10664,Malden,75.1016,False
+X4_peak_high_equal,9,Malden Center #5,10682,Malden,74.7967,False
+X4_peak_high_equal,10,Porter #2,9766,Somerville,74.6951,False

@@ -1,0 +1,315 @@
+{
+  "main_set": 246,
+  "excluded": {
+    "Assembly #1": 9967,
+    "Assembly #3": 9949,
+    "Assembly #2": 9971,
+    "Quincy Center #8": 6766,
+    "Quincy Center #6": 6758
+  },
+  "jobs_zero": {
+    "Assembly #4": 10012,
+    "Assembly #5": 9995
+  },
+  "first_place": {
+    "S0_developer": {
+      "first": "Braintree #1",
+      "gap_to_runner_up": 4.682149250786804,
+      "gap_in_one_position_steps": NaN
+    },
+    "S0_city": {
+      "first": "Malden Center #1",
+      "gap_to_runner_up": 1.201806918753366,
+      "gap_in_one_position_steps": NaN
+    },
+    "S0_transit": {
+      "first": "Malden Center #1",
+      "gap_to_runner_up": 0.3784156483650077,
+      "gap_in_one_position_steps": NaN
+    },
+    "S0_placemaking": {
+      "first": "Revere Beach #1",
+      "gap_to_runner_up": 1.111899964150771,
+      "gap_in_one_position_steps": NaN
+    },
+    "S0_equal": {
+      "first": "Malden Center #1",
+      "gap_to_runner_up": 0.6306927472750128,
+      "gap_in_one_position_steps": NaN
+    },
+    "S1_developer": {
+      "first": "Braintree #1",
+      "gap_to_runner_up": 4.682149250786804,
+      "gap_in_one_position_steps": NaN
+    },
+    "S1_city": {
+      "first": "Malden Center #1",
+      "gap_to_runner_up": 1.201806918753366,
+      "gap_in_one_position_steps": NaN
+    },
+    "S1_transit": {
+      "first": "Malden Center #1",
+      "gap_to_runner_up": 0.3784156483650077,
+      "gap_in_one_position_steps": NaN
+    },
+    "S1_placemaking": {
+      "first": "Revere Beach #1",
+      "gap_to_runner_up": 1.111899964150771,
+      "gap_in_one_position_steps": NaN
+    },
+    "S1_equal": {
+      "first": "Malden Center #1",
+      "gap_to_runner_up": 0.6306927472750128,
+      "gap_in_one_position_steps": NaN
+    },
+    "S2_developer": {
+      "first": "Braintree #1",
+      "gap_to_runner_up": 4.6904055255556285,
+      "gap_in_one_position_steps": NaN
+    },
+    "S2_city": {
+      "first": "Malden Center #1",
+      "gap_to_runner_up": 1.3247366002914145,
+      "gap_in_one_position_steps": NaN
+    },
+    "S2_transit": {
+      "first": "Malden Center #1",
+      "gap_to_runner_up": 0.3759387659343604,
+      "gap_in_one_position_steps": NaN
+    },
+    "S2_placemaking": {
+      "first": "Revere Beach #1",
+      "gap_to_runner_up": 1.4745938385869761,
+      "gap_in_one_position_steps": NaN
+    },
+    "S2_equal": {
+      "first": "Malden Center #1",
+      "gap_to_runner_up": 0.6265646098906006,
+      "gap_in_one_position_steps": NaN
+    },
+    "S2u_developer": {
+      "first": "Malden Center #2",
+      "gap_to_runner_up": 0.3048780487804878,
+      "gap_in_one_position_steps": 7.5
+    },
+    "S2u_city": {
+      "first": "Malden Center #1",
+      "gap_to_runner_up": 0.36585365853658536,
+      "gap_in_one_position_steps": 9.0
+    },
+    "S2u_transit": {
+      "first": "Malden Center #1 = Malden Center #2",
+      "gap_to_runner_up": 0.8536585365853658,
+      "gap_in_one_position_steps": 14.0
+    },
+    "S2u_placemaking": {
+      "first": "Revere Beach #1",
+      "gap_to_runner_up": 2.3780487804878048,
+      "gap_in_one_position_steps": 39.0
+    },
+    "S2u_equal": {
+      "first": "Malden Center #1 = Malden Center #2",
+      "gap_to_runner_up": 1.4227642276422765,
+      "gap_in_one_position_steps": 14.0
+    },
+    "S3_developer": {
+      "first": "Malden Center #2",
+      "gap_to_runner_up": 0.3048780487804878,
+      "gap_in_one_position_steps": 7.5
+    },
+    "S3_city": {
+      "first": "Malden Center #1",
+      "gap_to_runner_up": 0.36585365853658536,
+      "gap_in_one_position_steps": 9.0
+    },
+    "S3_transit": {
+      "first": "Malden Center #1 = Malden Center #2",
+      "gap_to_runner_up": 0.8536585365853658,
+      "gap_in_one_position_steps": 14.0
+    },
+    "S3_placemaking": {
+      "first": "Revere Beach #1",
+      "gap_to_runner_up": 2.7439024390243905,
+      "gap_in_one_position_steps": 45.0
+    },
+    "S3_equal": {
+      "first": "Malden Center #1 = Malden Center #2",
+      "gap_to_runner_up": 1.4227642276422765,
+      "gap_in_one_position_steps": 14.0
+    },
+    "K3_developer": {
+      "first": "Malden Center #2",
+      "gap_to_runner_up": 0.29880478087649404,
+      "gap_in_one_position_steps": 7.5
+    },
+    "K3_city": {
+      "first": "Malden Center #1",
+      "gap_to_runner_up": 0.35856573705179284,
+      "gap_in_one_position_steps": 9.0
+    },
+    "K3_transit": {
+      "first": "Malden Center #1 = Malden Center #2",
+      "gap_to_runner_up": 0.9561752988047809,
+      "gap_in_one_position_steps": 16.0
+    },
+    "K3_placemaking": {
+      "first": "Revere Beach #1",
+      "gap_to_runner_up": 3.0278884462151394,
+      "gap_in_one_position_steps": 50.666666666666664
+    },
+    "K3_equal": {
+      "first": "Malden Center #1 = Malden Center #2",
+      "gap_to_runner_up": 1.593625498007968,
+      "gap_in_one_position_steps": 16.0
+    },
+    "E0_equal": {
+      "first": "Malden Center #1",
+      "gap_to_runner_up": 0.5045541978200102,
+      "gap_in_one_position_steps": NaN
+    },
+    "E2_equal": {
+      "first": "Malden Center #1",
+      "gap_to_runner_up": 0.5012516879124805,
+      "gap_in_one_position_steps": NaN
+    },
+    "E3_equal": {
+      "first": "Malden Center #1 = Malden Center #2",
+      "gap_to_runner_up": 0.2845528455284553,
+      "gap_in_one_position_steps": 3.5
+    },
+    "E3u_equal": {
+      "first": "Malden Center #1 = Malden Center #2",
+      "gap_to_runner_up": 0.28688524590163933,
+      "gap_in_one_position_steps": 3.5
+    },
+    "S3_no_peak_share": {
+      "first": "Malden Center #1 = Malden Center #2",
+      "gap_to_runner_up": 1.897018970189702,
+      "gap_in_one_position_steps": 14.0
+    },
+    "S3_peak_share_reversed": {
+      "first": "Alewife #1",
+      "gap_to_runner_up": 6.402439024390244,
+      "gap_in_one_position_steps": 63.0
+    }
+  },
+  "weight_space": {
+    "S0": {
+      "leader": "Braintree #1",
+      "leader_share": 0.3341,
+      "second": "Malden Center #1",
+      "second_share": 0.3108,
+      "sites_ever_first": 10,
+      "draws_tied_identical_vectors": 0,
+      "draws_tied_numerical": 0
+    },
+    "S1": {
+      "leader": "Braintree #1",
+      "leader_share": 0.3341,
+      "second": "Malden Center #1",
+      "second_share": 0.3108,
+      "sites_ever_first": 10,
+      "draws_tied_identical_vectors": 0,
+      "draws_tied_numerical": 0
+    },
+    "S2": {
+      "leader": "Braintree #1",
+      "leader_share": 0.3298,
+      "second": "Malden Center #1",
+      "second_share": 0.3156,
+      "sites_ever_first": 10,
+      "draws_tied_identical_vectors": 0,
+      "draws_tied_numerical": 0
+    },
+    "S2u": {
+      "leader": "Malden Center #1",
+      "leader_share": 0.266,
+      "second": "Revere Beach #1",
+      "second_share": 0.2603,
+      "sites_ever_first": 12,
+      "draws_tied_identical_vectors": 0,
+      "draws_tied_numerical": 0
+    },
+    "S3": {
+      "leader": "Malden Center #1",
+      "leader_share": 0.2679,
+      "second": "Revere Beach #1",
+      "second_share": 0.261,
+      "sites_ever_first": 12,
+      "draws_tied_identical_vectors": 0,
+      "draws_tied_numerical": 0
+    },
+    "K3": {
+      "leader": "Revere Beach #1",
+      "leader_share": 0.2699,
+      "second": "Malden Center #1",
+      "second_share": 0.2674,
+      "sites_ever_first": 14,
+      "draws_tied_identical_vectors": 13,
+      "draws_tied_numerical": 0
+    },
+    "E0": {
+      "leader": "Malden Center #1",
+      "leader_share": 0.3425,
+      "second": "Wonderland #1",
+      "second_share": 0.1671,
+      "sites_ever_first": 29,
+      "draws_tied_identical_vectors": 1986,
+      "draws_tied_numerical": 0
+    },
+    "E2": {
+      "leader": "Malden Center #1",
+      "leader_share": 0.3497,
+      "second": "Wonderland #1",
+      "second_share": 0.1673,
+      "sites_ever_first": 27,
+      "draws_tied_identical_vectors": 0,
+      "draws_tied_numerical": 0
+    },
+    "E3": {
+      "leader": "Malden Center #1",
+      "leader_share": 0.1566,
+      "second": "Malden Center #2",
+      "second_share": 0.1199,
+      "sites_ever_first": 31,
+      "draws_tied_identical_vectors": 0,
+      "draws_tied_numerical": 0
+    },
+    "E3u": {
+      "leader": "Malden Center #1",
+      "leader_share": 0.1574,
+      "second": "Malden Center #2",
+      "second_share": 0.119,
+      "sites_ever_first": 31,
+      "draws_tied_identical_vectors": 0,
+      "draws_tied_numerical": 0
+    }
+  },
+  "frontiers": {
+    "4ind_all251": {
+      "sites": 22,
+      "communities": 7,
+      "stations": 14
+    },
+    "4ind_main": {
+      "sites": 20,
+      "communities": 7,
+      "stations": 14
+    },
+    "5ind_all251": {
+      "sites": 54,
+      "communities": 9,
+      "stations": 26
+    },
+    "5ind_main": {
+      "sites": 54,
+      "communities": 9,
+      "stations": 27
+    },
+    "5ind_main_jobs_known": {
+      "sites": 53,
+      "communities": 9,
+      "stations": 26
+    }
+  }
+}

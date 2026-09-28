@@ -1,0 +1,21 @@
+site_oid,sid,municipal,cost_indicator,in_main_set,rank_S0_equal,rank_S1_equal,rank_S2_equal,rank_S3_equal,rank_K3_equal,rank_E3_equal,rank_E3u_equal,rank_S0_developer,rank_S3_developer,rank_S3_city,rank_S3_transit,rank_S3_placemaking,split_share_S0,split_share_S3,split_share_E3
+10667,Malden Center #1,Malden,reliable,True,1,1,1,1,1,1,1,5,2,1,1,2,0.3108,0.2679,0.1566
+10616,Malden Center #2,Malden,reliable,True,2,2,2,1,1,1,1,6,1,2,1,4,0.0265,0.2011,0.1199
+10665,Malden Center #4,Malden,reliable,True,7,7,7,3,3,4,4,9,3,3,3,5,0.0043,0.0424,0.0123
+6760,Quincy Center #1,Quincy,reliable,True,6,6,6,5,5,14,13,10,8,5,9,3,0.0,0.0,0.0
+10369,Revere Beach #1,Revere,reliable,True,9,9,9,7,6,10,10,12,13,10,12,1,0.144,0.261,0.1065
+10381,Wonderland #1,Revere,reliable,True,10,10,10,9,9,8,7,7,12,19,8,6,0.1018,0.0634,0.057
+7300,Wollaston #1,Quincy,reliable,True,4,4,4,10,10,12,12,4,5,6,22,11,0.0,0.0,0.0138
+5973,Braintree #1,Braintree,reliable,True,3,3,3,11,11,33,33,1,4,7,28,8,0.3341,0.0996,0.0112
+9863,Sullivan Square #1,Somerville,reliable,True,34,30,30,21,21,3,3,44,37,38,13,15,0.0,0.0,0.0872
+9289,Central #1,Cambridge,reliable,True,47,43,43,38,41,5,5,61,53,47,25,50,0.0,0.0001,0.1145
+9298,Lechmere #2,Cambridge,reliable,True,64,59,60,50,53,13,14,74,61,64,64,36,0.0,0.0,0.0236
+9447,Harvard #4,Cambridge,reliable,True,48,44,44,57,59,16,16,97,93,119,15,49,0.0138,0.0274,0.084
+9965,Alewife #1,Cambridge,reliable,True,52,48,49,62,64,99,100,30,40,16,85,108,0.0018,0.0006,0.0001
+9397,Harvard #1,Cambridge,reliable,True,26,23,23,64,68,21,21,70,153,61,18,32,0.0592,0.0332,0.1139
+9921,Porter #1,Cambridge,reliable,True,44,40,40,77,82,38,39,48,105,37,78,79,0.0,0.0,0.0249
+9967,Assembly #1,Somerville,unreliable,False,16,,,,39,,,40,,,,,0.0,,
+9971,Assembly #2,Somerville,unreliable,False,16,,,,39,,,40,,,,,0.0,,
+9949,Assembly #3,Somerville,unreliable,False,24,,,,48,,,53,,,,,0.0,,
+6766,Quincy Center #8,Quincy,unverifiable,False,30,,,,24,,,25,,,,,0.0,,
+6758,Quincy Center #6,Quincy,unverifiable,False,54,,,,64,,,85,,,,,0.0,,

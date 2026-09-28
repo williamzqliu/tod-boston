@@ -1,0 +1,26 @@
+scenario,rank,site,line,acres,ppa,daily,score,frontier
+Developer (cost first),1,Braintree #1,Red,13.3,363718,5211,76.4,True
+Developer (cost first),2,Braintree #2,Red,8.7,431645,5211,71.7,False
+Developer (cost first),3,Wollaston #2,Red,2.4,390506,5372,71.4,True
+Developer (cost first),4,Wollaston #1,Red,10.2,465074,5372,70.8,True
+Developer (cost first),5,Malden Center #1,Orange,10.0,595818,13356,68.6,True
+City (housing first),1,Malden Center #1,Orange,10.0,595818,13356,82.3,True
+City (housing first),2,Braintree #1,Red,13.3,363718,5211,81.1,True
+City (housing first),3,Malden Center #2,Orange,6.1,584175,13356,80.8,True
+City (housing first),4,Wollaston #1,Red,10.2,465074,5372,79.0,True
+City (housing first),5,Braintree #2,Red,8.7,431645,5211,78.4,False
+Transit agency (ridership first),1,Malden Center #1,Orange,10.0,595818,13356,78.9,True
+Transit agency (ridership first),2,Malden Center #2,Orange,6.1,584175,13356,78.5,True
+Transit agency (ridership first),3,Malden Center #4,Orange,1.7,571506,13356,75.9,True
+Transit agency (ridership first),4,Malden Center #3,Orange,2.0,766154,13356,74.3,False
+Transit agency (ridership first),5,Malden Center #5,Orange,1.2,648640,13356,73.7,False
+Place-making (all-day use first),1,Revere Beach #1,Blue,4.9,753121,5289,78.9,True
+Place-making (all-day use first),2,Malden Center #1,Orange,10.0,595818,13356,77.8,True
+Place-making (all-day use first),3,Braintree #1,Red,13.3,363718,5211,77.2,True
+Place-making (all-day use first),4,Malden Center #2,Orange,6.1,584175,13356,77.0,True
+Place-making (all-day use first),5,Quincy Center #1,Red,5.1,638090,7972,76.4,True
+No prior (all four equal),1,Malden Center #1,Orange,10.0,595818,13356,76.3,True
+No prior (all four equal),2,Malden Center #2,Orange,6.1,584175,13356,75.6,True
+No prior (all four equal),3,Braintree #1,Red,13.3,363718,5211,75.1,True
+No prior (all four equal),4,Wollaston #1,Red,10.2,465074,5372,72.6,True
+No prior (all four equal),5,Braintree #2,Red,8.7,431645,5211,72.5,False

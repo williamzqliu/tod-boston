@@ -1,0 +1,116 @@
+charts set in: Instrument Sans
+source: Commonwealth of Massachusetts, MBTA Communities compliance data
+Braintree, Brookline, Cambridge, Chelsea, Everett, Malden, Medford, Milton, Newton, Quincy, Revere, Somerville
+agreement with the Fall 2024 period definition:
+7-10, 16-19    0.958
+7-9, 17-19     0.935
+7-9, 16-18     0.929
+6-9, 15-19     0.848
+nearest station differs from the MAPC label at 39 of 285 sites; farthest walk 2.03 km
+source: MAPC Rethinking the Retail Strip Sites, Jan 2022  ·  MBTA rail ridership, Fall 2025
+source: MAPC Rethinking the Retail Strip Sites, Jan 2022  ·  MBTA rail ridership, Fall 2025
+source: MAPC Rethinking the Retail Strip Sites, Jan 2022  ·  MBTA rail ridership, Fall 2025
+source: MAPC Rethinking the Retail Strip Sites, Jan 2022  ·  MBTA rail ridership, Fall 2025
+dropped as redundant: weekend (r=0.98 with daily), estcapmix (r=0.94 with buildar_ac)
+source: MBTA subway performance, 3 Feb 2024  ·  MAPC Rethinking the Retail Strip Sites, Jan 2022  ·  MBTA rail ridership, Fall 2025
+source: MBTA rail ridership, Fall 2017, 2018, 2019, 2023, 2024 and 2025
+median flow change across candidate stations, Fall 2023 to Fall 2025: +12.3%
+station codes: ALE Alewife, AMO Amory Street, ASM Assembly, BAB Babcock Street, BAL Ball Square, BRA Braintree, BRH Brookline Hills, BRV Brookline Village, CEN Central, CHE Chestnut Hill, COO Coolidge Corner, DAV Davis, EAS East Somerville, ELI Eliot, GIL Gilman Square, HAR Harvard, HAV Harvard Avenue, LEC Lechmere, MAG Magoun Square, MAL Malden Center, MED Medford/Tufts, NEC Newton Centre, NEH Newton Highlands, NOR North Quincy, OAK Oak Grove, POR Porter, QUA Quincy Adams, QUC Quincy Center, REV Revere Beach, SAI Saint Mary's Street, SUL Sullivan Square, SUM Summit Avenue, TAP Tappan Street, UNI Union Square, WAB Waban, WAS Washington Square, WEL Wellington, WOL Wollaston, WON Wonderland
+251 sites, 22 on the frontier (9% kept, no weights used)
+source: MAPC Rethinking the Retail Strip Sites, Jan 2022  ·  MBTA rail ridership, Fall 2025
+four indicators:  22 of 251 survive  (9%)
+five, with job access:  54 of 251  (22%)
+none of the four-indicator shortlist drops out: True
+
+the 32 the fifth criterion rescues, at the median:  $1.88M an acre,  0.83 ac,  5,250 riders,  694,076 jobs in 45 min
+against the 251 overall:  $2.20M an acre,  0.50 ac,  3,705 riders,  510,366 jobs
+where they are: {'Somerville': 11, 'Cambridge': 8, 'Brookline': 5, 'Revere': 3, 'Malden': 2, 'Medford': 1, 'Quincy': 1, 'Braintree': 1}
+municipal
+Cambridge     6
+Quincy        5
+Somerville    4
+Malden        3
+Revere        2
+Braintree     1
+Newton        1
+silhouette by k: {2: 0.312, 3: 0.348, 4: 0.379, 5: 0.379, 6: 0.392}
+
+                                ppa  buildar_ac    daily  peak_share  sites  frontier
+Small, expensive, quiet  2916666.67        0.46   745.43        0.53    113         0
+Small, expensive, busy   1590117.70        0.52  8268.57        0.48    130        17
+Big and cheap             775223.88       10.82  5210.71        0.49      8         5
+source: MAPC Rethinking the Retail Strip Sites, Jan 2022  ·  MBTA rail ridership, Fall 2025
+
+'Small, expensive, quiet' is 45% of the candidate pool and 0 of 22 frontier places.
+It is mostly: Brookline (38), Somerville (37), Newton (28)
+                                              site    line  acres     ppa  daily  score  frontier
+scenario                                                                                         
+Developer (cost first)                Braintree #1     Red   13.3  363718   5211   76.4      True
+City (housing first)              Malden Center #1  Orange   10.0  595818  13356   82.3      True
+Transit agency (ridership first)  Malden Center #1  Orange   10.0  595818  13356   78.9      True
+Place-making (all-day use first)   Revere Beach #1    Blue    4.9  753121   5289   78.9      True
+No prior (all four equal)         Malden Center #1  Orange   10.0  595818  13356   76.3      True
+
+every scenario winner is on the frontier: True
+source: MAPC Rethinking the Retail Strip Sites, Jan 2022  ·  MBTA rail ridership, Fall 2025
+source: MAPC Rethinking the Retail Strip Sites, Jan 2022  ·  MBTA rail ridership, Fall 2025
+sid
+Braintree #1        0.334
+Malden Center #1    0.311
+Revere Beach #1     0.144
+Wonderland #1       0.102
+Harvard #1          0.059
+Malden Center #2    0.026
+Harvard #4          0.014
+source: MAPC Rethinking the Retail Strip Sites, Jan 2022  ·  MBTA rail ridership, Fall 2025
+  top of "Composite (equal)": Malden Center #1
+  top of "Ridership only": 4 parcels tied at Harvard
+  top of "Land price only": Quincy Adams #1
+  top of "Buildable area only": Alewife #1
+  top of "Peak share only": 7 parcels tied at Revere Beach
+  top of "Regional access (jobs in 45 min)": Central #2
+  top of "MAPC's own score": East Somerville #1, Porter #1
+No single indicator reproduces the composite top three.
+Sorting on ridership alone gives the region's busiest square;
+sorting on land price alone gives the park-and-ride with the least demand.
+a regional-access-first weighting picks: Malden Center #1 | top three: Malden Center #1, Malden Center #2, Malden Center #4
+source: MAPC Rethinking the Retail Strip Sites, Jan 2022  ·  MBTA rail ridership, Fall 2025
+frontier median MAPC percentile 94 against 83 for the rest
+Peak share of the weekday     -0.01
+Daily riders at the station    0.09
+Land price per acre            0.29
+Jobs reachable in 45 min       0.51
+Buildable acres                0.55
+Walk score                     0.57
+
+parcels more than 60 places apart:
+  this model ranks higher  n= 68  $   929,172/ac   0.54 ac    7,065 riders  mostly Quincy (30 of 68)
+  MAPC ranks higher        n= 67  $ 3,400,952/ac   0.52 ac      770 riders  mostly Brookline (29 of 67)
+frontier median MAPC percentile 94 against 83 for the rest
+            site                         scenario    ppa  buildable       land        total  land_pct  capacity_sqft
+    Braintree #1           Developer (cost first) 363718       13.3 1391636.06 480891636.06      0.29      1738044.0
+Malden Center #1             City (housing first) 595818       10.0 2279683.20 481779683.20      0.47      1306800.0
+ Revere Beach #1 Place-making (all-day use first) 753121        4.9 2881546.53 482381546.53      0.60       640332.0
+
+land spread across the winners: 2.1x
+total cost spread across the winners: $1,489,910 (0.31%)
+capacity spread: 2.7x
+source: MAPC Rethinking the Retail Strip Sites, Jan 2022  ·  construction and soft costs from the 2024 model
+Quincy Center: 14 candidate sites, 1 on the frontier
+best of them ranks 6 of 251 under equal weights
+it wins 0 of the 5 scenarios
+
+            frontier_sites  v1_rank
+municipal                          
+Quincy                   5      1.0
+Cambridge                6      2.0
+Newton                   1      3.0
+Somerville               4      4.0
+Revere                   2      5.0
+Malden                   3      6.0
+Braintree                1      7.0
+Brookline                0      8.0
+Medford                  0      NaN
+source: MAPC Rethinking the Retail Strip Sites, Jan 2022  ·  MBTA rail ridership, Fall 2025  ·  2024 community ranking from the original notebook
+map.json: 9 line branches, 251 parcels
+written to outputs/: ['map.json', 'ridership_panel_2017_2025.csv', 'scenario_top5.csv', 'sites_scored_2026.csv']
