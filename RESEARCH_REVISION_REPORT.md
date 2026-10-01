@@ -1,6 +1,6 @@
 # Research revision report
 
-*TOD site screening in Greater Boston, 2026 rebuild. Revision round 3, 28 September 2026. It supersedes the round-2 report, which is kept with its tables and figures in `revision/archive_round2/`. Round 1 is in `revision/archive_round1/`. Every version is listed in `revision/VERSIONS.md`. The code, tables and this report are in the working tree and not yet committed.*
+*TOD site screening in Greater Boston, 2026 rebuild. Revision round 3, 28 September 2026. It supersedes the round-2 report, which is kept with its tables and figures in `revision/archive_round2/`. Round 1 is in `revision/archive_round1/`. Every version is listed in `revision/VERSIONS.md`.*
 
 **Scope.** The revision is bounded to one question:
 
@@ -147,8 +147,8 @@ All figures below come from `first_place_by_setting.csv`, `top10_by_setting.csv`
 | 10 | Malden Center #8 | 84.35 |
 
 - **The joint first place is exact** (rational arithmetic). Under the candidate-set
-  reference, Malden Center #1 (10.0 ac, $596K/ac) and #2 (6.1 ac, $584K/ac) are one
-  position apart on area and one position apart on land in the other direction, with
+  reference, Malden Center #1 (10.0 ac, $596K/ac) and #2 (6.1 ac, $584K/ac) are three
+  positions apart on area and three positions apart on land in the other direction, with
   identical station values. Percentiles are ordinal, so four acres count the same as a
   hundredth of one.
 - **Gap to third place:** 1.90 points. That equals 14 one-position steps, where a step
@@ -392,7 +392,7 @@ Medford lost in the 2024 postcode join kept.
 | Developer, city, transit, place-making positions | **Narrowed** | Author-constructed, not validated with those groups |
 | Five records "unreliable/unverifiable" | **Narrowed** | Temporarily excluded for uncertain valuation attribution: three attribution problems, two conservative. Not duplicates, not all confirmed errors, not repaired |
 | Small leads "not substantive" (round 2) | **Withdrawn** | Neither significance nor insignificance has been calibrated |
-| "Reproduced by the committed code" (round 2) | **Corrected** | The code is in the working tree, uncommitted |
+| "Reproduced by the committed code" (round 2) | **Corrected** | At the time this claim was corrected, the revised code was in the working tree and had not yet been committed |
 | "One parcel recorded twice"; effective-weight claim; Sullivan Square #1 five-indicator lead (round 1) | **Withdrawn** (round 2) | See `revision/archive_round1/NOTE.md` |
 | Historical baseline results (Braintree #1 33.4%, Malden Center #1 31.1%; three scenario winners) | **Kept as history** | Reproduced exactly; not the main comparison |
 
@@ -419,7 +419,7 @@ Medford lost in the 2024 postcode join kept.
 ## 9. Facts for the case page, each with its source
 
 Paths are relative to `revision/outputs/` unless stated. Each is produced by the
-code in this working tree (not yet committed), in the run recorded in
+code in this repository, in the run recorded in
 `revision/manifest.json`.
 
 - **Main comparison (M3):** 246 candidate sites in 9 communities at 39 stations,
